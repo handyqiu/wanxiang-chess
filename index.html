@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="zh-CN" data-page-node-id="shps41TvboPnaFXXUKYwJZ">
+<head data-page-node-id="lYWJFkBBctCWv5t230qmWC">
+<meta charset="UTF-8" data-page-node-id="dJ6H9pJc10fpNQRrVLM5ZH">
+<meta name="viewport" content="width=device-width, initial-scale=1.0" data-page-node-id="PfprlYYdoAHT6vHAdHV9Be">
 <title>万象棋境 · 王者万象棋教学攻略平台</title>
 <script src="https://unpkg.com/vue@3/dist/vue.global.prod.js"></script>
 <script src="https://cdn.tailwindcss.com"></script>
@@ -14,189 +14,199 @@
   [v-cloak]{display:none}
 </style>
 </head>
-<body class="text-gray-100">
-<div id="app" v-cloak class="min-h-screen">
+<body class="text-gray-100" data-page-node-id="funk6v1mAwK6IW0VryWMa1">
+<div id="app" v-cloak class="min-h-screen" data-page-node-id="nIQRVBe6jQWE7awtzDNBnY">
   <!-- 顶栏 -->
-  <header class="glass sticky top-0 z-40 border-b border-white/10">
-    <div class="max-w-6xl mx-auto px-4 py-3 flex items-center gap-3">
-      <span class="text-2xl">♟️</span>
-      <div class="font-bold text-lg">万象棋境</div>
-      <div class="text-xs text-gray-400 hidden sm:block">王者万象棋 · 教学攻略 & 阵容码分享</div>
-      <div class="ml-auto flex items-center gap-2">
-        <span class="text-xs px-2 py-1 rounded bg-white/10" v-if="lastUpdated">更新于 {{ lastUpdated }}</span>
-        <button @click="refreshData" class="text-xs px-3 py-1 rounded border border-white/20 hover:bg-white/10">🔄 刷新数据</button>
+  <header class="glass sticky top-0 z-40 border-b border-white/10" data-page-node-id="9gkfidpu1IO4ewGjuIEjOu">
+    <div class="max-w-6xl mx-auto px-4 py-3 flex items-center gap-3" data-page-node-id="3ZcghdIEi2mnnbS3CGjMU1">
+      <span class="text-2xl" data-page-node-id="7j46ASD1EJS8wMGWoJQrE1">♟️</span>
+      <div class="font-bold text-lg" data-page-node-id="bnqDtsHZvmzEuX6OtVpW3M">万象棋境</div>
+      <div class="text-xs text-gray-400 hidden sm:block" data-page-node-id="GRviPAHuHBtGk61yoYhBF5">王者万象棋 · 教学攻略 & 阵容码分享</div>
+      <div class="ml-auto flex items-center gap-2" data-page-node-id="oWLOv7wgwDQ7FunMF5Tj6N">
+        <span class="text-xs px-2 py-1 rounded bg-white/10" v-if="lastUpdated" data-page-node-id="UjqkjLDUntuVyEwTOboV5R">更新于 {{ lastUpdated }}</span>
+        <button @click="refreshData" class="text-xs px-3 py-1 rounded border border-white/20 hover:bg-white/10" data-page-node-id="rscVycDb2m3FG4l1xF0Sqf">🔄 刷新数据</button>
       </div>
     </div>
   </header>
 
   <!-- 导航 -->
-  <nav class="max-w-6xl mx-auto px-4 py-3 flex flex-wrap gap-2 text-sm">
+  <nav class="max-w-6xl mx-auto px-4 py-3 flex flex-wrap gap-2 text-sm" data-page-node-id="XQNqZk6i4xUrsBacyjY1SU">
     <button v-for="t in tabs" :key="t.key" @click="tab=t.key"
-      :class="['px-3 py-1.5 rounded-full transition', tab===t.key?'tab-active':'bg-white/5 hover:bg-white/10']">
+      :class="['px-3 py-1.5 rounded-full transition', tab===t.key?'tab-active':'bg-white/5 hover:bg-white/10']" data-page-node-id="a9kCjz7bwsrcoYQ6IGIy2l">
       {{ t.label }}
     </button>
   </nav>
 
-  <main class="max-w-6xl mx-auto px-4 pb-20">
+  <main class="max-w-6xl mx-auto px-4 pb-20" data-page-node-id="1wAGgYiVrVtP6Dl3EuLWww">
     <!-- 搜索 -->
-    <div v-if="tab==='rosters' || tab==='videos'" class="mb-4">
+    <div v-if="tab==='rosters' || tab==='videos'" class="mb-4" data-page-node-id="N2jFmKIaiifo07Q4YyjZof">
       <input v-model="kw" placeholder="🔍 搜索阵容 / 棋手 / 英雄 / 阵营 / 关键词…" 
-        class="w-full px-4 py-2.5 rounded-xl bg-white/5 border border-white/10 outline-none focus:border-purple-400">
+        class="w-full px-4 py-2.5 rounded-xl bg-white/5 border border-white/10 outline-none focus:border-purple-400" data-page-node-id="Vi1PIAnI44HTER5cY6jppD">
     </div>
 
     <!-- 加载态 -->
-    <div v-if="loading" class="text-center text-gray-400 py-20">数据加载中…</div>
+    <div v-if="loading" class="text-center text-gray-400 py-20" data-page-node-id="EtI0qbZEQ7GaJHiY1EZWTx">数据加载中…</div>
 
     <!-- 新手入门 -->
-    <section v-if="tab==='guide'" class="space-y-6">
-      <div class="rounded-2xl bg-gradient-to-br from-purple-900/40 to-blue-900/40 p-6 border border-white/10">
-        <h1 class="text-2xl font-bold mb-2">{{ data.site?.title || '万象棋境' }}</h1>
-        <p class="text-gray-300">{{ data.site?.subtitle }}</p>
+    <section v-if="tab==='guide'" class="space-y-6" data-page-node-id="FZO4DXDk070hyoEp1J2quX">
+      <div class="rounded-2xl bg-gradient-to-br from-purple-900/40 to-blue-900/40 p-6 border border-white/10" data-page-node-id="ieMRsTiyCvA587J8kY66bd">
+        <h1 class="text-2xl font-bold mb-2" data-page-node-id="s5DyocL20KgQ9vnfIl1tsf">{{ data.site?.title || '万象棋境' }}</h1>
+        <p class="text-gray-300" data-page-node-id="lOtQ4IDaHsmqjo2fvStF2B">{{ data.site?.subtitle }}</p>
       </div>
 
-      <div>
-        <h2 class="text-xl font-bold mb-3">🎯 新手入门：与传统自走棋的三大差异</h2>
-        <div class="grid sm:grid-cols-3 gap-3">
-          <div v-for="d in data.guide?.differences" :key="d.title" class="rounded-xl bg-white/5 p-4 border border-white/10">
-            <div class="text-2xl mb-1">{{ d.icon }}</div>
-            <div class="font-bold">{{ d.title }}</div>
-            <p class="text-sm text-gray-400 mt-1">{{ d.desc }}</p>
+      <div data-page-node-id="rHenutb0cMrED9ueIA6cT7">
+        <h2 class="text-xl font-bold mb-3" data-page-node-id="UxKWVgkfRh20P089ojv1f5">🎯 新手入门：与传统自走棋的三大差异</h2>
+        <div class="grid sm:grid-cols-3 gap-3" data-page-node-id="OQkDWms9n19vYqYZ3eG4YQ">
+          <div v-for="d in data.guide?.differences" :key="d.title" class="rounded-xl bg-white/5 p-4 border border-white/10" data-page-node-id="oOwFyYiCOBnkKUWz83JWDd">
+            <div class="text-2xl mb-1" data-page-node-id="tK4TAxgZWDpCCYlICEa5mY">{{ d.icon }}</div>
+            <div class="font-bold" data-page-node-id="G3197HZm4I25cquzRHB5dL">{{ d.title }}</div>
+            <p class="text-sm text-gray-400 mt-1" data-page-node-id="dqYvzXwxcFbEsHYGSgFIFF">{{ d.desc }}</p>
           </div>
         </div>
       </div>
 
-      <div>
-        <h2 class="text-xl font-bold mb-3">⏱ 通用运营节奏（1-15回合）</h2>
-        <div class="space-y-2">
-          <div v-for="p in data.guide?.phases" :key="p.round" class="flex gap-3 rounded-lg bg-white/5 p-3 border border-white/10">
-            <div class="font-mono text-purple-300 text-sm w-20 shrink-0">{{ p.round }}</div>
-            <div>
-              <div class="font-bold text-sm">{{ p.title }}</div>
-              <p class="text-sm text-gray-400">{{ p.desc }}</p>
+      <div data-page-node-id="X5oibMS1lRG4ePw0HUFx7K">
+        <h2 class="text-xl font-bold mb-3" data-page-node-id="pzTj6NaVxVyArEQR0lf8h4">⏱ 通用运营节奏（1-15回合）</h2>
+        <div class="space-y-2" data-page-node-id="XrtU2woOsqHAAdHNrJMCWk">
+          <div v-for="p in data.guide?.phases" :key="p.round" class="flex gap-3 rounded-lg bg-white/5 p-3 border border-white/10" data-page-node-id="qnSjqH1jGaxJYmzoOzTu2C">
+            <div class="font-mono text-purple-300 text-sm w-20 shrink-0" data-page-node-id="hbn4CRLmwJYcrqZzXDKKCe">{{ p.round }}</div>
+            <div data-page-node-id="bvGdgyycjldELlgzCbD6Ju">
+              <div class="font-bold text-sm" data-page-node-id="9HAFJ5jrfewC5xVLTJ7FqP">{{ p.title }}</div>
+              <p class="text-sm text-gray-400" data-page-node-id="C3zPyKAKZjbtGSGjSG3lNI">{{ p.desc }}</p>
             </div>
           </div>
         </div>
       </div>
 
-      <div>
-        <h2 class="text-xl font-bold mb-3">📖 六大关键词条速记</h2>
-        <div class="grid sm:grid-cols-2 gap-2">
-          <div v-for="k in data.guide?.keywords" :key="k.name" class="flex justify-between rounded-lg bg-white/5 px-4 py-2 border border-white/10">
-            <span class="font-bold">{{ k.name }}</span>
-            <span class="text-sm text-gray-400">{{ k.desc }}</span>
+      <div data-page-node-id="eR7D187B3jwtFTw4fHcS9M">
+        <h2 class="text-xl font-bold mb-3" data-page-node-id="xHOfJP7tLiUbihdBbKJOga">📖 六大关键词条速记</h2>
+        <div class="grid sm:grid-cols-2 gap-2" data-page-node-id="lnUnlVllLaqfeFZEe5fGvN">
+          <div v-for="k in data.guide?.keywords" :key="k.name" class="flex justify-between rounded-lg bg-white/5 px-4 py-2 border border-white/10" data-page-node-id="27lR1CM4CoOXlfsb2drZ4d">
+            <span class="font-bold" data-page-node-id="sxt4UaIgJhi53aMygJiiiU">{{ k.name }}</span>
+            <span class="text-sm text-gray-400" data-page-node-id="4xYDodyHg9rD2ZzkZryZY2">{{ k.desc }}</span>
           </div>
         </div>
       </div>
     </section>
 
     <!-- 阵容码 -->
-    <section v-if="tab==='rosters'" class="space-y-4">
-      <div class="flex flex-wrap gap-2 mb-2">
+    <section v-if="tab==='rosters'" class="space-y-4" data-page-node-id="GVL6Y1uxNbWZgRPGJBQDj3">
+      <div class="flex flex-wrap gap-2 mb-2" data-page-node-id="ssL7U4kMKcGqvvvQExqg2S">
         <button v-for="f in factionFilters" :key="f" @click="faction=f===faction?null:f"
-          :class="['px-3 py-1 rounded-full text-sm', faction===f?'tab-active':'bg-white/5']">
+          :class="['px-3 py-1 rounded-full text-sm', faction===f?'tab-active':'bg-white/5']" data-page-node-id="SptDW40tsSBarElDsr41qD">
           {{ f }}
         </button>
       </div>
-      <div class="grid md:grid-cols-2 gap-4">
-        <article v-for="r in filteredRosters" :key="r.id" class="rounded-2xl bg-white/5 border border-white/10 p-5">
-          <header class="flex items-start justify-between gap-2 mb-2">
-            <div>
-              <h3 class="font-bold text-lg">{{ r.name }}</h3>
-              <div class="text-xs text-gray-400 mt-0.5">{{ r.faction }} · 推荐棋手：{{ r.chessMaster }}</div>
+      <div class="grid md:grid-cols-2 gap-4" data-page-node-id="nHlc2t7h9Md80lCPJrDPNT">
+        <article v-for="r in filteredRosters" :key="r.id" class="rounded-2xl bg-white/5 border border-white/10 p-5" data-page-node-id="sEk3feggqA4fmon3UhmkI8">
+          <header class="flex items-start justify-between gap-2 mb-2" data-page-node-id="P00PiRuVeCyPdIS8OfFyna">
+            <div data-page-node-id="Bc90c2KOtMqjbvft3jdkEG">
+              <h3 class="font-bold text-lg" data-page-node-id="oSR2lCrinNHiE70wONNS7w">{{ r.name }}</h3>
+              <div class="text-xs text-gray-400 mt-0.5" data-page-node-id="VGTMXoD0amhyDiCbcEDngp">{{ r.faction }} · 推荐棋手：{{ r.chessMaster }}</div>
             </div>
-            <span class="text-xs px-2 py-0.5 rounded bg-purple-500/20 text-purple-200 shrink-0">{{ r.tier }}</span>
+            <span class="text-xs px-2 py-0.5 rounded bg-purple-500/20 text-purple-200 shrink-0" data-page-node-id="dgXAzDxQ8lyv4QzQoKMIq0">{{ r.tier }}</span>
           </header>
-          <div class="text-sm text-gray-300 mb-3">
-            <span class="text-gray-400">英雄：</span>{{ r.heroes?.join(' / ') }}
+          <div class="text-sm text-gray-300 mb-3" data-page-node-id="igJmAjuUxj6eup7grUMWAn">
+            <span class="text-gray-400" data-page-node-id="iurYbAuvJkDMl959wsqM7H">英雄：</span>{{ r.heroes?.join(' / ') }}
           </div>
-          <div class="rounded-lg bg-black/40 p-3 mb-3">
-            <div class="text-xs text-gray-400 mb-1">阵容码</div>
-            <div class="flex gap-2 items-center">
-              <code class="code-font text-purple-300 text-sm break-all">{{ r.code }}</code>
-              <button @click="copy(r.code)" class="shrink-0 text-xs px-2 py-1 rounded bg-purple-500/30 hover:bg-purple-500/50">复制</button>
+          <div class="rounded-lg bg-black/40 p-3 mb-3" data-page-node-id="Lm4wf4ECCpqiQBYAgjQycj">
+            <div class="text-xs text-gray-400 mb-1" data-page-node-id="azPxRIuqUJPUVOSaOHdOEc">阵容码</div>
+            <div class="flex gap-2 items-center" data-page-node-id="yI1cybKf7ydQuXKDESsK4C">
+              <code class="code-font text-purple-300 text-sm break-all" data-page-node-id="bkFbhClTeTyjN4aMGFsOF2">{{ r.code }}</code>
+              <button @click="copy(r.code)" class="shrink-0 text-xs px-2 py-1 rounded bg-purple-500/30 hover:bg-purple-500/50" data-page-node-id="AgnB25dEqf6pv6JM1bQnvG">复制</button>
             </div>
           </div>
-          <p class="text-sm text-gray-400 mb-3">{{ r.tips }}</p>
-          <button @click="openImport(r.code)" class="w-full text-sm py-2 rounded-lg border border-white/20 hover:bg-white/10">
+          <p class="text-sm text-gray-400 mb-3" data-page-node-id="9d5BJzjWUYBQu4l7ABgz03">{{ r.tips }}</p>
+          <button @click="openImport(r.code)" class="w-full text-sm py-2 rounded-lg border border-white/20 hover:bg-white/10" data-page-node-id="C0QfdDV5BcU14vn5tHWGR6">
             🎯 导入此阵容
           </button>
         </article>
       </div>
-      <div v-if="!filteredRosters.length" class="text-center text-gray-400 py-10">没有匹配的阵容</div>
+      <div v-if="!filteredRosters.length" class="text-center text-gray-400 py-10" data-page-node-id="EFTlyhSBYMyx3bT2fJ23VB">没有匹配的阵容</div>
     </section>
 
     <!-- 视频 -->
-    <section v-if="tab==='videos'" class="space-y-4">
-      <div class="flex flex-wrap gap-2 mb-2">
+    <section v-if="tab==='videos'" class="space-y-4" data-page-node-id="PWL8ZPRMqy69R153DoyJLg">
+      <div class="flex flex-wrap gap-2 mb-2" data-page-node-id="SU5CBSiIJfEy6Eme1yTsQy">
         <button v-for="l in levelFilters" :key="l" @click="level=l===level?null:l"
-          :class="['px-3 py-1 rounded-full text-sm', level===l?'tab-active':'bg-white/5']">
+          :class="['px-3 py-1 rounded-full text-sm', level===l?'tab-active':'bg-white/5']" data-page-node-id="vwoBeJZAzSfARti07q2Lm9">
           {{ l }}
         </button>
       </div>
-      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
+      <div class="flex flex-wrap gap-2 mb-2" data-page-node-id="tc1HWnffif9CvJCHpvNLCt">
+        <button v-for="t in tagFilters" :key="t" @click="tag=t===tag?null:t"
+          :class="['px-3 py-1 rounded-full text-sm', tag===t?'tab-active':'bg-white/5']" data-page-node-id="passDBjMxLL0GM26tRqeAv">
+          {{ t }}
+        </button>
+      </div>
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-4" data-page-node-id="dIpdQq2As4TP1vfHw9KNl3">
         <a v-for="v in filteredVideos" :key="v.id" :href="v.url" target="_blank" rel="noopener"
-          class="rounded-2xl bg-white/5 border border-white/10 p-4 hover:bg-white/10 transition block">
-          <div class="aspect-video rounded-lg bg-black/60 mb-3 flex items-center justify-center text-4xl">▶️</div>
-          <div class="text-xs text-purple-300 mb-1">{{ v.level }} · {{ v.author }}</div>
-          <h3 class="font-bold mb-1">{{ v.title }}</h3>
-          <p class="text-sm text-gray-400 line-clamp-2">{{ v.desc }}</p>
+          class="rounded-2xl bg-white/5 border border-white/10 p-4 hover:bg-white/10 transition block" data-page-node-id="KWEIMCGFIB8JYRcVCh0Enf">
+          <div class="aspect-video rounded-lg bg-black/60 mb-3 flex items-center justify-center text-4xl" data-page-node-id="9wTdb34TPt1zU2MdKMkhTc">▶️</div>
+          <div class="text-xs text-purple-300 mb-1 flex items-center gap-1 flex-wrap" data-page-node-id="AISirp5h4i4fyDzZcXECzA">
+            <span class="px-1.5 py-0.5 rounded bg-white/10 text-gray-200" data-page-node-id="ogRcTpHMGucfMQaqj8kzug">{{ v.tag }}</span>
+            <span v-if="v.featured" class="px-1.5 py-0.5 rounded bg-amber-400/20 text-amber-300">★推荐</span>
+            <span data-page-node-id="oPpewd2BK7gGAZPQVaTSpQ">{{ v.level }} · {{ v.author }}</span>
+          </div>
+          <h3 class="font-bold mb-1" data-page-node-id="Ivnl0IRSylux9bi83wWSUb">{{ v.title }}</h3>
+          <p class="text-sm text-gray-400 line-clamp-2" data-page-node-id="Ag0n3H9vQN2T6pLzq483Zg">{{ v.desc }}</p>
         </a>
       </div>
     </section>
 
     <!-- 棋手 / 阵营 / FAQ 保持原逻辑，数据驱动 -->
-    <section v-if="tab==='masters'" class="space-y-4">
-      <div v-for="tier in masterTiers" :key="tier" class="rounded-2xl bg-white/5 border border-white/10 p-5">
-        <h3 class="font-bold text-lg mb-3" v-html="tierLabel(tier)"></h3>
-        <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-3">
-          <div v-for="m in mastersByTier(tier)" :key="m.name" class="rounded-lg bg-black/30 p-3">
-            <div class="font-bold">{{ m.name }}</div>
-            <p class="text-sm text-gray-400 mt-1">{{ m.style }}</p>
-            <div class="text-xs text-purple-300 mt-2">适配：{{ m.factions?.join('、') }}</div>
+    <section v-if="tab==='masters'" class="space-y-4" data-page-node-id="gMqCN7uZJKGs0yWb7GHUH4">
+      <div v-for="tier in masterTiers" :key="tier" class="rounded-2xl bg-white/5 border border-white/10 p-5" data-page-node-id="A07tfnR00J99wqSvUUQFVs">
+        <h3 class="font-bold text-lg mb-3" v-html="tierLabel(tier)" data-page-node-id="BelT3ynMatEOYgcDWAVcka"></h3>
+        <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-3" data-page-node-id="eB4Cjco93XFcNLKzWcCb2z">
+          <div v-for="m in mastersByTier(tier)" :key="m.name" class="rounded-lg bg-black/30 p-3" data-page-node-id="0FiH3Bn2cVNeywYWeoEEGr">
+            <div class="font-bold" data-page-node-id="PjWgq4zPA69GEKwDT5GNKB">{{ m.name }}</div>
+            <p class="text-sm text-gray-400 mt-1" data-page-node-id="uECQG38shfurmOBglsgwkY">{{ m.style }}</p>
+            <div class="text-xs text-purple-300 mt-2" data-page-node-id="bBRYuNgGwmLRrTtGrUtu8f">适配：{{ m.factions?.join('、') }}</div>
           </div>
         </div>
       </div>
     </section>
 
-    <section v-if="tab==='factions'" class="grid sm:grid-cols-2 gap-4">
-      <div v-for="f in data.factions" :key="f.name" class="rounded-2xl bg-white/5 border border-white/10 p-5">
-        <h3 class="font-bold text-lg">{{ f.name }}</h3>
-        <p class="text-sm text-gray-400 mt-1">{{ f.mechanic }}</p>
-        <div class="text-xs text-purple-300 mt-2">代表英雄：{{ f.heroes?.join('、') }}</div>
+    <section v-if="tab==='factions'" class="grid sm:grid-cols-2 gap-4" data-page-node-id="r3nuLjzkprGYHNAIHE2vKh">
+      <div v-for="f in data.factions" :key="f.name" class="rounded-2xl bg-white/5 border border-white/10 p-5" data-page-node-id="4MFHk8XLtQZAQ3wKEvG2s3">
+        <h3 class="font-bold text-lg" data-page-node-id="u2R2jPYU0vQniNqhCT8IME">{{ f.name }}</h3>
+        <p class="text-sm text-gray-400 mt-1" data-page-node-id="pFqlyOLPK3HqSERsOeGf29">{{ f.mechanic }}</p>
+        <div class="text-xs text-purple-300 mt-2" data-page-node-id="oID0Tgg8rnBDivGRldkyoM">代表英雄：{{ f.heroes?.join('、') }}</div>
       </div>
     </section>
 
-    <section v-if="tab==='faq'" class="space-y-3">
-      <details v-for="(q,i) in data.faq" :key="i" class="rounded-xl bg-white/5 border border-white/10 p-4 group">
-        <summary class="font-bold cursor-pointer list-none flex justify-between">
+    <section v-if="tab==='faq'" class="space-y-3" data-page-node-id="z4hCFsvPTYjCXwGKWDGbQb">
+      <details v-for="(q,i) in data.faq" :key="i" class="rounded-xl bg-white/5 border border-white/10 p-4 group" data-page-node-id="e3XBaI9lp1hjY2EdBwR2ys">
+        <summary class="font-bold cursor-pointer list-none flex justify-between" data-page-node-id="OHsNwB8bI2PWt9OHqeqguX">
           {{ q.q }}
-          <span class="text-purple-300 group-open:rotate-180 transition">▾</span>
+          <span class="text-purple-300 group-open:rotate-180 transition" data-page-node-id="z87aP8hRGSim0NKgmXZyLx">▾</span>
         </summary>
-        <p class="text-sm text-gray-300 mt-2">{{ q.a }}</p>
+        <p class="text-sm text-gray-300 mt-2" data-page-node-id="1WgFqYyzHfZ2Fgaq1fJhWk">{{ q.a }}</p>
       </details>
     </section>
   </main>
 
   <!-- 导入弹窗 -->
   <div v-if="importCode" class="fixed inset-0 z-50 flex items-center justify-center bg-black/70 p-4"
-    @click.self="importCode=null">
-    <div class="rounded-2xl bg-gray-900 border border-white/20 p-6 max-w-md w-full">
-      <h3 class="font-bold text-lg mb-3">🎯 导入阵容码</h3>
-      <p class="text-sm text-gray-400 mb-3">在游戏内：阵容 → 导入 → 粘贴下方代码 → 确认</p>
-      <code class="code-font block bg-black/60 rounded-lg p-3 text-purple-300 break-all">{{ importCode }}</code>
-      <div class="flex gap-2 mt-4">
-        <button @click="copy(importCode)" class="flex-1 py-2 rounded-lg bg-purple-500 hover:bg-purple-400">复制</button>
-        <button @click="importCode=null" class="flex-1 py-2 rounded-lg bg-white/10 hover:bg-white/20">关闭</button>
+    @click.self="importCode=null" data-page-node-id="GmXS6VddHWB33pyvpqsie0">
+    <div class="rounded-2xl bg-gray-900 border border-white/20 p-6 max-w-md w-full" data-page-node-id="fvjTbw75OtT6YZRPw1zyDM">
+      <h3 class="font-bold text-lg mb-3" data-page-node-id="P0vUkKvdVhhSjiNfpBRh7J">🎯 导入阵容码</h3>
+      <p class="text-sm text-gray-400 mb-3" data-page-node-id="OYAo3Yv48BKtb1QA1qIcnx">在游戏内：阵容 → 导入 → 粘贴下方代码 → 确认</p>
+      <code class="code-font block bg-black/60 rounded-lg p-3 text-purple-300 break-all" data-page-node-id="RgAr2DiASOBz6uNAQY4MjB">{{ importCode }}</code>
+      <div class="flex gap-2 mt-4" data-page-node-id="f6JVITdbL9EYIcwzFllrZL">
+        <button @click="copy(importCode)" class="flex-1 py-2 rounded-lg bg-purple-500 hover:bg-purple-400" data-page-node-id="nPIMMcYHOuFRlWrYsRSPWQ">复制</button>
+        <button @click="importCode=null" class="flex-1 py-2 rounded-lg bg-white/10 hover:bg-white/20" data-page-node-id="QdyP46P0fYtRCvPVy5b6Jy">关闭</button>
       </div>
     </div>
   </div>
 
   <!-- Toast -->
-  <div v-if="toast" class="fixed bottom-6 left-1/2 -translate-x-1/2 z-50 px-4 py-2 rounded-xl bg-emerald-500 text-white text-sm shadow-lg">
+  <div v-if="toast" class="fixed bottom-6 left-1/2 -translate-x-1/2 z-50 px-4 py-2 rounded-xl bg-emerald-500 text-white text-sm shadow-lg" data-page-node-id="njOdVSZTAFa3ddSS1TQET5">
     {{ toast }}
   </div>
 
-  <footer class="text-center text-xs text-gray-500 py-6">
+  <footer class="text-center text-xs text-gray-500 py-6" data-page-node-id="eFIFLbKrbM174OWnQZzINs">
     万象棋境 · 数据来自社区整理，以游戏内为准 · 自动更新由 GitHub Actions 驱动
   </footer>
 </div>
@@ -212,6 +222,7 @@ createApp({
     const kw = ref('');
     const faction = ref(null);
     const level = ref(null);
+    const tag = ref(null);
     const importCode = ref(null);
     const toast = ref('');
 
@@ -249,6 +260,10 @@ createApp({
       return ['全部', ...s];
     });
     const levelFilters = computed(()=>['全部','入门','进阶','冲分']);
+    const tagFilters = computed(()=>{
+      const s = new Set((data.value.videos||[]).map(v=>v.tag).filter(Boolean));
+      return ['全部', ...s];
+    });
 
     const filteredRosters = computed(()=>{
       let list = data.value.rosters || [];
@@ -267,6 +282,7 @@ createApp({
     });
     const filteredVideos = computed(()=>{
       let list = data.value.videos || [];
+      if(tag.value && tag.value!=='全部') list = list.filter(v=>v.tag===tag.value);
       if(level.value && level.value!=='全部') list = list.filter(v=>v.level===level.value);
       if(kw.value.trim()) list = list.filter(v=>v.title?.includes(kw.value)||v.desc?.includes(kw.value));
       return list;
@@ -291,8 +307,8 @@ createApp({
 
     onMounted(loadData);
 
-    return { data, loading, lastUpdated, tab, tabs, kw, faction, level, importCode, toast,
-      factionFilters, levelFilters, filteredRosters, filteredVideos,
+    return { data, loading, lastUpdated, tab, tabs, kw, faction, level, tag, importCode, toast,
+      factionFilters, levelFilters, tagFilters, filteredRosters, filteredVideos,
       masterTiers, mastersByTier, tierLabel, copy, openImport, refreshData };
   }
 }).mount('#app');

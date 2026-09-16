@@ -1,0 +1,48 @@
+name: sync-bilibili
+
+# 每 6 小时自动从 B 站搜索《王者万象棋》最新打法视频，更新 data.json 的 videos。
+# 也支持手动触发：GitHub 仓库 → Actions → sync-bilibili → Run workflow
+on:
+  schedule:
+    - cron: "13 */6 * * *"      # UTC，错开整点降低 GitHub 排队冲突
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: 拉取 B 站最新视频并更新 data.json
+        env:
+          # 关键词模式（默认）：搜这些词取最新万象棋打法视频，自动收录全网相关视频
+          BILI_KEYWORDS: "王者万象棋 打法,王者万象棋 阵容教学,王者万象棋 攻略,万象棋 上分,万象棋 阵容,万象棋 教学,万象棋 新版本"
+          # 优先作者（你认可的 5 位）：他们的新视频会被打★推荐并置顶。
+          # 注意：这是「软优先」——他们活跃时新视频会自动流入并置顶；但若某位长期不更，
+          # 不会被强制塞入（B 站搜索接口无法稳定锁定小 UP 主，详见下方严格锁定方案）。
+          BILI_PREFERRED: "厌小修,西君,流云,孙悟方,戏子枫_王者万象棋"
+          BILI_MAX: "30"
+          # ===== 严格只锁定这 5 位（可选，需登录 Cookie）=====
+          # 问题：B 站空间投稿接口在无登录环境返回 -403/-352，搜索接口 up_id 过滤无效，
+          #       所以免费 CI 无法“只收指定 UP 主”。要 100% 锁定，请：
+          # 1) 仓库 Settings → Secrets → Actions → New repository secret，名 BILI_COOKIE，
+          #    值填你浏览器里 bilibili.com 的 Cookie（F12→Network→任意请求→Cookie 整段复制）
+          # 2) 取消下面两行注释，并把 UID 换成这 5 位的真实 UID（space.bilibili.com/<UID>）
+          # BILI_MIDS: "uid1,uid2,uid3,uid4,uid5"
+          # BILI_COOKIE: ${{ secrets.BILI_COOKIE }}
+        run: python scripts/sync_bilibili.py
+
+      - name: 有变化则提交
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data.json
+          git diff --cached --quiet || git commit -m "auto sync bilibili videos"
+          git push
