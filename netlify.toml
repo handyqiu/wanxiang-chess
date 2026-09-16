@@ -1,7 +1,7 @@
 [build]
   publish = "."
-  command = ""
 
+# SPA 路由兜底：刷新/直接访问任意路径都回退到 index.html
 [[redirects]]
   from = "/*"
   to = "/index.html"

@@ -6,772 +6,294 @@
 <title>万象棋境 · 王者万象棋教学攻略平台</title>
 <script src="https://unpkg.com/vue@3/dist/vue.global.prod.js"></script>
 <script src="https://cdn.tailwindcss.com"></script>
-<link rel="preconnect" href="https://fonts.googleapis.com">
 <style>
-  :root{
-    --gold:#f5c451; --gold2:#ffe08a; --ink:#0c0f1c; --card:#141831;
-    --line:#26305a; --purple:#8b5cf6; --cyan:#22d3ee;
-  }
-  html,body{background:var(--ink);color:#eef1fb;}
-  body{
-    font-family:"PingFang SC","Microsoft YaHei","WenQuanYi Micro Hei",system-ui,sans-serif;
-    background:
-      radial-gradient(1200px 600px at 80% -10%, rgba(139,92,246,.25), transparent 60%),
-      radial-gradient(1000px 500px at -10% 10%, rgba(34,211,238,.18), transparent 55%),
-      linear-gradient(180deg,#0a0d1c 0%, #0c0f1c 100%);
-    background-attachment:fixed;
-  }
-  .glass{background:rgba(20,24,49,.72);backdrop-filter:blur(8px);border:1px solid var(--line);}
-  .gold-text{background:linear-gradient(90deg,var(--gold),var(--gold2));-webkit-background-clip:text;background-clip:text;color:transparent;}
-  .btn-gold{background:linear-gradient(90deg,#f5c451,#ffd76a);color:#2a1c00;font-weight:700;}
-  .btn-gold:hover{filter:brightness(1.08);}
-  .tab-active{color:var(--gold);border-color:var(--gold);background:rgba(245,196,81,.08);}
-  .camp-tag{font-size:.7rem;padding:.15rem .55rem;border-radius:999px;font-weight:700;letter-spacing:.02em;}
-  .scroll-smooth{scroll-behavior:smooth;}
-  .code-box{font-family:"SF Mono",Consolas,monospace;letter-spacing:.04em;}
-  ::-webkit-scrollbar{width:10px;height:10px;}
-  ::-webkit-scrollbar-thumb{background:#34407a;border-radius:8px;}
-  ::-webkit-scrollbar-track{background:transparent;}
-  .toast{animation:pop .25s ease, fade 2.6s ease forwards;}
-  @keyframes pop{from{transform:translate(-50%,-40%) scale(.85);opacity:0;}to{transform:translate(-50%,-50%) scale(1);opacity:1;}}
-  @keyframes fade{0%,80%{opacity:1;}100%{opacity:0;}}
-  .video-frame{aspect-ratio:16/9;width:100%;border-radius:.75rem;}
-  details > summary{list-style:none;cursor:pointer;}
-  details > summary::-webkit-details-marker{display:none;}
-  .rotate-90{transform:rotate(90deg);}
-  .nav-link:hover{color:var(--gold);}
-  .tier-T0{box-shadow:0 0 0 1px #f5c451,0 0 18px rgba(245,196,81,.35);}
+  body{font-family:"PingFang SC","Microsoft YaHei",system-ui,sans-serif;background:#0f1220}
+  .glass{background:rgba(255,255,255,.06);backdrop-filter:blur(8px)}
+  .tab-active{background:linear-gradient(135deg,#7c3aed,#2563eb);color:#fff}
+  .code-font{font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+  [v-cloak]{display:none}
 </style>
 </head>
-<body class="scroll-smooth">
-<div id="app">
-
-<!-- ===== 顶部导航 ===== -->
-<header class="sticky top-0 z-40 glass border-b border-[#26305a]">
-  <div class="max-w-7xl mx-auto px-4 h-16 flex items-center justify-between">
-    <div class="flex items-center gap-3">
-      <div class="w-10 h-10 rounded-xl btn-gold flex items-center justify-center text-xl">⚜</div>
-      <div>
-        <div class="font-black text-lg leading-tight">万象棋境</div>
-        <div class="text-[.65rem] text-slate-400 leading-tight">王者万象棋 · 教学攻略平台</div>
+<body class="text-gray-100">
+<div id="app" v-cloak class="min-h-screen">
+  <!-- 顶栏 -->
+  <header class="glass sticky top-0 z-40 border-b border-white/10">
+    <div class="max-w-6xl mx-auto px-4 py-3 flex items-center gap-3">
+      <span class="text-2xl">♟️</span>
+      <div class="font-bold text-lg">万象棋境</div>
+      <div class="text-xs text-gray-400 hidden sm:block">王者万象棋 · 教学攻略 & 阵容码分享</div>
+      <div class="ml-auto flex items-center gap-2">
+        <span class="text-xs px-2 py-1 rounded bg-white/10" v-if="lastUpdated">更新于 {{ lastUpdated }}</span>
+        <button @click="refreshData" class="text-xs px-3 py-1 rounded border border-white/20 hover:bg-white/10">🔄 刷新数据</button>
       </div>
     </div>
-    <nav class="hidden md:flex items-center gap-1 text-sm">
-      <a v-for="t in tabs" :key="t.id" :href="'#'+t.id"
-        class="nav-link px-3 py-2 rounded-lg text-slate-300 transition">{{t.name}}</a>
-    </nav>
-    <button @click="showImport=true"
-      class="btn-gold text-sm px-4 py-2 rounded-xl shadow-lg shadow-amber-500/20 hidden sm:block">
-      + 导入阵容码
+  </header>
+
+  <!-- 导航 -->
+  <nav class="max-w-6xl mx-auto px-4 py-3 flex flex-wrap gap-2 text-sm">
+    <button v-for="t in tabs" :key="t.key" @click="tab=t.key"
+      :class="['px-3 py-1.5 rounded-full transition', tab===t.key?'tab-active':'bg-white/5 hover:bg-white/10']">
+      {{ t.label }}
     </button>
-    <button class="md:hidden text-2xl" @click="mobNav=!mobNav">☰</button>
-  </div>
-  <div v-if="mobNav" class="md:hidden border-t border-[#26305a] px-4 py-2 flex flex-col text-sm">
-    <a v-for="t in tabs" :key="t.id" :href="'#'+t.id" @click="mobNav=false"
-      class="py-2 text-slate-300 border-b border-white/5">{{t.name}}</a>
-  </div>
-</header>
+  </nav>
 
-<!-- ===== Hero ===== -->
-<section class="relative overflow-hidden">
-  <div class="max-w-7xl mx-auto px-4 pt-14 pb-10 grid lg:grid-cols-2 gap-10 items-center">
-    <div>
-      <span class="camp-tag" style="background:rgba(245,196,81,.15);color:var(--gold)">9.10 正式上线 · 数据持续更新</span>
-      <h1 class="mt-4 text-4xl md:text-5xl font-black leading-tight">
-        从零到 <span class="gold-text">万象棋王</span><br>一套玩透万象棋
-      </h1>
-      <p class="mt-4 text-slate-300 max-w-xl leading-relaxed">
-        整合 <b>新手入门、核心机制、六大阵营、棋手梯队、上分阵容码</b> 与精选教学视频。
-        复制阵容码即可一键导入游戏，跟着视频边看边练，少走弯路。
-      </p>
-      <div class="mt-6 flex flex-wrap gap-3">
-        <a href="#codes" class="btn-gold px-5 py-3 rounded-xl text-sm">🎯 直接拿阵容码</a>
-        <a href="#video" class="px-5 py-3 rounded-xl text-sm glass hover:border-amber-400 transition">🎬 看教学视频</a>
-      </div>
-      <div class="mt-7 grid grid-cols-4 gap-3 max-w-md">
-        <div class="glass rounded-xl p-3 text-center"><div class="text-2xl font-black gold-text">{{stats.rosters}}</div><div class="text-[.65rem] text-slate-400">套阵容</div></div>
-        <div class="glass rounded-xl p-3 text-center"><div class="text-2xl font-black gold-text">{{stats.videos}}</div><div class="text-[.65rem] text-slate-400">教学视频</div></div>
-        <div class="glass rounded-xl p-3 text-center"><div class="text-2xl font-black gold-text">{{stats.camps}}</div><div class="text-[.65rem] text-slate-400">大阵营</div></div>
-        <div class="glass rounded-xl p-3 text-center"><div class="text-2xl font-black gold-text">{{stats.chessers}}</div><div class="text-[.65rem] text-slate-400">位棋手</div></div>
-      </div>
+  <main class="max-w-6xl mx-auto px-4 pb-20">
+    <!-- 搜索 -->
+    <div v-if="tab==='rosters' || tab==='videos'" class="mb-4">
+      <input v-model="kw" placeholder="🔍 搜索阵容 / 棋手 / 英雄 / 阵营 / 关键词…" 
+        class="w-full px-4 py-2.5 rounded-xl bg-white/5 border border-white/10 outline-none focus:border-purple-400">
     </div>
-    <div class="relative">
-      <div class="glass rounded-3xl p-6 rotate-1 hover:rotate-0 transition duration-500">
-        <div class="flex items-center gap-2 mb-4">
-          <span class="w-3 h-3 rounded-full bg-rose-500"></span><span class="w-3 h-3 rounded-full bg-amber-400"></span><span class="w-3 h-3 rounded-full bg-emerald-500"></span>
-          <span class="text-xs text-slate-400 ml-2">万象棋对局速览</span>
-        </div>
-        <div class="grid grid-cols-4 gap-3 mb-4">
-          <div v-for="(c,i) in ['🟣','🔵','🟢','🟡']" :key="i"
-            class="aspect-square rounded-xl flex items-center justify-center text-3xl"
-            :style="{background:['rgba(139,92,246,.15)','rgba(34,211,238,.15)','rgba(34,197,94,.15)','rgba(245,196,81,.15)'][i]}">{{c}}</div>
-        </div>
-        <div class="space-y-2 text-sm">
-          <div class="flex justify-between"><span class="text-slate-400">回合</span><b>12 / 15</b></div>
-          <div class="flex justify-between"><span class="text-slate-400">本局核心</span><b class="gold-text">阿科米亚 Lv.127</b></div>
-          <div class="flex justify-between"><span class="text-slate-400">当前连胜</span><b class="text-emerald-400">+5 🔥</b></div>
-        </div>
-        <div class="mt-4 flex gap-2">
-          <span class="camp-tag" style="background:rgba(245,196,81,.15);color:var(--gold)">日落海 ×4</span>
-          <span class="camp-tag" style="background:rgba(34,211,238,.15);color:var(--cyan)">整备 ×3</span>
-          <span class="camp-tag" style="background:rgba(139,92,246,.15);color:#c4b5fd">觉醒</span>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
 
-<!-- ===== 全局搜索 ===== -->
-<section class="max-w-7xl mx-auto px-4 -mt-4">
-  <div class="glass rounded-2xl p-4 md:p-5">
-    <div class="flex flex-col md:flex-row gap-3 items-stretch md:items-center">
-      <div class="relative flex-1">
-        <span class="absolute left-4 top-1/2 -translate-y-1/2 text-amber-400 text-lg">🔍</span>
-        <input v-model.trim="searchQuery" type="text" placeholder="搜索阵容 / 棋手 / 英雄 / 阵营…  例：香香、敖隐、日落海"
-          class="w-full pl-12 pr-4 py-3 rounded-xl text-sm outline-none transition focus:ring-2"
-          style="background:rgba(0,0,0,.3);border:1px solid #26305a;color:#fff" :style="{'border-color': searchQuery?'#f5c451':'#26305a'}">
-        <button v-if="searchQuery" @click="searchQuery=''" class="absolute right-3 top-1/2 -translate-y-1/2 text-slate-400 hover:text-white text-lg">✕</button>
+    <!-- 加载态 -->
+    <div v-if="loading" class="text-center text-gray-400 py-20">数据加载中…</div>
+
+    <!-- 新手入门 -->
+    <section v-if="tab==='guide'" class="space-y-6">
+      <div class="rounded-2xl bg-gradient-to-br from-purple-900/40 to-blue-900/40 p-6 border border-white/10">
+        <h1 class="text-2xl font-bold mb-2">{{ data.site?.title || '万象棋境' }}</h1>
+        <p class="text-gray-300">{{ data.site?.subtitle }}</p>
       </div>
-      <div class="flex gap-2 text-xs flex-wrap">
-        <button v-for="sg in searchGroups" :key="sg" @click="searchQuery=sg"
-          class="px-3 py-2 rounded-lg border border-[#26305a] text-slate-300 hover:border-amber-400 transition">{{sg}}</button>
+
+      <div>
+        <h2 class="text-xl font-bold mb-3">🎯 新手入门：与传统自走棋的三大差异</h2>
+        <div class="grid sm:grid-cols-3 gap-3">
+          <div v-for="d in data.guide?.differences" :key="d.title" class="rounded-xl bg-white/5 p-4 border border-white/10">
+            <div class="text-2xl mb-1">{{ d.icon }}</div>
+            <div class="font-bold">{{ d.title }}</div>
+            <p class="text-sm text-gray-400 mt-1">{{ d.desc }}</p>
+          </div>
+        </div>
       </div>
-    </div>
-    <!-- 搜索结果 -->
-    <div v-if="searchQuery" class="mt-4 space-y-4">
-      <div v-if="searchResults.rosters.length || searchResults.videos.length">
-        <div class="text-xs text-slate-400 mb-2">找到 <b class="gold-text">{{searchResults.rosters.length + searchResults.videos.length}}</b> 个相关结果（「{{searchQuery}}」）</div>
-        <div v-if="searchResults.rosters.length" class="mb-3">
-          <div class="text-[.65rem] uppercase tracking-wider text-slate-500 mb-1.5">阵容</div>
-          <div class="grid sm:grid-cols-2 gap-2">
-            <div v-for="r in searchResults.rosters" :key="'s'+r.code" class="flex items-center justify-between gap-2 rounded-xl p-2.5" style="background:rgba(245,196,81,.06);border:1px solid rgba(245,196,81,.2)">
-              <div class="min-w-0">
-                <div class="font-bold text-sm truncate">{{r.name}}</div>
-                <div class="text-[.65rem] text-slate-400 truncate">{{r.chesser}} · {{r.camp}} · {{r.heroes.join(' / ')}}</div>
-              </div>
-              <button @click="copyCode(r)" class="shrink-0 text-xs btn-gold px-3 py-1.5 rounded-lg">{{copied===r.code?'✓':'复制码'}}</button>
+
+      <div>
+        <h2 class="text-xl font-bold mb-3">⏱ 通用运营节奏（1-15回合）</h2>
+        <div class="space-y-2">
+          <div v-for="p in data.guide?.phases" :key="p.round" class="flex gap-3 rounded-lg bg-white/5 p-3 border border-white/10">
+            <div class="font-mono text-purple-300 text-sm w-20 shrink-0">{{ p.round }}</div>
+            <div>
+              <div class="font-bold text-sm">{{ p.title }}</div>
+              <p class="text-sm text-gray-400">{{ p.desc }}</p>
             </div>
           </div>
         </div>
-        <div v-if="searchResults.videos.length">
-          <div class="text-[.65rem] uppercase tracking-wider text-slate-500 mb-1.5">教学视频</div>
-          <div class="grid sm:grid-cols-2 gap-2">
-            <a v-for="v in searchResults.videos" :key="'v'+v.title" :href="v.url||'#video'" target="_blank" rel="noopener"
-              class="rounded-xl p-2.5 hover:border-amber-400/60 transition" style="background:rgba(255,255,255,.03);border:1px solid #26305a">
-              <div class="font-bold text-sm truncate">{{v.title}}</div>
-              <div class="text-[.65rem] text-slate-400 truncate">{{v.channel}} · {{v.desc}}</div>
-            </a>
+      </div>
+
+      <div>
+        <h2 class="text-xl font-bold mb-3">📖 六大关键词条速记</h2>
+        <div class="grid sm:grid-cols-2 gap-2">
+          <div v-for="k in data.guide?.keywords" :key="k.name" class="flex justify-between rounded-lg bg-white/5 px-4 py-2 border border-white/10">
+            <span class="font-bold">{{ k.name }}</span>
+            <span class="text-sm text-gray-400">{{ k.desc }}</span>
           </div>
         </div>
       </div>
-      <div v-else class="mt-3 text-center text-sm text-slate-400 py-4">😢 没有找到与「{{searchQuery}}」相关的内容，换个关键词试试？</div>
-    </div>
-  </div>
-</section>
+    </section>
 
-<!-- ===== 新手入门 ===== -->
-<section id="guide" class="max-w-7xl mx-auto px-4 py-12">
-  <div class="flex items-end justify-between mb-6">
-    <div>
-      <h2 class="text-2xl md:text-3xl font-black">🎓 新手零基础入门</h2>
-      <p class="text-slate-400 text-sm mt-1">先把节奏背下来，再看分棋手攻略 —— 这是万象棋最稳的开荒动线。</p>
-    </div>
-  </div>
-
-  <!-- 与传统自走棋对比 -->
-  <div class="glass rounded-2xl p-5 md:p-6 mb-8">
-    <h3 class="font-bold mb-4 flex items-center gap-2">⚡ 一张表搞懂：和传统自走棋的区别</h3>
-    <div class="grid md:grid-cols-3 gap-4 text-sm">
-      <div v-for="d in diffs" :key="d.title" class="rounded-xl p-4" style="background:rgba(255,255,255,.03)">
-        <div class="text-slate-400 mb-2">{{d.title}}</div>
-        <div class="flex items-start gap-3">
-          <div class="flex-1">
-            <div class="text-rose-300 text-xs mb-1">传统自走棋</div>
-            <div class="text-slate-300">{{d.oldWay}}</div>
-          </div>
-          <div class="text-amber-400 font-black">→</div>
-          <div class="flex-1">
-            <div class="text-emerald-300 text-xs mb-1">万象棋</div>
-            <div class="text-slate-200 font-medium">{{d.newWay}}</div>
-          </div>
-        </div>
+    <!-- 阵容码 -->
+    <section v-if="tab==='rosters'" class="space-y-4">
+      <div class="flex flex-wrap gap-2 mb-2">
+        <button v-for="f in factionFilters" :key="f" @click="faction=f===faction?null:f"
+          :class="['px-3 py-1 rounded-full text-sm', faction===f?'tab-active':'bg-white/5']">
+          {{ f }}
+        </button>
       </div>
-    </div>
-    <div class="mt-4 p-3 rounded-xl text-sm" style="background:rgba(245,196,81,.08);border:1px solid rgba(245,196,81,.3)">
-      <b class="gold-text">核心口诀：刷一养一炸 · 等级上限 999 · 质变节点 10 / 40 / 100 级</b>
-    </div>
-  </div>
-
-  <!-- 运营节奏时间轴 -->
-  <div class="glass rounded-2xl p-5 md:p-6 mb-8">
-    <h3 class="font-bold mb-2 flex items-center gap-2">🕐 通用运营节奏（所有棋手通用）</h3>
-    <p class="text-xs text-slate-400 mb-5">能量固定发放，攥在手里就是浪费 —— 花掉变战力。</p>
-    <div class="relative">
-      <div class="absolute left-4 top-0 bottom-0 w-0.5" style="background:linear-gradient(180deg,var(--gold),var(--cyan))"></div>
-      <div class="space-y-5">
-        <div v-for="(p,i) in phases" :key="i" class="relative pl-12">
-          <div class="absolute left-2.5 top-1.5 w-3 h-3 rounded-full ring-2 ring-amber-400" style="background:var(--ink)"></div>
-          <div class="rounded-xl p-4" style="background:rgba(255,255,255,.03)">
-            <div class="flex flex-wrap items-center gap-2 mb-1">
-              <span class="font-bold">{{p.phase}}</span>
-              <span class="text-xs text-slate-400">{{p.round}}</span>
-              <span v-if="p.tip" class="camp-tag text-[.6rem]" style="background:rgba(245,196,81,.15);color:var(--gold)">{{p.tip}}</span>
+      <div class="grid md:grid-cols-2 gap-4">
+        <article v-for="r in filteredRosters" :key="r.id" class="rounded-2xl bg-white/5 border border-white/10 p-5">
+          <header class="flex items-start justify-between gap-2 mb-2">
+            <div>
+              <h3 class="font-bold text-lg">{{ r.name }}</h3>
+              <div class="text-xs text-gray-400 mt-0.5">{{ r.faction }} · 推荐棋手：{{ r.chessMaster }}</div>
             </div>
-            <p class="text-sm text-slate-300">{{p.desc}}</p>
+            <span class="text-xs px-2 py-0.5 rounded bg-purple-500/20 text-purple-200 shrink-0">{{ r.tier }}</span>
+          </header>
+          <div class="text-sm text-gray-300 mb-3">
+            <span class="text-gray-400">英雄：</span>{{ r.heroes?.join(' / ') }}
           </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- 关键词条 -->
-  <div class="glass rounded-2xl p-5 md:p-6">
-    <h3 class="font-bold mb-4 flex items-center gap-2">🎴 关键词条速记</h3>
-    <div class="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-3 text-sm">
-      <div v-for="k in keywords" :key="k.name" class="rounded-xl p-3 text-center" :style="{background:k.bg}">
-        <div class="text-xl mb-1">{{k.icon}}</div>
-        <div class="font-bold" :style="{color:k.color}">{{k.name}}</div>
-        <div class="text-[.7rem] text-slate-300 mt-1 leading-snug">{{k.desc}}</div>
-      </div>
-    </div>
-    <p class="text-xs text-slate-400 mt-4">💡 阵营只是「词条产地」，真正强度看词条怎么串。新手记住：<b class="text-white">锁定一个核心 · 装备堆一个人 · 能量全花掉</b>。</p>
-  </div>
-</section>
-
-<!-- ===== 六大阵营 ===== -->
-<section id="camps" class="max-w-7xl mx-auto px-4 py-12 border-t border-[#26305a]">
-  <div class="mb-6">
-    <h2 class="text-2xl md:text-3xl font-black">🛡️ 六大阵营体系</h2>
-    <p class="text-slate-400 text-sm mt-1">点击展开查看羁绊机制、代表英雄与适配玩法。</p>
-  </div>
-  <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
-    <div v-for="c in camps" :key="c.name" class="glass rounded-2xl overflow-hidden hover:-translate-y-1 transition">
-      <div class="p-5" :style="{background:c.banner}">
-        <div class="text-3xl">{{c.icon}}</div>
-        <div class="font-black text-xl mt-1">{{c.name}}</div>
-        <div class="text-xs opacity-80 mt-0.5">{{c.tag}}</div>
-      </div>
-      <div class="p-4 text-sm space-y-2">
-        <p class="text-slate-300 leading-relaxed">{{c.desc}}</p>
-        <div>
-          <span class="text-slate-400 text-xs">代表英雄：</span>
-          <span class="text-slate-200">{{c.heroes}}</span>
-        </div>
-        <div class="flex flex-wrap gap-1 pt-1">
-          <span v-for="f in c.features" :key="f" class="camp-tag" style="background:rgba(255,255,255,.06);color:#c7d2fe">{{f}}</span>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- ===== 棋手梯队 ===== -->
-<section id="chessers" class="max-w-7xl mx-auto px-4 py-12 border-t border-[#26305a]">
-  <div class="mb-6 flex flex-wrap items-end justify-between gap-3">
-    <div>
-      <h2 class="text-2xl md:text-3xl font-black">♟️ 棋手强度梯队</h2>
-      <p class="text-slate-400 text-sm mt-1">数据来源：官方万象数据（开服统计，版本迭代快，理解思路最重要）。</p>
-    </div>
-    <div class="flex gap-2 text-xs">
-      <button v-for="tg in tierGroups" :key="tg" @click="curTier=tg"
-        :class="['px-3 py-1.5 rounded-lg border transition', curTier===tg ? 'tab-active border-amber-400' : 'border-[#26305a] text-slate-300']">
-        {{tg}}
-      </button>
-    </div>
-  </div>
-
-  <div v-for="tier in filteredTiers" :key="tier.name" class="mb-5">
-    <div class="flex items-center gap-3 mb-3">
-      <span class="font-black text-lg" :style="{color:tier.color}">{{tier.name}}</span>
-      <span class="text-xs text-slate-400">{{tier.note}}</span>
-    </div>
-    <div class="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-3">
-      <div v-for="ch in tier.list" :key="ch.name"
-        class="glass rounded-xl p-4 hover:border-amber-400/60 transition"
-        :class="ch.top?'tier-T0':''">
-        <div class="flex items-start justify-between">
-          <div>
-            <div class="font-bold flex items-center gap-1">{{ch.icon}} {{ch.name}}
-              <span v-if="ch.top" class="text-[.6rem] px-1.5 py-0.5 rounded" style="background:rgba(245,196,81,.2);color:var(--gold)">热门</span>
+          <div class="rounded-lg bg-black/40 p-3 mb-3">
+            <div class="text-xs text-gray-400 mb-1">阵容码</div>
+            <div class="flex gap-2 items-center">
+              <code class="code-font text-purple-300 text-sm break-all">{{ r.code }}</code>
+              <button @click="copy(r.code)" class="shrink-0 text-xs px-2 py-1 rounded bg-purple-500/30 hover:bg-purple-500/50">复制</button>
             </div>
-            <div class="text-xs text-slate-400 mt-0.5">{{ch.style}}</div>
           </div>
-          <div class="text-right text-[.65rem] text-slate-400">
-            <div>登顶 <b class="text-emerald-400">{{ch.win}}</b></div>
-            <div>前三 <b class="text-amber-300">{{ch.top3}}</b></div>
-          </div>
-        </div>
-        <p class="text-xs text-slate-300 mt-2 leading-relaxed">{{ch.comment}}</p>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- ===== 阵容码库 ===== -->
-<section id="codes" class="max-w-7xl mx-auto px-4 py-12 border-t border-[#26305a]">
-  <div class="mb-6 flex flex-wrap items-end justify-between gap-3">
-    <div>
-      <h2 class="text-2xl md:text-3xl font-black">🎯 阵容码库 · 一键复制导入</h2>
-      <p class="text-slate-400 text-sm mt-1">点击「复制」→ 进入游戏「我的阵容」→ 点击导入即可。持续更新，建议收藏。</p>
-    </div>
-    <div class="flex flex-wrap gap-2 text-xs">
-      <button v-for="cat in categories" :key="cat"
-        @click="curCat=cat"
-        :class="['px-3 py-1.5 rounded-lg border transition', curCat===cat ? 'tab-active border-amber-400' : 'border-[#26305a] text-slate-300']">
-        {{cat}}
-      </button>
-    </div>
-  </div>
-
-  <div class="grid sm:grid-cols-2 xl:grid-cols-3 gap-4">
-    <div v-for="r in filteredRosters" :key="r.code"
-      class="glass rounded-2xl p-5 flex flex-col hover:-translate-y-1 transition duration-300">
-      <div class="flex items-start justify-between gap-2">
-        <div>
-          <div class="font-bold text-lg flex items-center gap-1.5">{{r.icon}} {{r.name}}</div>
-          <div class="text-xs text-slate-400 mt-0.5">推荐棋手：<span class="gold-text">{{r.chesser}}</span> · {{r.camp}}</div>
-        </div>
-        <span class="camp-tag text-[.6rem]" :style="{background:r.tierBg,color:r.tierColor}">{{r.tier}}</span>
-      </div>
-
-      <div class="mt-3 rounded-xl p-3 text-sm" style="background:rgba(255,255,255,.03)">
-        <div class="text-slate-400 text-xs mb-1.5">阵容构成</div>
-        <div class="flex flex-wrap gap-1.5">
-          <span v-for="h in r.heroes" :key="h" class="camp-tag" style="background:rgba(34,211,238,.12);color:#7dd3fc">{{h}}</span>
-        </div>
-      </div>
-
-      <p class="text-xs text-slate-300 mt-3 leading-relaxed flex-1">{{r.desc}}</p>
-
-      <div class="mt-3 rounded-xl overflow-hidden border" style="border-color:#26305a">
-        <div class="px-3 py-2 text-[.65rem] text-slate-400 flex justify-between items-center" style="background:rgba(0,0,0,.25)">
-          <span>阵容码</span>
-          <span v-if="r.updated" class="text-emerald-400">● {{r.updated}}</span>
-        </div>
-        <div class="px-3 py-2.5 flex items-center gap-2">
-          <code class="code-box text-amber-300 text-sm flex-1 truncate">{{r.code}}</code>
-          <button @click="copyCode(r)" :class="['shrink-0 text-xs px-3 py-1.5 rounded-lg transition', copied===r.code ? 'bg-emerald-500/20 text-emerald-300' : 'btn-gold']">
-            {{copied===r.code ? '✓ 已复制' : '复制'}}
+          <p class="text-sm text-gray-400 mb-3">{{ r.tips }}</p>
+          <button @click="openImport(r.code)" class="w-full text-sm py-2 rounded-lg border border-white/20 hover:bg-white/10">
+            🎯 导入此阵容
           </button>
+        </article>
+      </div>
+      <div v-if="!filteredRosters.length" class="text-center text-gray-400 py-10">没有匹配的阵容</div>
+    </section>
+
+    <!-- 视频 -->
+    <section v-if="tab==='videos'" class="space-y-4">
+      <div class="flex flex-wrap gap-2 mb-2">
+        <button v-for="l in levelFilters" :key="l" @click="level=l===level?null:l"
+          :class="['px-3 py-1 rounded-full text-sm', level===l?'tab-active':'bg-white/5']">
+          {{ l }}
+        </button>
+      </div>
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
+        <a v-for="v in filteredVideos" :key="v.id" :href="v.url" target="_blank" rel="noopener"
+          class="rounded-2xl bg-white/5 border border-white/10 p-4 hover:bg-white/10 transition block">
+          <div class="aspect-video rounded-lg bg-black/60 mb-3 flex items-center justify-center text-4xl">▶️</div>
+          <div class="text-xs text-purple-300 mb-1">{{ v.level }} · {{ v.author }}</div>
+          <h3 class="font-bold mb-1">{{ v.title }}</h3>
+          <p class="text-sm text-gray-400 line-clamp-2">{{ v.desc }}</p>
+        </a>
+      </div>
+    </section>
+
+    <!-- 棋手 / 阵营 / FAQ 保持原逻辑，数据驱动 -->
+    <section v-if="tab==='masters'" class="space-y-4">
+      <div v-for="tier in masterTiers" :key="tier" class="rounded-2xl bg-white/5 border border-white/10 p-5">
+        <h3 class="font-bold text-lg mb-3" v-html="tierLabel(tier)"></h3>
+        <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-3">
+          <div v-for="m in mastersByTier(tier)" :key="m.name" class="rounded-lg bg-black/30 p-3">
+            <div class="font-bold">{{ m.name }}</div>
+            <p class="text-sm text-gray-400 mt-1">{{ m.style }}</p>
+            <div class="text-xs text-purple-300 mt-2">适配：{{ m.factions?.join('、') }}</div>
+          </div>
         </div>
       </div>
+    </section>
 
-      <div v-if="r.tips" class="mt-3 text-[.7rem] text-slate-400 leading-relaxed">
-        <span class="text-amber-400">💡 运营：</span>{{r.tips}}
+    <section v-if="tab==='factions'" class="grid sm:grid-cols-2 gap-4">
+      <div v-for="f in data.factions" :key="f.name" class="rounded-2xl bg-white/5 border border-white/10 p-5">
+        <h3 class="font-bold text-lg">{{ f.name }}</h3>
+        <p class="text-sm text-gray-400 mt-1">{{ f.mechanic }}</p>
+        <div class="text-xs text-purple-300 mt-2">代表英雄：{{ f.heroes?.join('、') }}</div>
+      </div>
+    </section>
+
+    <section v-if="tab==='faq'" class="space-y-3">
+      <details v-for="(q,i) in data.faq" :key="i" class="rounded-xl bg-white/5 border border-white/10 p-4 group">
+        <summary class="font-bold cursor-pointer list-none flex justify-between">
+          {{ q.q }}
+          <span class="text-purple-300 group-open:rotate-180 transition">▾</span>
+        </summary>
+        <p class="text-sm text-gray-300 mt-2">{{ q.a }}</p>
+      </details>
+    </section>
+  </main>
+
+  <!-- 导入弹窗 -->
+  <div v-if="importCode" class="fixed inset-0 z-50 flex items-center justify-center bg-black/70 p-4"
+    @click.self="importCode=null">
+    <div class="rounded-2xl bg-gray-900 border border-white/20 p-6 max-w-md w-full">
+      <h3 class="font-bold text-lg mb-3">🎯 导入阵容码</h3>
+      <p class="text-sm text-gray-400 mb-3">在游戏内：阵容 → 导入 → 粘贴下方代码 → 确认</p>
+      <code class="code-font block bg-black/60 rounded-lg p-3 text-purple-300 break-all">{{ importCode }}</code>
+      <div class="flex gap-2 mt-4">
+        <button @click="copy(importCode)" class="flex-1 py-2 rounded-lg bg-purple-500 hover:bg-purple-400">复制</button>
+        <button @click="importCode=null" class="flex-1 py-2 rounded-lg bg-white/10 hover:bg-white/20">关闭</button>
       </div>
     </div>
   </div>
-</section>
 
-<!-- ===== 教学视频 ===== -->
-<section id="video" class="max-w-7xl mx-auto px-4 py-12 border-t border-[#26305a]">
-  <div class="mb-6 flex flex-wrap items-end justify-between gap-3">
-    <div>
-      <h2 class="text-2xl md:text-3xl font-black">🎬 精选教学视频</h2>
-      <p class="text-slate-400 text-sm mt-1">按阶段筛选，边看边练效果最佳。视频来自官方与社区攻略作者。</p>
-    </div>
-    <div class="flex flex-wrap gap-2 text-xs">
-      <button v-for="lv in levels" :key="lv"
-        @click="curLevel=lv"
-        :class="['px-3 py-1.5 rounded-lg border transition', curLevel===lv ? 'tab-active border-amber-400' : 'border-[#26305a] text-slate-300']">
-        {{lv}}
-      </button>
-    </div>
+  <!-- Toast -->
+  <div v-if="toast" class="fixed bottom-6 left-1/2 -translate-x-1/2 z-50 px-4 py-2 rounded-xl bg-emerald-500 text-white text-sm shadow-lg">
+    {{ toast }}
   </div>
 
-  <div class="grid md:grid-cols-2 xl:grid-cols-3 gap-5">
-    <div v-for="v in filteredVideos" :key="v.title" class="glass rounded-2xl overflow-hidden flex flex-col">
-      <div class="relative video-frame" style="background:linear-gradient(135deg,#1e1b4b,#0e7490)">
-        <iframe v-if="v.embed" :src="v.embed" class="w-full h-full" frameborder="0" allowfullscreen></iframe>
-        <div v-else class="absolute inset-0 flex flex-col items-center justify-center text-center px-6">
-          <div class="text-4xl mb-2">{{v.icon}}</div>
-          <div class="font-bold">{{v.channel}}</div>
-          <div class="text-xs text-slate-300 mt-1 max-w-xs">{{v.desc}}</div>
-          <a v-if="v.url" :href="v.url" target="_blank" rel="noopener"
-            class="mt-3 text-xs btn-gold px-3 py-1.5 rounded-lg">前往观看 →</a>
-        </div>
-        <span class="absolute top-2 left-2 camp-tag text-[.6rem]" :style="{background:'rgba(0,0,0,.55)',color:'#fff'}">{{v.level}}</span>
-      </div>
-      <div class="p-4 flex-1 flex flex-col">
-        <h4 class="font-bold text-sm leading-snug">{{v.title}}</h4>
-        <p class="text-xs text-slate-400 mt-1.5 flex-1">{{v.desc}}</p>
-        <div class="mt-3 flex flex-wrap gap-1.5">
-          <span v-for="tag in v.tags" :key="tag" class="camp-tag text-[.6rem]" style="background:rgba(139,92,246,.15);color:#c4b5fd">{{tag}}</span>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- ===== FAQ ===== -->
-<section id="faq" class="max-w-7xl mx-auto px-4 py-12 border-t border-[#26305a]">
-  <div class="mb-6"><h2 class="text-2xl md:text-3xl font-black">❓ 新手常见问题</h2></div>
-  <div class="space-y-3">
-    <details v-for="(f,i) in faqs" :key="i" class="glass rounded-xl group" :open="i===0">
-      <summary class="p-4 font-bold flex items-center justify-between">
-        {{f.q}}
-        <span class="text-amber-400 transition group-open:rotate-90">›</span>
-      </summary>
-      <div class="px-4 pb-4 text-sm text-slate-300 leading-relaxed">{{f.a}}</div>
-    </details>
-  </div>
-</section>
-
-<footer class="border-t border-[#26305a] py-10 mt-8">
-  <div class="max-w-7xl mx-auto px-4 text-center text-xs text-slate-500 leading-relaxed">
-    <div class="font-black gold-text text-lg mb-2">万象棋境</div>
-    本平台为玩家自发整理的教学攻略合集，数据与阵容码来源于官方爆料、王者营地及社区攻略作者，仅供参考。<br>
-    游戏内容归腾讯及王者荣耀官方所有。版本更新频繁，阵容码与强度请以游戏内实际情况为准。<br>
-    <span class="text-slate-600">若有侵权或错误，欢迎在评论区反馈。祝各位棋手早日登顶万象之巅 🏆</span>
-  </div>
-</footer>
-
-<!-- 导入阵容码弹窗 -->
-<div v-if="showImport" class="fixed inset-0 z-50 flex items-center justify-center p-4" style="background:rgba(0,0,0,.7)">
-  <div class="glass rounded-2xl p-6 max-w-md w-full">
-    <div class="flex justify-between items-center mb-4">
-      <h3 class="font-bold text-lg">📥 导入阵容码</h3>
-      <button @click="showImport=false" class="text-slate-400 text-xl">✕</button>
-    </div>
-    <p class="text-sm text-slate-300 mb-3">复制下方任意阵容码，进入游戏「我的阵容」页面，点击导入按钮粘贴即可。</p>
-    <textarea v-model="importText" placeholder="可在此粘贴你自己的阵容码…" class="w-full h-24 rounded-xl p-3 text-sm" style="background:rgba(0,0,0,.3);border:1px solid #26305a;color:#fff"></textarea>
-    <div class="mt-3 flex gap-2">
-      <button @click="showImport=false" class="flex-1 px-4 py-2.5 rounded-xl glass text-sm">取消</button>
-      <button @click="doImport" class="flex-1 btn-gold px-4 py-2.5 rounded-xl text-sm">校验并保存</button>
-    </div>
-    <div v-if="importResult" class="mt-3 text-sm" :class="importResult.ok?'text-emerald-300':'text-rose-300'">
-      {{importResult.msg}}
-    </div>
-  </div>
-</div>
-
-<!-- Toast -->
-<div v-if="toast" class="fixed left-1/2 top-1/2 z-[60] toast" style="transform:translate(-50%,-50%)">
-  <div class="glass rounded-xl px-6 py-4 flex items-center gap-3 border-amber-400/50">
-    <span class="text-2xl">✅</span>
-    <div>
-      <div class="font-bold text-sm">{{toast.title}}</div>
-      <div class="text-xs text-slate-300">{{toast.code}}</div>
-    </div>
-  </div>
-</div>
-
+  <footer class="text-center text-xs text-gray-500 py-6">
+    万象棋境 · 数据来自社区整理，以游戏内为准 · 自动更新由 GitHub Actions 驱动
+  </footer>
 </div>
 
 <script>
-const {createApp, ref, computed} = Vue;
+const { createApp, ref, computed, onMounted } = Vue;
 createApp({
   setup(){
+    const data = ref({ rosters:[], videos:[], masters:[], factions:[], guide:{}, faq:[] });
+    const loading = ref(true);
+    const lastUpdated = ref('');
+    const tab = ref('guide');
+    const kw = ref('');
+    const faction = ref(null);
+    const level = ref(null);
+    const importCode = ref(null);
+    const toast = ref('');
+
     const tabs = [
-      {id:'guide',name:'新手入门'},{id:'camps',name:'六大阵营'},
-      {id:'chessers',name:'棋手梯队'},{id:'codes',name:'阵容码库'},
-      {id:'video',name:'教学视频'},{id:'faq',name:'常见问题'}
-    ];
-    const mobNav = ref(false);
-
-    /* ===== 统计 ===== */
-    const stats = {rosters:21, videos:12, camps:6, chessers:18};
-
-    /* ===== 入门对比 ===== */
-    const diffs = [
-      {title:'资源管理', oldWay:'攒钱吃利息，存款越多收益越高', newWay:'没有利息，固定发能量'},
-      {title:'升级方式', oldWay:'三合一升星', newWay:'同名卡叠等级，上限 999'},
-      {title:'羁绊思路', oldWay:'凑阵营人数就生效', newWay:'看关键词条互相串联'},
-    ];
-    const phases = [
-      {phase:'① 立前排期', round:'1–3 回合', tip:'别刷牌', desc:'拿低费过渡卡（牛魔+弈星），优先抬人口，别急着刷商店。能量发 2~4 点，全部花掉换战力。'},
-      {phase:'② 定体系期', round:'4–7 回合', tip:'升 4 本', desc:'拍卖后第 4 回合升 3 本，第 6 回合升 4 本。锁定唯一主 C，资源开始倾斜——分散投资是新手最大死因。'},
-      {phase:'③ 搜牌期', round:'8–11 回合', tip:'升 5 本', desc:'第 8 回合升 5 本，留钱抢第 3 次拍卖（11 回合结束）。阵容大成期，补齐体系高费卡。'},
-      {phase:'④ 冲百期', round:'12 回合后', tip:'升 6 本', desc:'升 6 本解锁棋手技能，冗余能量全投核心英雄，冲刺 100 级质变——战力断层碾压级。'},
-    ];
-    const keywords = [
-      {name:'登场', icon:'🎴', desc:'打出即触发', bg:'rgba(139,92,246,.15)', color:'#c4b5fd'},
-      {name:'整备', icon:'⚙️', desc:'准备阶段触发', bg:'rgba(34,211,238,.15)', color:'#7dd3fc'},
-      {name:'开团', icon:'⚔️', desc:'战斗开始触发', bg:'rgba(245,196,81,.15)', color:'#f5c451'},
-      {name:'牺牲', icon:'💀', desc:'阵亡给队友加等级', bg:'rgba(244,63,94,.15)', color:'#fb7185'},
-      {name:'摄灵', icon:'🌀', desc:'打出摄取队友等级', bg:'rgba(168,85,247,.15)', color:'#d8b4fe'},
-      {name:'复生', icon:'🌱', desc:'阵亡后复活一次', bg:'rgba(34,197,94,.15)', color:'#4ade80'},
+      {key:'guide',label:'🎓 新手入门'},
+      {key:'rosters',label:'🎯 阵容码库'},
+      {key:'videos',label:'🎬 教学视频'},
+      {key:'masters',label:'🏆 棋手梯队'},
+      {key:'factions',label:'⚔️ 六大阵营'},
+      {key:'faq',label:'❓ 常见问题'},
     ];
 
-    /* ===== 阵营 ===== */
-    const camps = [
-      {name:'三分之地', icon:'🏹', tag:'登场联动 · 中期发力', banner:'linear-gradient(135deg,#7f1d1d,#b91c1c)',
-        desc:'以角色登场联动为核心，专注提升队伍成长效率。凑齐羁绊解锁等级递升与联动效果。', heroes:'吕布、周瑜、貂蝉、马超、诸葛亮、曹操、甄姬、小乔', features:['登场','中期压制','成长效率']},
-      {name:'大河流域', icon:'🌊', tag:'交锋即升级 · 门槛低', banner:'linear-gradient(135deg,#0e7490,#0891b2)',
-        desc:'摒弃过牌依赖，主打低门槛即时作战。任选三位上阵即可激活，首次战斗即启动成长。', heroes:'东皇太一、虞姬、鬼谷子、敖隐、张良、少司缘、刘邦', features:['开团','图腾','即时作战']},
-      {name:'日落海', icon:'🌅', tag:'整备滚雪球 · 卡池厚', banner:'linear-gradient(135deg,#9a3412,#ea580c)',
-        desc:'核心是临时等级共享与整备联动，叠满整备后全员自动成长，操作最简单。', heroes:'司空震、花木兰、李信、李白、亚连、朵莉亚、安琪拉、海诺', features:['整备','共享等级','卡池最厚']},
-      {name:'河洛', icon:'🪙', tag:'古币经济 · 后期发力', banner:'linear-gradient(135deg,#854d0e,#ca8a04)',
-        desc:'以古币生成为底层经济引擎，构建可持续发育型阵容，后期非常强力。', heroes:'李元芳、程咬金、上官婉儿、狄仁杰、安琪拉、露娜', features:['古币','经济引擎','后期发力']},
-      {name:'逐鹿', icon:'🦌', tag:'战术叠加 · 效果牌', banner:'linear-gradient(135deg,#365314,#65a30d)',
-        desc:'强调战术叠加持续强化，依赖效果牌释放频率，越打越凶。需天赋配合。', heroes:'嬴政、廉颇、蒙犽、曜、蒙恬、芈月、西施、扁鹊', features:['战术牌','效果复利','需经验']},
-      {name:'无阵营', icon:'🌐', tag:'摄灵 / 闪现 · 灵活', banner:'linear-gradient(135deg,#3b0764,#7c3aed)',
-        desc:'2-4 阶摄灵卡，不依赖阵营禁选，主打闪现跳后排秒 C 位，灵活度高。', heroes:'海月、猪八戒、孙悟空、公孙离、裴擒虎、阿轲、八戒', features:['闪现','摄灵','无禁选']},
-    ];
+    async function loadData(){
+      loading.value = true;
+      try{
+        // 带时间戳避免 CDN/浏览器缓存，保证每次拉最新
+        const res = await fetch('./data.json?t=' + Date.now());
+        if(!res.ok) throw new Error('数据加载失败');
+        data.value = await res.json();
+        lastUpdated.value = new Date().toLocaleString('zh-CN');
+        localStorage.setItem('wanxiang:lastData', JSON.stringify(data.value));
+      }catch(e){
+        // 离线/失败时回退本地缓存
+        const cached = localStorage.getItem('wanxiang:lastData');
+        if(cached) data.value = JSON.parse(cached);
+        showToast('使用缓存数据（拉取最新失败）');
+      }finally{
+        loading.value = false;
+      }
+    }
+    function refreshData(){ loadData().then(()=>showToast('数据已刷新')); }
 
-    /* ===== 棋手梯队 ===== */
-    const tierGroups = ['全部','T0 版本答案','T1 强势','T2 进阶','T3 慎选'];
-    const curTier = ref('全部');
-    const tiers = [
-      {name:'T0 · 版本答案', color:'#f5c451', note:'数据全面领先，稳定上分核心',
-        list:[
-          {name:'瑶妹', icon:'🦌', style:'自带前排 · 稳前三', win:'37.3%', top3:'76.4%', comment:'开局即送，操作简单。小鹿当坦克承伤，极其适合保护越打越强的核心。', top:true},
-          {name:'香香', icon:'🔫', style:'场外开火 · 高爆发', win:'27.5%', top3:'76.5%', comment:'唯一场外攻击棋手，低阶英雄越多越强，终结比赛能力突出。', top:true},
-        ]},
-      {name:'T1 · 强势主力', color:'#22d3ee', note:'良好的登顶/前三率',
-        list:[
-          {name:'闹闹', icon:'🎪', style:'定向搜牌 · 快速成型', win:'25.5%', top3:'74.9%', comment:'定向搜牌机制，成型速度极快，稳定上分好选择。', top:true},
-          {name:'明先生', icon:'🎭', style:'高上限 · 需操作', win:'30.4%', top3:'72.2%', comment:'登顶率恐怖，但操作难度高、阵容冷门，商城购买影响出场率。'},
-          {name:'嫦小娥', icon:'🐰', style:'海陆空 · 简单粗暴', win:'29.7%', top3:'68.3%', comment:'版本最热门打工/主C，玩的人多略内卷，平均排名稍低。', top:true},
-          {name:'白歌', icon:'🎨', style:'三分倒转 · 最帅', win:'24.9%', top3:'53.9%', comment:'典藏皮肤棋手，倒转玩起来爽，但半途暴毙率不低。'},
-          {name:'乔汐', icon:'🎻', style:'节奏型', win:'21.1%', top3:'70.8%', comment:'前三率可观，需要一定运营节奏掌控。'},
-          {name:'庄小鱼', icon:'🐟', style:'梦幻商店流', win:'22.3%', top3:'63.7%', comment:'靠如梦似幻构建梦幻手牌，独特运营体验。'},
-        ]},
-      {name:'T2 · 熟练进阶', color:'#8b5cf6', note:'容错中等，上限更高',
-        list:[
-          {name:'赢律', icon:'📜', style:'大河体系', win:'20.1%', top3:'66.6%', comment:'大河体系核心棋手，配合图腾流发挥出色。'},
-          {name:'镜', icon:'🪞', style:'连击爆发', win:'18.6%', top3:'54.8%', comment:'需精准操作，暴毙风险中等。'},
-          {name:'班叔', icon:'🏗️', style:'塔防诸葛', win:'24.5%', top3:'63.7%', comment:'塔防体系独特，低分局娱乐，冲分需手法。'},
-          {name:'昭君', icon:'❄️', style:'昭君九五', win:'22.7%', top3:'55.6%', comment:'群体治疗+法术输出，提升阵容容错。'},
-          {name:'姜导', icon:'🎬', style:'导演流', win:'21.7%', top3:'62.6%', comment:'需要战术牌配合，理解门槛较高。'},
-          {name:'弈星', icon:'♟️', style:'双核启动', win:'12.4%', top3:'50.5%', comment:'新手过渡选择，后期偏弱。'},
-        ]},
-      {name:'T3 · 慎重选择', color:'#f472b6', note:'低分局娱乐 / 需极高熟练度',
-        list:[
-          {name:'马可', icon:'🎯', style:'万血猪猪流', win:'12.9%', top3:'46.5%', comment:'成型苛刻，容错低。'},
-          {name:'孙小宾', icon:'🤹', style:'控制流', win:'18.3%', top3:'49.6%', comment:'需精准时机把握。'},
-          {name:'玉环', icon:'🌸', style:'全屏放大', win:'15.0%', top3:'42.2%', comment:'上限高但容易暴毙，慎选。'},
-          {name:'小妲己', icon:'💕', style:'古币流', win:'20.2%', top3:'52.1%', comment:'需天赋配合，否则收益平庸。'},
-        ]},
-    ];
-    const filteredTiers = computed(()=>{
-      if(curTier.value==='全部') return tiers;
-      return tiers.filter(t=>t.name.startsWith(curTier.value.split(' ')[0]));
+    const factionFilters = computed(()=>{
+      const s = new Set(data.value.rosters?.map(r=>r.faction).filter(Boolean));
+      return ['全部', ...s];
     });
+    const levelFilters = computed(()=>['全部','入门','进阶','冲分']);
 
-    /* ===== 阵容码 ===== */
-    const categories = ['全部','日落海','大河流域','三分之地','河洛','无阵营','趣味整活'];
-    const curCat = ref('全部');
-    const rosters = [
-      {name:'日落海整备流', icon:'🌅', chesser:'闹闹', camp:'日落海 · 整备', tier:'新手首选', tierBg:'rgba(34,197,94,.15)', tierColor:'#4ade80',
-        heroes:['狂铁','亚连','米莱狄','朵莉亚','安琪拉','雅典娜','海诺'],
-        desc:'以阿科米亚为核心，凑齐阵容后全员自动成长，操作简单。朵莉亚是整备放大核心，每次整备触发都给核心+1级。',
-        code:'40586861965034570', updated:'9.16', tips:'前期只认日落海，别散着拿卡。装备集中堆一个人——亚连整备给「穿戴装备最多的日落海英雄」+2级。', tag:'beginner'},
-      {name:'牺牲李信', icon:'⚔️', chesser:'瑶妹', camp:'日落海 · 牺牲', tier:'版本答案', tierBg:'rgba(245,196,81,.15)', tierColor:'#f5c451',
-        heroes:['瑶','李信','亚连','司空震','露娜','艾琳','安琪拉'],
-        desc:'瑶妹小鹿承伤 + 李信牺牲后给队友加等级，越打越强。瑶妹 76.4% 前三率稳如磐石。',
-        code:'79993358704523312', updated:'9.16', tips:'前期瑶妹技能先升小鹿等级；李信觉醒后卖前排英雄把等级转移给核心。', tag:'sunset'},
-      {name:'大河开团射', icon:'🏹', chesser:'香香', camp:'大河流域 · 开团', tier:'稳定吃分', tierBg:'rgba(34,211,238,.15)', tierColor:'#7dd3fc',
-        heroes:['公孙离','鬼谷子','瑶','云中君','虞姬','张良','少司缘'],
-        desc:'香香主动开火 + 大河图腾开团联动，公认最被低估的稳吃分体系。香香前三率全场最高 76.5%。',
-        code:'99133657120862280', updated:'9.16', tips:'公孙离必出寒霜侵袭+破晓；前 3 回合有干将必拿，第 3 回合把前期战力拉满走连胜。', tag:'river'},
-      {name:'大河图腾流', icon:'🌊', chesser:'瑶妹', camp:'大河流域 · 图腾', tier:'轮椅阵容', tierBg:'rgba(34,197,94,.15)', tierColor:'#4ade80',
-        heroes:['虞姬','鬼谷子','少司缘','张良','大司命','敖隐','东皇太一'],
-        desc:'围绕开团+图腾建立阵容，前期就能轻松获得。敖隐后期核心，决赛圈用图腾围住防切后排。',
-        code:'45090461592399976', updated:'9.15', tips:'先找鬼谷子+少司缘，虞姬开团给大河加等级；12 回合升 5 本后找敖隐，图腾全放后排。', tag:'river'},
-      {name:'低压大河', icon:'💧', chesser:'赢律', camp:'大河流域', tier:'冲分', tierBg:'rgba(245,196,81,.15)', tierColor:'#f5c451',
-        heroes:['虞姬','鬼谷子','少司缘','张良','敖隐','东皇太一','大司命'],
-        desc:'赢律配合大河低压力运营，前期不耗血，后期靠敖隐接管比赛。',
-        code:'105326106608474280', updated:'9.16', tips:'前期控血线，拍卖优先少司缘和张良；后期敖隐装备堆满。', tag:'river'},
-      {name:'三分倒转 999', icon:'🔄', chesser:'白歌', camp:'三分之地 · 倒转', tier:'爽玩', tierBg:'rgba(139,92,246,.15)', tierColor:'#c4b5fd',
-        heroes:['吕布','周瑜','貂蝉','马超','诸葛亮','小乔','曹操'],
-        desc:'白歌标志性三分倒转流，爽感拉满。注意运营节奏，避免半途暴毙。',
-        code:'107577906422198376', updated:'9.16', tips:'前 7 回合人才济济过渡，8 回合后开始倒转搜核心；装备优先给吕布/诸葛亮。', tag:'three'},
-      {name:'三分协同增益', icon:'🏯', chesser:'李白', camp:'三分之地', tier:'中速', tierBg:'rgba(139,92,246,.15)', tierColor:'#c4b5fd',
-        heroes:['曹操','甄姬','小乔','周瑜','露娜','阿轲','孙悟空'],
-        desc:'曹操+甄姬双核驱动，登场+整备形成闭环。李白神来之笔加速核心觉醒。',
-        code:'1069640737664628', updated:'9.10', tips:'李白技能精准给露娜/阿轲拉满觉醒进度；前期没刷到核心卡宁愿不用技能。', tag:'three'},
-      {name:'古币强化速攻', icon:'🪙', chesser:'庄小鱼', camp:'河洛 · 古币', tier:'快攻', tierBg:'rgba(234,179,8,.15)', tierColor:'#fde047',
-        heroes:['狄仁杰','程咬金','上官婉儿','李元芳','盾山','安琪拉','露娜'],
-        desc:'狄仁杰绝对核心爆发流，围绕古币关键词构建。程咬金/婉儿/元芳稳定产古币。',
-        code:'3995114992613470', updated:'9.12', tips:'狄仁杰优先拿古币装备，前中期速攻压制，避免拖到大后期。', tag:'heluo'},
-      {name:'核弹诸葛', icon:'💣', chesser:'瑶妹', camp:'河洛/三分', tier:'后期', tierBg:'rgba(244,63,94,.15)', tierColor:'#fb7185',
-        heroes:['诸葛亮','大乔','小乔','周瑜','瑶','蔡文姬','甄姬'],
-        desc:'效果牌堆叠诸葛亮，一炮清屏。需较多战术牌配合，操作复杂但上限极高。',
-        code:'18068863828169806', updated:'9.14', tips:'前期用三分新德过渡，拿到核心效果牌后转型；炽热支配者防打断。', tag:'heluo'},
-      {name:'无限复活花木兰', icon:'♻️', chesser:'明先生', camp:'日落海 · 复生', tier:'高上限', tierBg:'rgba(245,196,81,.15)', tierColor:'#f5c451',
-        heroes:['花木兰','亚连','司空震','露娜','李白','雅典娜','海诺'],
-        desc:'明先生恐怖 30.4% 登顶率的核心套路，花木兰无限复活反复触发登场效果。',
-        code:'128407054698748990', updated:'9.15', tips:'明先生操作难度高，需精准把握复活时机与装备分配，新手慎入。', tag:'sunset'},
-      {name:'嫦娥海陆空', icon:'🐰', chesser:'嫦小娥', camp:'三分之地/日落海', tier:'热门', tierBg:'rgba(244,114,182,.15)', tierColor:'#f9a8d4',
-        heroes:['嫦娥','瑶','云中君','公孙离','裴擒虎','孙悟空','猪八戒'],
-        desc:'嫦小娥最热门阵容，海陆空三维打击，操作简单粗暴，版本出场率 27.3%。',
-        code:'58601260474518594', updated:'9.16', tips:'嫦小娥升级优先级：核心 C 位 > 前排 > 功能卡。别贪多，锁定一核。', tag:'three'},
-      {name:'马瑶变猪流', icon:'🐷', chesser:'嫦小娥', camp:'趣味', tier:'整活', tierBg:'rgba(244,114,182,.15)', tierColor:'#f9a8d4',
-        heroes:['马可波罗','瑶','猪八戒','嫦娥','公孙离','鬼谷子','太乙真人'],
-        desc:'变猪控制流，瑶给装备 + 猪八戒等级外挂，娱乐上分两不误。',
-        code:'40586861965034560', updated:'9.10', tips:'变猪装备给前排，瑶技能优先升级承伤单位；后期补控制链。', tag:'fun'},
-      {name:'万血猪猪', icon:'🐽', chesser:'马可', camp:'无阵营 · 摄灵', tier:'整活', tierBg:'rgba(244,114,182,.15)', tierColor:'#f9a8d4',
-        heroes:['猪八戒','孙悟空','云中君','裴擒虎','阿轲','公孙离','嫦娥'],
-        desc:'无阵营闪现流，猪八戒+悟空双 buff 等级外挂，阵容等级轻松两三百。',
-        code:'46779311452662852', updated:'9.10', tips:'不怕被 ban，前期拿弈星升棋手等级，4 级后刷新补齐英雄。', tag:'fun'},
-      {name:'昭君九五', icon:'❄️', chesser:'昭君', camp:'河洛/无阵营', tier:'后期', tierBg:'rgba(34,197,94,.15)', tierColor:'#4ade80',
-        heroes:['王昭君','玉环','杨玉环','吕布','嬴政','镜','貂蝉'],
-        desc:'昭君群体治疗+法术输出，玉环全屏放大，后期团战统治力极强。',
-        code:'82245158518244418', updated:'9.13', tips:'前期稳血过渡，12 回合后冲 100 级质变；昭君站位避开刺客切入。', tag:'heluo'},
-      {name:'班叔塔防诸葛', icon:'🏗️', chesser:'班叔', camp:'三分之地', tier:'趣味', tierBg:'rgba(244,114,182,.15)', tierColor:'#f9a8d4',
-        heroes:['班叔','诸葛亮','大乔','小乔','蔡文姬','周瑜','甄姬'],
-        desc:'班叔塔防体系，召唤物+诸葛亮轰炸，独特玩法娱乐性十足。',
-        code:'471806886382816098', updated:'9.11', tips:'塔防建筑摆放有讲究，优先覆盖敌方行进路线；低分局娱乐为主。', tag:'fun'},
-      {name:'无阵营秒杀刺', icon:'🗡️', chesser:'任意', camp:'无阵营 · 闪现', tier:'通用', tierBg:'rgba(139,92,246,.15)', tierColor:'#c4b5fd',
-        heroes:['猪八戒','孙悟空','云中君','裴擒虎','阿轲','公孙离','不知火舞'],
-        desc:'官方小欧推荐，不怕被 ban，开局跳后排瞬秒核心。八戒合成即送等级。',
-        code:'113770355909846016', updated:'9.14', tips:'八戒必拿（拍卖 4 能量左右不亏）；棋手 4 级前不急着刷新，利用合成送等级。', tag:'none'},
-      {name:'闹闹日落海', icon:'🎪', chesser:'闹闹', camp:'日落海 · 整备', tier:'定向成型', tierBg:'rgba(245,196,81,.15)', tierColor:'#f5c451',
-        heroes:['闹闹','亚连','朵莉亚','安琪拉','海诺','雅典娜','司空震'],
-        desc:'闹闹定向搜牌机制 + 日落海整备，成型速度极快，25.5% 登顶率被低估。',
-        code:'5683964852896826', updated:'9.16', tips:'闹闹技能锁定核心卡定向搜索；前期整备链不断，海诺没来先用亚瑟顶。', tag:'sunset'},
-      {name:'雷霆战机', icon:'✈️', chesser:'白歌', camp:'河洛/无阵营', tier:'爽玩', tierBg:'rgba(139,92,246,.15)', tierColor:'#c4b5fd',
-        heroes:['白歌','狄仁杰','李元芳','上官婉儿','安琪拉','露娜','孙悟空'],
-        desc:'白歌即兴创作复制 + 古币速攻，前期压制力极强，适合爽快派。',
-        code:'77178608937411634', updated:'9.10', tips:'白歌每 4 次合成获得即兴创作，复制核心输出卡放大战力。', tag:'heluo'},
-      {name:'炸盾刘邦', icon:'🛡️', chesser:'瑶妹', camp:'大河流域', tier:'克制', tierBg:'rgba(34,211,238,.15)', tierColor:'#7dd3fc',
-        heroes:['刘邦','东皇太一','虞姬','鬼谷子','少司缘','张良','敖隐'],
-        desc:'针对护盾体系，刘邦炸盾 + 大河开团，克制当前热门的前排坦克流。',
-        code:'82808108471650360', updated:'9.12', tips:'遇到护盾阵容优先选；装备堆刘邦破盾效率，配合东皇太一控制链。', tag:'river'},
-      {name:'泳池派对', icon:'🏖️', chesser:'香香', camp:'日落海/趣味', tier:'整活', tierBg:'rgba(244,114,182,.15)', tierColor:'#f9a8d4',
-        heroes:['香香','公孙离','虞姬','瑶','鬼谷子','云中君','嫦娥'],
-        desc:'香香开火 + 多射手减速挂伤，娱乐上分，香香偏输出前期很强。',
-        code:'19757713688423450', updated:'9.10', tips:'射手装备集中，香香攻击模式优先激光 > 狙击 > 机枪。', tag:'fun'},
-      {name:'阿离单核', icon:'🍁', chesser:'阿离', camp:'日落海 · 单核', tier:'稳上分', tierBg:'rgba(34,197,94,.15)', tierColor:'#4ade80',
-        heroes:['阿离','亚连','司空震','露娜','艾琳','安琪拉','海诺'],
-        desc:'阿离枫叶舞叠级，亚连单核挂伤不吃牌，下限极高，新手稳上分首选。',
-        code:'63667810055325776', updated:'9.15', tips:'阿离每回合等级+2 且转移后回血；8 回合前极强，后期补海诺提升上限。', tag:'sunset'},
-    ];
     const filteredRosters = computed(()=>{
-      if(curCat.value==='全部') return rosters;
-      const map = {日落海:'sunset',大河流域:'river',三分之地:'three',河洛:'heluo',无阵营:'none',趣味整活:'fun'};
-      return rosters.filter(r=>r.tag===map[curCat.value]);
+      let list = data.value.rosters || [];
+      if(faction.value && faction.value!=='全部') list = list.filter(r=>r.faction===faction.value);
+      if(kw.value.trim()){
+        const k = kw.value.toLowerCase();
+        list = list.filter(r =>
+          r.name?.includes(kw.value) ||
+          r.chessMaster?.includes(kw.value) ||
+          r.heroes?.join('').includes(kw.value) ||
+          r.faction?.includes(kw.value) ||
+          r.tips?.includes(kw.value)
+        );
+      }
+      return list;
     });
-
-    /* ===== 复制 ===== */
-    const copied = ref('');
-    const toast = ref(null);
-    let timer=null;
-    function copyCode(r){
-      const txt = String(r.code);
-      if(navigator.clipboard && navigator.clipboard.writeText){
-        navigator.clipboard.writeText(txt).then(()=>done(r)).catch(()=>fallback(txt,r));
-      } else fallback(txt,r);
-    }
-    function fallback(txt,r){
-      const ta=document.createElement('textarea');ta.value=txt;
-      document.body.appendChild(ta);ta.select();
-      try{document.execCommand('copy');done(r);}catch(e){}
-      document.body.removeChild(ta);
-    }
-    function done(r){
-      copied.value=r.code;
-      toast.value={title:'阵容码已复制 ✓',code:r.code};
-      clearTimeout(timer);
-      timer=setTimeout(()=>{copied.value='';toast.value=null;},2600);
-    }
-
-    /* ===== 导入弹窗 ===== */
-    const showImport = ref(false);
-    const importText = ref('');
-    const importResult = ref(null);
-    function doImport(){
-      const v = importText.value.trim();
-      if(!v){importResult.value={ok:false,msg:'请输入阵容码'};return;}
-      if(v.length<6){importResult.value={ok:false,msg:'阵容码格式异常，请检查'};return;}
-      importResult.value={ok:true,msg:'✓ 校验通过（模拟）。进入游戏「我的阵容」→ 导入，粘贴即可使用。'};
-      setTimeout(()=>{showImport.value=false;importText.value='';importResult.value=null;},2200);
-    }
-
-    /* ===== 全局搜索 ===== */
-    const searchQuery = ref('');
-    const searchGroups = ['香香','瑶妹','日落海','敖隐','无阵营秒杀刺'];
-    const searchResults = computed(()=>{
-      const q = searchQuery.value.toLowerCase().trim();
-      if(!q) return {rosters:[], videos:[]};
-      const matchRoster = (r)=>
-        (r.name||'').toLowerCase().includes(q) ||
-        (r.chesser||'').toLowerCase().includes(q) ||
-        (r.camp||'').toLowerCase().includes(q) ||
-        (r.heroes||[]).join(' ').toLowerCase().includes(q) ||
-        (r.desc||'').toLowerCase().includes(q);
-      const matchVideo = (v)=>
-        (v.title||'').toLowerCase().includes(q) ||
-        (v.channel||'').toLowerCase().includes(q) ||
-        (v.desc||'').toLowerCase().includes(q) ||
-        (v.tags||[]).join(' ').toLowerCase().includes(q);
-      return {
-        rosters: rosters.filter(matchRoster).slice(0,8),
-        videos: videos.filter(matchVideo).slice(0,6)
-      };
-    });
-
-    /* ===== 视频 ===== */
-    const levels = ['全部','入门','进阶','冲分'];
-    const curLevel = ref('全部');
-    const videos = [
-      {title:'【官方】3分钟学会"无阵营秒杀刺"', channel:'王者万象棋官方', icon:'🎬', level:'入门',
-        desc:'不怕被 ban、前期即可成型，猪八戒+悟空双 buff 等级外挂，适合任何段位。', tags:['官方','刺客','无阵营'],
-        url:'http://mp.weixin.qq.com/s?__biz=Mzg3MDg0MDEyNw==&mid=2247485416&idx=2', embed:''},
-      {title:'新手零基础开荒全攻略（9.10上线版）', channel:'攻略作者', icon:'📖', level:'入门',
-        desc:'核心机制、基础规则、运营节奏全覆盖，一张表搞懂和传统自走棋的区别。', tags:['新手','机制','运营'],
-        url:'https://www.toutiao.com/article/7680470585742246440', embed:''},
-      {title:'瑶妹攻略 · 自带强力前排 容易上手', channel:'稷下研游社', icon:'🦌', level:'入门',
-        desc:'版本最强棋手详解，牺牲李信+大河图腾两套阵容拆解。', tags:['瑶妹','T0','前排'],
-        url:'http://mp.weixin.qq.com/s?__biz=MzcwNTMyMTM5MA==', embed:''},
-      {title:'香香攻略 · 无脑上分的大河开团射', channel:'番茄刺客', icon:'🔫', level:'冲分',
-        desc:'最高前三率体系，棋手培养、天赋选择、实战思路完整教学。', tags:['香香','T0','开团'],
-        url:'http://mp.weixin.qq.com/s?src=11&timestamp=1789525867', embed:''},
-      {title:'闹闹攻略 · 定向搜牌 快速成型', channel:'攻略作者', icon:'🎪', level:'进阶',
-        desc:'闹闹定向搜牌机制详解，日落海整备流稳定上分思路。', tags:['闹闹','T1','搜牌'],
-        url:'', embed:''},
-      {title:'明先生 · 无限复活花木兰 30%登顶率', channel:'攻略作者', icon:'♻️', level:'冲分',
-        desc:'操作难度高但上限恐怖，花木兰无限复活触发登场效果。', tags:['明先生','T1','复生'],
-        url:'', embed:''},
-      {title:'白歌三分倒转 999 · 爽玩流', channel:'攻略作者', icon:'🔄', level:'进阶',
-        desc:'最帅棋手标志性玩法，倒转机制详解与暴毙防范。', tags:['白歌','倒转','三分'],
-        url:'', embed:''},
-      {title:'嫦小娥海陆空 · 版本最热门阵容', channel:'蛙蛙游戏攻略社', icon:'🐰', level:'入门',
-        desc:'操作简单粗暴，27.3%出场率，跟着阵容图一步步上手。', tags:['嫦小娥','热门','海陆空'],
-        url:'https://wv.video.qq.com/export/UzFfBgAAxNWAYGcFPh7Mk8zT4DBZDZJQ1InvPZe80oi0IGctn2A', embed:''},
-      {title:'核心机制详解：登场/整备/开团/牺牲', channel:'王者营地', icon:'🎴', level:'入门',
-        desc:'官方爆料，五大关键词条彻底讲透，理解词条串联比硬凑阵容更重要。', tags:['官方','词条','机制'],
-        url:'https://camp.qq.com/h5/webdist/info-detail.html?iInfoId=18930010', embed:''},
-      {title:'六大阵营体系与羁绊搭配思路', channel:'攻略作者', icon:'🛡️', level:'进阶',
-        desc:'三分之地/大河流域/日落海/河洛/逐鹿/无阵营全面解析。', tags:['阵营','羁绊','搭配'],
-        url:'https://www.233leyuan.com/post-detail/2095031589096718336', embed:''},
-      {title:'高端局：毒奶续航 & 无限循环爆发', channel:'九游攻略', icon:'💉', level:'冲分',
-        desc:'蔡文姬+扁鹊+露娜铁三角，不依赖高星卡也能稳定翻盘。', tags:['高端局','续航','爆发'],
-        url:'https://www.996.com/news/14393024750123280058.html', embed:''},
-      {title:'运营节奏精讲：什么时候升几本？', channel:'DevilMaker', icon:'🕐', level:'进阶',
-        desc:'1-3回合/4-7回合/8-11回合/12回合后四阶段动线详解。', tags:['运营','节奏','升本'],
-        url:'http://mp.weixin.qq.com/s?__biz=MzYyMTMzMTU5Mw==', embed:''},
-    ];
     const filteredVideos = computed(()=>{
-      if(curLevel.value==='全部') return videos;
-      return videos.filter(v=>v.level===curLevel.value);
+      let list = data.value.videos || [];
+      if(level.value && level.value!=='全部') list = list.filter(v=>v.level===level.value);
+      if(kw.value.trim()) list = list.filter(v=>v.title?.includes(kw.value)||v.desc?.includes(kw.value));
+      return list;
     });
 
-    /* ===== FAQ ===== */
-    const faqs = [
-      {q:'万象棋和传统自走棋最大的区别是什么？',
-       a:'三条核心差异：① 没有利息、固定发能量，能量攥着就是浪费；② 同名卡叠等级、上限 999，不用三合一升星；③ 不看单纯凑阵营人数，而是看登场/整备/开团/牺牲等关键词条怎么串联。'},
-      {q:'新手应该选哪个棋手？',
-       a:'首选瑶妹（开局赠送、操作简单、前三率 76.4%）或香香（高爆发、前三率全场最高 76.5%）。进阶后再尝试闹闹、明先生、嫦小娥等需要运营操作的棋手。'},
-      {q:'阵容码怎么导入游戏？',
-       a:'复制本页面的阵容码（点击「复制」按钮）→ 进入游戏「我的阵容」页面 → 点击导入按钮 → 粘贴阵容码即可。建议先在训练模式试跑熟悉节奏。'},
-      {q:'前期总掉血，节奏怎么把控？',
-       a:'记住口诀「锁定一个核心、装备堆一个人、能量全花掉」。1-3 回合用低费卡立前排稳血；4-7 回合定体系升 4 本；别同时铺两套阵容、别把装备平均分配、别攒能量不吃利息——这是新手三大死因。'},
-      {q:'什么时候该升人口（升本）？',
-       a:'标准动线：拍卖后第 4 回合升 3 本 → 第 6 回合升 4 本 → 第 8 回合升 5 本 → 12 回合后升 6 本。拍卖会按血量分红，血量越低分红越多，前期适当卖血也可接受。'},
-      {q:'为什么我的阵容后期打不动别人？',
-       a:'检查三点：① 核心英雄是否冲到 100 级质变（12 回合后全力冲百）；② 装备是否集中给主 C；③ 词条联动是否串起来（比如整备流有没有朵莉亚放大）。等级 10/40/100 是三个质变节点，没到 100 级差距会非常明显。'},
-    ];
+    const masterTiers = ['T0','T1','T2','T3'];
+    function mastersByTier(t){ return (data.value.masters||[]).filter(m=>m.tier===t); }
+    function tierLabel(t){
+      return {T0:'👑 T0 版本之子',T1:'🥇 T1 强势上分',T2:'🥈 T2 稳定可用',T3:'🥉 T3 娱乐/特定'}[t]||t;
+    }
 
-    return {tabs,mobNav,stats,diffs,phases,keywords,camps,
-      tierGroups,curTier,filteredTiers,
-      categories,curCat,filteredRosters,copyCode,copied,
-      showImport,importText,importResult,doImport,
-      levels,curLevel,filteredVideos,
-      searchQuery,searchGroups,searchResults,
-      rosters,videos,tiers,
-      faqs,toast};
+    function copy(text){
+      if(navigator.clipboard) navigator.clipboard.writeText(text).then(()=>showToast('已复制到剪贴板 ✅'));
+      else{
+        const ta=document.createElement('textarea'); ta.value=text; document.body.appendChild(ta);
+        ta.select(); document.execCommand('copy'); document.body.removeChild(ta);
+        showToast('已复制 ✅');
+      }
+    }
+    function openImport(code){ importCode.value = code; }
+    function showToast(msg){ toast.value = msg; setTimeout(()=>toast.value='', 2000); }
+
+    onMounted(loadData);
+
+    return { data, loading, lastUpdated, tab, tabs, kw, faction, level, importCode, toast,
+      factionFilters, levelFilters, filteredRosters, filteredVideos,
+      masterTiers, mastersByTier, tierLabel, copy, openImport, refreshData };
   }
 }).mount('#app');
 </script>
