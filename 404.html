@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>万象棋境</title>
+  <script>
+    // 将 SPA 路由 path 透传给 index.html（GitHub Pages 兜底）
+    sessionStorage.setItem('spa_redirect', location.pathname + location.search + location.hash);
+    location.replace('/' + (location.pathname.split('/')[1] || '') + '/');
+  </script>
+</head>
+<body>
+  <p>正在跳转...</p>
+</body>
+</html>
