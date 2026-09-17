@@ -185,6 +185,13 @@
         <p class="text-sm text-gray-300 mt-2" data-page-node-id="1WgFqYyzHfZ2Fgaq1fJhWk">{{ q.a }}</p>
       </details>
     </section>
+
+    <!-- 阵容站位图 -->
+    <section v-if="tab==='roster'" class="space-y-4">
+      <div class="rounded-2xl bg-white/5 border border-white/10 p-2 overflow-hidden">
+        <iframe src="roster.html" title="万象棋阵容站位图" class="w-full" style="height:86vh;border:0"></iframe>
+      </div>
+    </section>
   </main>
 
   <!-- 导入弹窗 -->
@@ -233,6 +240,7 @@ createApp({
       {key:'masters',label:'🏆 棋手梯队'},
       {key:'factions',label:'⚔️ 六大阵营'},
       {key:'faq',label:'❓ 常见问题'},
+      {key:'roster',label:'🗺️ 阵容站位图'},
     ];
 
     async function loadData(){
