@@ -436,24 +436,24 @@
   ],
   "videos": [
     {
-      "id": "BV19Ben6iEYb",
-      "url": "https://www.bilibili.com/video/BV19Ben6iEYb",
+      "id": "BV1w3eD6qEXe",
+      "url": "https://www.bilibili.com/video/BV1w3eD6qEXe",
       "level": "入门",
-      "tag": "版本更新",
-      "author": "西君-王者万象棋",
-      "title": "版本最强T0阵容-白歌逐鹿嬴政教学攻略，全网最细白歌逐鹿倒转教学攻略，王者万象棋最强阵容推荐-白歌逐鹿嬴政，王者万象棋高阶逐鹿雷霆战机嬴政",
-      "desc": "",
+      "tag": "打法",
+      "author": "孙悟方",
+      "title": "【王者万象棋】最轮椅的三分倒转保姆级教学！公式开局？轻松锁血？一期视频直接上手！",
+      "desc": "我的万象交流群：180147794\nB站万象棋交流1群：972168938",
       "featured": true
     },
     {
-      "id": "BV1mkeU6qEnc",
-      "url": "https://www.bilibili.com/video/BV1mkeU6qEnc",
+      "id": "BV1k1e26oERj",
+      "url": "https://www.bilibili.com/video/BV1k1e26oERj",
       "level": "进阶",
-      "tag": "通用",
-      "author": "西君-王者万象棋",
-      "title": "一场对局狂赚11万钻石？万象棋王牌对决这么爽？",
-      "desc": "",
-      "featured": true
+      "tag": "打法",
+      "author": "時域向前",
+      "title": "王者万象棋最无敌的打法!王者万象棋还可以用小号刷钱，献祭小号流嫦娥，官方赶紧修一下",
+      "desc": "王者万象棋最无敌的打法!王者万象棋还可以用小号刷钱，献祭小号流嫦娥，官方赶紧修一下",
+      "featured": false
     },
     {
       "id": "BV15ieu6uEnf",
@@ -536,36 +536,6 @@
       "featured": false
     },
     {
-      "id": "BV1jZYQ6cE9J",
-      "url": "https://www.bilibili.com/video/BV1jZYQ6cE9J",
-      "level": "进阶",
-      "tag": "打法",
-      "author": "贺百万HYB",
-      "title": "王者万象棋:猪八戒打法这么玩真的可以吗",
-      "desc": "水友们还有什么玩法可以推荐一下，喜欢中后期打法",
-      "featured": false
-    },
-    {
-      "id": "BV13jYe6KEBz",
-      "url": "https://www.bilibili.com/video/BV13jYe6KEBz",
-      "level": "入门",
-      "tag": "打法",
-      "author": "永办",
-      "title": "【王者万象棋】999级司空震挂机流教学，拒绝操作，躺赢上分！",
-      "desc": "-",
-      "featured": false
-    },
-    {
-      "id": "BV172b86sE9J",
-      "url": "https://www.bilibili.com/video/BV172b86sE9J",
-      "level": "入门",
-      "tag": "打法",
-      "author": "王者万象棋奇妙",
-      "title": "万象棋冷门偷分姜导廉颇全局教学",
-      "desc": "",
-      "featured": false
-    },
-    {
       "id": "BV1TMeu6bEVM",
       "url": "https://www.bilibili.com/video/BV1TMeu6bEVM",
       "level": "入门",
@@ -573,16 +543,6 @@
       "author": "全国一射手咕咕",
       "title": "万象棋故氏嫦小娥轮椅变阵流教学！超详细教学教你如何爆打999级李信吃鸡！战绩把把吃鸡你学还是不学？",
       "desc": "-",
-      "featured": false
-    },
-    {
-      "id": "BV1a2ew6EEaK",
-      "url": "https://www.bilibili.com/video/BV1a2ew6EEaK",
-      "level": "进阶",
-      "tag": "打法",
-      "author": "王者荣耀棋亡曹贼",
-      "title": "曹操大表哥：王者万象棋815级猪八戒是如何养成的?45355血量的神装猪 天胡马可养猪流",
-      "desc": "一键三连不迷路感谢支持",
       "featured": false
     },
     {
@@ -596,23 +556,53 @@
       "featured": false
     },
     {
-      "id": "BV1iSeM66EDR",
-      "url": "https://www.bilibili.com/video/BV1iSeM66EDR",
+      "id": "BV13jYe6KEBz",
+      "url": "https://www.bilibili.com/video/BV13jYe6KEBz",
       "level": "入门",
       "tag": "打法",
-      "author": "全国一射手咕咕",
-      "title": "万象棋故氏昨晚钻石4到钻石1全程！轮椅变阵嫦娥把把吃鸡教学！",
+      "author": "永办",
+      "title": "【王者万象棋】999级司空震挂机流教学，拒绝操作，躺赢上分！",
       "desc": "-",
       "featured": false
     },
     {
-      "id": "BV1rxe16QEow",
-      "url": "https://www.bilibili.com/video/BV1rxe16QEow",
-      "level": "进阶",
+      "id": "BV1XEek6fEco",
+      "url": "https://www.bilibili.com/video/BV1XEek6fEco",
+      "level": "入门",
       "tag": "打法",
-      "author": "王者荣耀棋亡曹贼",
-      "title": "曹操大表哥：王者万象棋549级伞海月是如何养成的 阿离干将遗志流",
-      "desc": "一键三连不迷路感谢支持\n表哥每晚7点直播王者万象棋",
+      "author": "小梦林咩",
+      "title": "【王者万象棋】昭君全网最细致轮椅实战教学 全员95全屏大招",
+      "desc": "王者万象棋昭君无脑95轮椅实战教学！",
+      "featured": false
+    },
+    {
+      "id": "BV172b86sE9J",
+      "url": "https://www.bilibili.com/video/BV172b86sE9J",
+      "level": "入门",
+      "tag": "打法",
+      "author": "王者万象棋奇妙",
+      "title": "万象棋冷门偷分姜导廉颇全局教学",
+      "desc": "",
+      "featured": false
+    },
+    {
+      "id": "BV1EjeU6xE1M",
+      "url": "https://www.bilibili.com/video/BV1EjeU6xE1M",
+      "level": "入门",
+      "tag": "打法",
+      "author": "王者营地",
+      "title": "万象棋到底怎么玩？地地邀请国服大神「欧洲鱼」亲自为你解答！",
+      "desc": "",
+      "featured": false
+    },
+    {
+      "id": "BV1J1eQ6AETg",
+      "url": "https://www.bilibili.com/video/BV1J1eQ6AETg",
+      "level": "入门",
+      "tag": "打法",
+      "author": "阿洛仍在努力",
+      "title": "万象棋王者1500七滴血翻盘教学思路",
+      "desc": "",
       "featured": false
     },
     {
@@ -666,43 +656,73 @@
       "featured": false
     },
     {
-      "id": "BV18feK6dE1b",
-      "url": "https://www.bilibili.com/video/BV18feK6dE1b",
+      "id": "BV1J6eQ6iEr8",
+      "url": "https://www.bilibili.com/video/BV1J6eQ6iEr8",
+      "level": "进阶",
+      "tag": "新棋手",
+      "author": "钱赞企Nostalie",
+      "title": "马克找不到猪咋办？今天给大家介绍个无脑的阵容，谁来都行还能练手速，前期安全不掉血，NO总的王者万象棋小课堂第十二期，马克F4兄弟转吕布",
+      "desc": "再也不用担心找不到猪暴毙了，也不用担心同行互卡了，学会这一套躺着进前3，转出吕布还能帅一波吃鸡。小N",
+      "featured": false
+    },
+    {
+      "id": "BV1sJe16dEJL",
+      "url": "https://www.bilibili.com/video/BV1sJe16dEJL",
+      "level": "进阶",
+      "tag": "新棋手",
+      "author": "七叔游戏解说",
+      "title": "王者万象棋三分倒转阵容思路，实战视频下期发出，评论区点赞区各发射一枚战令哦#王者万象棋 #王者万象棋正式上线",
+      "desc": "-",
+      "featured": false
+    },
+    {
+      "id": "BV13te26gEB6",
+      "url": "https://www.bilibili.com/video/BV13te26gEB6",
       "level": "入门",
       "tag": "新棋手",
-      "author": "黑猫游戏测评",
-      "title": "最邪修阵容，常小鹅韩信夺命十三挑实战教学来了！看完包学会！#王者万象棋 #王者万象棋正式上线 #万象棋阵容大赛  #万象棋新手攻略大赛 #王者万象棋新手攻略",
+      "author": "永办",
+      "title": "【王者万象棋】新棋手阿离教学！强度能玩，吃鸡难度大。非真爱玩家慎重选择！",
       "desc": "-",
       "featured": false
     },
     {
-      "id": "BV16VeU6tEKV",
-      "url": "https://www.bilibili.com/video/BV16VeU6tEKV",
-      "level": "进阶",
+      "id": "BV1Fnet6AEGw",
+      "url": "https://www.bilibili.com/video/BV1Fnet6AEGw",
+      "level": "入门",
       "tag": "新棋手",
-      "author": "爱神丶小马仔",
-      "title": "王者万象棋哪些棋手适合萌新玩？",
-      "desc": "",
-      "featured": false
-    },
-    {
-      "id": "BV13VeS67Esk",
-      "url": "https://www.bilibili.com/video/BV13VeS67Esk",
-      "level": "进阶",
-      "tag": "新棋手",
-      "author": "AG超玩会君宝",
-      "title": "新棋手阿离的4套轮椅阵容定阵公式",
+      "author": "王者荣耀匹诺曹",
+      "title": "香香开团流保姆级教学.直接给对面一发轰轰烈烈的核弹 #王者万象棋 #王者万象棋正式上线 #王者万象棋新手攻略",
       "desc": "-",
       "featured": false
     },
     {
-      "id": "BV1vNeS6QEwx",
-      "url": "https://www.bilibili.com/video/BV1vNeS6QEwx",
+      "id": "BV1znet6wEpn",
+      "url": "https://www.bilibili.com/video/BV1znet6wEpn",
+      "level": "入门",
+      "tag": "新棋手",
+      "author": "王者荣耀匹诺曹",
+      "title": "这就是超高攻速全场游龙的狄仁杰 #王者万象棋 #王者万象棋新手攻略 #王者万象棋正式上线",
+      "desc": "-",
+      "featured": false
+    },
+    {
+      "id": "BV13Qem6kENJ",
+      "url": "https://www.bilibili.com/video/BV13Qem6kENJ",
       "level": "进阶",
       "tag": "新棋手",
-      "author": "小小满-万象棋",
-      "title": "新棋手阿离的4套轮椅阵容定阵公式",
+      "author": "阿钱该吃曜了",
+      "title": "万象棋英雄的动态击杀表情也太爽了吧！",
       "desc": "",
+      "featured": false
+    },
+    {
+      "id": "BV1Xwe16MEXe",
+      "url": "https://www.bilibili.com/video/BV1Xwe16MEXe",
+      "level": "进阶",
+      "tag": "新棋手",
+      "author": "王者荣耀棋亡曹贼",
+      "title": "曹操大表哥：王者万象棋嫦娥海陆空又无敌了 最适合休闲玩家的棋手之一",
+      "desc": "一键三连不迷路感谢支持\n表哥每晚7点直播王者万象棋",
       "featured": false
     },
     {
@@ -713,26 +733,6 @@
       "author": "王者万象棋奇妙",
       "title": "万象棋最简单棋手，半程都在挂机，13回合轻松999司空震",
       "desc": "",
-      "featured": false
-    },
-    {
-      "id": "BV18BeU63Ew2",
-      "url": "https://www.bilibili.com/video/BV18BeU63Ew2",
-      "level": "进阶",
-      "tag": "新棋手",
-      "author": "李洛卿",
-      "title": "想平稳过渡快速成型阵容，试试棋手庄小鱼！",
-      "desc": "想平稳过渡快速成型阵容，试试棋手庄小鱼！",
-      "featured": false
-    },
-    {
-      "id": "BV1Yuem63EJe",
-      "url": "https://www.bilibili.com/video/BV1Yuem63EJe",
-      "level": "进阶",
-      "tag": "新棋手",
-      "author": "某音白狼",
-      "title": "新棋手『阿离』最适配的三个英雄，你知道了吗？",
-      "desc": "-",
       "featured": false
     }
   ],
