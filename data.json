@@ -516,6 +516,16 @@
       "featured": false
     },
     {
+      "id": "BV1gQaY6bEzU",
+      "url": "https://www.bilibili.com/video/BV1gQaY6bEzU",
+      "level": "入门",
+      "tag": "打法",
+      "author": "易道电竞醉易动态有课",
+      "title": "嫦小鹅轮椅级公式化上王者千分全局思路 #职业一对一私教 #王者万象棋教学",
+      "desc": "-",
+      "featured": false
+    },
+    {
       "id": "BV16Qae67EAm",
       "url": "https://www.bilibili.com/video/BV16Qae67EAm",
       "level": "进阶",
@@ -656,16 +666,6 @@
       "featured": false
     },
     {
-      "id": "BV1Araa67Eq7",
-      "url": "https://www.bilibili.com/video/BV1Araa67Eq7",
-      "level": "进阶",
-      "tag": "新棋手",
-      "author": "画曲奇",
-      "title": "新棋手安琪拉",
-      "desc": "-",
-      "featured": false
-    },
-    {
       "id": "BV1q9aa6ME6y",
       "url": "https://www.bilibili.com/video/BV1q9aa6ME6y",
       "level": "冲分",
@@ -706,33 +706,33 @@
       "featured": false
     },
     {
-      "id": "BV12vaa6nEMd",
-      "url": "https://www.bilibili.com/video/BV12vaa6nEMd",
-      "level": "入门",
-      "tag": "新棋手",
-      "author": "逸风游戏",
-      "title": "这一局谁懂？ 我再也不做攻略了#王者万象棋#王者万象棋正式上线#万象棋阵容大赛#万象棋趣味时刻#万象棋新手攻略大赛",
-      "desc": "-",
-      "featured": false
-    },
-    {
-      "id": "BV1sEho6jEjx",
-      "url": "https://www.bilibili.com/video/BV1sEho6jEjx",
-      "level": "入门",
-      "tag": "版本更新",
-      "author": "M先生-王者万象棋",
-      "title": "【王者万象棋】三分倒转｜版本天花板阵容教学",
-      "desc": "",
-      "featured": false
-    },
-    {
-      "id": "BV1fNa86AELE",
-      "url": "https://www.bilibili.com/video/BV1fNa86AELE",
+      "id": "BV1YZa86oEzA",
+      "url": "https://www.bilibili.com/video/BV1YZa86oEzA",
       "level": "冲分",
       "tag": "版本更新",
-      "author": "小李爱投稿",
-      "title": "王者万象棋(公益内置后台版)魔改解锁全图鉴道具，后台实时更新，平民也能轻松登顶大佬",
+      "author": "王者荣耀棋亡曹贼",
+      "title": "曹操大表哥：王者万象棋嫦娥481级艾琳版本最强4阶卡之一 灵泉法杖无限闪现",
+      "desc": "点赞投币关注支持一下吧！",
+      "featured": false
+    },
+    {
+      "id": "BV16Cat6bETS",
+      "url": "https://www.bilibili.com/video/BV16Cat6bETS",
+      "level": "进阶",
+      "tag": "版本更新",
+      "author": "安安超好的日常",
+      "title": "随着最新版本推送更新，万象棋的玩法体系也迎来了不少新变化，今天就给大家聊聊广受玩家喜爱的顶级邪修玩法，还有人气颇高的泳池派对全屏召唤流搭配 #王者万象棋#王者万",
       "desc": "-",
+      "featured": false
+    },
+    {
+      "id": "BV1GYas6zE5g",
+      "url": "https://www.bilibili.com/video/BV1GYas6zE5g",
+      "level": "进阶",
+      "tag": "版本更新",
+      "author": "直播回放-弹幕版本",
+      "title": "一茗（王者万象棋）2026.09.26——17:09直播回放+弹幕版本（关注）",
+      "desc": "",
       "featured": false
     }
   ],
