@@ -536,16 +536,6 @@
       "featured": false
     },
     {
-      "id": "BV1CjHh6EEqw",
-      "url": "https://www.bilibili.com/video/BV1CjHh6EEqw",
-      "level": "入门",
-      "tag": "打法",
-      "author": "万象棋今婉",
-      "title": "【王者万象棋钻石狂潮】逆天改命裴擒虎全局教学",
-      "desc": "攻心计劝退同行，天赋都炸了，裴擒虎你还不赔钱？",
-      "featured": false
-    },
-    {
       "id": "BV1syHi6vEs6",
       "url": "https://www.bilibili.com/video/BV1syHi6vEs6",
       "level": "入门",
@@ -583,6 +573,16 @@
       "author": "卿颜emm",
       "title": "经典白歌三分倒转保姆级教学【王者万象棋】",
       "desc": "-",
+      "featured": false
+    },
+    {
+      "id": "BV1CjHh6EEqw",
+      "url": "https://www.bilibili.com/video/BV1CjHh6EEqw",
+      "level": "入门",
+      "tag": "打法",
+      "author": "万象棋今婉",
+      "title": "【王者万象棋钻石狂潮】逆天改命裴擒虎全局教学",
+      "desc": "攻心计劝退同行，天赋都炸了，裴擒虎你还不赔钱？",
       "featured": false
     },
     {
@@ -666,6 +666,16 @@
       "featured": false
     },
     {
+      "id": "BV1NsHq6ME2G",
+      "url": "https://www.bilibili.com/video/BV1NsHq6ME2G",
+      "level": "进阶",
+      "tag": "新棋手",
+      "author": "45度角的人生",
+      "title": "撞棋手不可怕，谁输谁尴尬",
+      "desc": "-",
+      "featured": false
+    },
+    {
       "id": "BV1Z5He6jE5J",
       "url": "https://www.bilibili.com/video/BV1Z5He6jE5J",
       "level": "进阶",
@@ -673,16 +683,6 @@
       "author": "不玩游戏的老贼",
       "title": "【王者万象棋】钻石狂潮玩法介绍，一个十分上头的模式，有风险，需谨慎",
       "desc": "",
-      "featured": false
-    },
-    {
-      "id": "BV1XHHe6rErs",
-      "url": "https://www.bilibili.com/video/BV1XHHe6rErs",
-      "level": "进阶",
-      "tag": "新棋手",
-      "author": "听我说薛薛你-",
-      "title": "万象棋英雄装备推荐",
-      "desc": "-",
       "featured": false
     },
     {
@@ -706,13 +706,13 @@
       "featured": false
     },
     {
-      "id": "BV14gHh6pED1",
-      "url": "https://www.bilibili.com/video/BV14gHh6pED1",
-      "level": "冲分",
+      "id": "BV1DaHi6kEZT",
+      "url": "https://www.bilibili.com/video/BV1DaHi6kEZT",
+      "level": "进阶",
       "tag": "新棋手",
-      "author": "奕晨王者万象棋",
-      "title": "每日上分推荐棋手，明先生，阿离！",
-      "desc": "-",
+      "author": "魂魄妖忌丶",
+      "title": "【王者万象棋】近90胜率！55夺冠率！这套冷门阵容和棋手你真不玩吗？",
+      "desc": "老魂玩的还是比较糙的！各位看官手下留情！",
       "featured": false
     },
     {
