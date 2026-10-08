@@ -456,6 +456,16 @@
       "featured": true
     },
     {
+      "id": "BV1MHHD62ETh",
+      "url": "https://www.bilibili.com/video/BV1MHHD62ETh",
+      "level": "进阶",
+      "tag": "打法",
+      "author": "隽荨",
+      "title": "#王者万象棋境 #猪八戒 #打法流派",
+      "desc": "-",
+      "featured": false
+    },
+    {
       "id": "BV1b4HC6FEdD",
       "url": "https://www.bilibili.com/video/BV1b4HC6FEdD",
       "level": "进阶",
@@ -536,16 +546,6 @@
       "featured": false
     },
     {
-      "id": "BV1LRhy6AES7",
-      "url": "https://www.bilibili.com/video/BV1LRhy6AES7",
-      "level": "进阶",
-      "tag": "打法",
-      "author": "浮生-王者万象棋",
-      "title": "王者万象棋昭君实战解析，无阵营3.0打法",
-      "desc": "-",
-      "featured": false
-    },
-    {
       "id": "BV1GsH16gEno",
       "url": "https://www.bilibili.com/video/BV1GsH16gEno",
       "level": "入门",
@@ -586,16 +586,6 @@
       "featured": false
     },
     {
-      "id": "BV1kMHm6ZEc6",
-      "url": "https://www.bilibili.com/video/BV1kMHm6ZEc6",
-      "level": "入门",
-      "tag": "打法",
-      "author": "万象棋冬瓜汤",
-      "title": "日落海3000核心？ 999花木兰 能量改造运营教学",
-      "desc": "",
-      "featured": false
-    },
-    {
       "id": "BV1GNHy6PEPj",
       "url": "https://www.bilibili.com/video/BV1GNHy6PEPj",
       "level": "冲分",
@@ -626,53 +616,33 @@
       "featured": false
     },
     {
-      "id": "BV1asH16uEQv",
-      "url": "https://www.bilibili.com/video/BV1asH16uEQv",
-      "level": "冲分",
-      "tag": "打法",
-      "author": "RX_wang",
-      "title": "别再无脑D牌了！万象棋正确上分节奏（上）",
-      "desc": "",
-      "featured": false
-    },
-    {
-      "id": "BV1XsH16uEb1",
-      "url": "https://www.bilibili.com/video/BV1XsH16uEb1",
-      "level": "进阶",
-      "tag": "打法",
-      "author": "RX_wang",
-      "title": "从青铜到王者，万象棋运营思路全解析#3",
-      "desc": "",
-      "featured": false
-    },
-    {
-      "id": "BV1RJH16kEGr",
-      "url": "https://www.bilibili.com/video/BV1RJH16kEGr",
-      "level": "进阶",
-      "tag": "打法",
-      "author": "RX_wang",
-      "title": "从青铜到王者，万象棋运营思路全解析#2",
-      "desc": "",
-      "featured": false
-    },
-    {
-      "id": "BV1RJH16kEG2",
-      "url": "https://www.bilibili.com/video/BV1RJH16kEG2",
-      "level": "进阶",
-      "tag": "打法",
-      "author": "RX_wang",
-      "title": "从青铜到王者，万象棋运营思路全解析#1",
-      "desc": "",
-      "featured": false
-    },
-    {
-      "id": "BV1iEH16VEpY",
-      "url": "https://www.bilibili.com/video/BV1iEH16VEpY",
+      "id": "BV1q7Hm6QEAp",
+      "url": "https://www.bilibili.com/video/BV1q7Hm6QEAp",
       "level": "入门",
       "tag": "打法",
-      "author": "万象棋天黑君",
-      "title": "万象棋乔汐司空震教学，不需要手速刷牌，新手也能玩明白",
+      "author": "劝抽拉黑",
+      "title": "万象棋大河流域图腾教学王者万象棋",
       "desc": "-",
+      "featured": false
+    },
+    {
+      "id": "BV1AJHy69EUS",
+      "url": "https://www.bilibili.com/video/BV1AJHy69EUS",
+      "level": "入门",
+      "tag": "打法",
+      "author": "月下横琴自安闲",
+      "title": "镜这样出好强啊！逆天改名镜专业详细教学（王者万象棋钻石狂潮）",
+      "desc": "打毒奶记得换掉青莲剑歌，尽量去靠爆发秒蔡文姬或者扁鹊。\n还有记得卡临渊移速。\n有问题可以私信。😘",
+      "featured": false
+    },
+    {
+      "id": "BV1kMHm6ZEc6",
+      "url": "https://www.bilibili.com/video/BV1kMHm6ZEc6",
+      "level": "入门",
+      "tag": "打法",
+      "author": "万象棋冬瓜汤",
+      "title": "日落海3000核心？ 999花木兰 能量改造运营教学",
+      "desc": "",
       "featured": false
     },
     {
@@ -683,6 +653,16 @@
       "author": "归元_念帝",
       "title": "王者万象棋嬴律到底怎么玩？规则型棋手教学，揭秘改规则上分打法",
       "desc": "每四个回合，他就能从四个规则里挑一个颁布，而且这规则对全场玩家都生效，持续三个回合。注意，是全场，不",
+      "featured": false
+    },
+    {
+      "id": "BV1aGHD6XEUj",
+      "url": "https://www.bilibili.com/video/BV1aGHD6XEUj",
+      "level": "冲分",
+      "tag": "新棋手",
+      "author": "王者荣耀棋亡曹贼",
+      "title": "曹操大表哥：王者万象棋401级伞海月VS999级海月 阿离干将遗志5阶卡 T0赌狗阵容 随机棋手系列",
+      "desc": "点赞投币收藏关注不迷路谢谢",
       "featured": false
     },
     {
@@ -716,13 +696,33 @@
       "featured": false
     },
     {
-      "id": "BV1GwHy6KEi1",
-      "url": "https://www.bilibili.com/video/BV1GwHy6KEi1",
-      "level": "冲分",
+      "id": "BV1mwHS6rE4a",
+      "url": "https://www.bilibili.com/video/BV1mwHS6rE4a",
+      "level": "进阶",
       "tag": "新棋手",
-      "author": "大胡子解说",
-      "title": "花式999英雄秀 10次复活花木兰被翻盘 三级弹簧最终夺冠【王者万象棋】",
-      "desc": "花式999英雄秀 10次复活花木兰被翻盘 三级弹簧最终夺冠【王者万象棋】",
+      "author": "一点-王者万象棋",
+      "title": "狂铁前期真的太强势了，推荐玩#王者万象棋 #王者万象棋正式上线",
+      "desc": "-",
+      "featured": false
+    },
+    {
+      "id": "BV1iWHS6xEdf",
+      "url": "https://www.bilibili.com/video/BV1iWHS6xEdf",
+      "level": "进阶",
+      "tag": "新棋手",
+      "author": "王者荣耀棋亡曹贼",
+      "title": "曹操大表哥：王者万象棋乔汐司空震的基本原理  速6阵容 唯一能玩的棋手阵容",
+      "desc": "点赞投币关注不迷路感谢支持",
+      "featured": false
+    },
+    {
+      "id": "BV1vWHm6mE6E",
+      "url": "https://www.bilibili.com/video/BV1vWHm6mE6E",
+      "level": "进阶",
+      "tag": "新棋手",
+      "author": "晨音晨音晨",
+      "title": "万象棋独特阵容机制，古币逐鹿，一回合几十级",
+      "desc": "-",
       "featured": false
     },
     {
