@@ -576,6 +576,26 @@
       "featured": false
     },
     {
+      "id": "BV1mVHd64EP7",
+      "url": "https://www.bilibili.com/video/BV1mVHd64EP7",
+      "level": "入门",
+      "tag": "打法",
+      "author": "小墨翊",
+      "title": "一条视频给你讲清楚，钻石狂潮怎么玩",
+      "desc": "-",
+      "featured": false
+    },
+    {
+      "id": "BV1oSHX6NEHs",
+      "url": "https://www.bilibili.com/video/BV1oSHX6NEHs",
+      "level": "进阶",
+      "tag": "打法",
+      "author": "交易猫-游戏资讯分享",
+      "title": "王者万象棋经济与节奏管理！",
+      "desc": "王者万象棋经济与节奏管理！上分运营细节技巧",
+      "featured": false
+    },
+    {
       "id": "BV1AeHD6BEo1",
       "url": "https://www.bilibili.com/video/BV1AeHD6BEo1",
       "level": "冲分",
@@ -636,23 +656,23 @@
       "featured": false
     },
     {
-      "id": "BV1YqH96AEQy",
-      "url": "https://www.bilibili.com/video/BV1YqH96AEQy",
-      "level": "冲分",
+      "id": "BV1VEHX64EgA",
+      "url": "https://www.bilibili.com/video/BV1VEHX64EgA",
+      "level": "进阶",
       "tag": "新棋手",
-      "author": "万象棋ZN",
-      "title": "万象棋最强运营棋手赢律配花木兰复活流！",
-      "desc": "-",
+      "author": "游戏混混子",
+      "title": "王者万象棋等级成长冷知识！不同英雄的隐藏属性，影响英雄出装",
+      "desc": "",
       "featured": false
     },
     {
-      "id": "BV19XHD6sEMn",
-      "url": "https://www.bilibili.com/video/BV19XHD6sEMn",
-      "level": "进阶",
+      "id": "BV1vdHX6wEaY",
+      "url": "https://www.bilibili.com/video/BV1vdHX6wEaY",
+      "level": "冲分",
       "tag": "新棋手",
-      "author": "神秘男-游戏资讯",
-      "title": "王者万象棋新棋手武凤",
-      "desc": "",
+      "author": "脆薯饼游戏资讯",
+      "title": "王者万象棋棋手强度排行，哪些棋手冷门但容易上分",
+      "desc": "-",
       "featured": false
     },
     {
@@ -712,26 +732,6 @@
       "tag": "新棋手",
       "author": "樱落次元社",
       "title": "【王者万象棋正式上线】《安琪拉炸盾廉颇》最新上分答案！能抗能打能回血！还能偷等级！",
-      "desc": "",
-      "featured": false
-    },
-    {
-      "id": "BV1SwHQ6EE65",
-      "url": "https://www.bilibili.com/video/BV1SwHQ6EE65",
-      "level": "冲分",
-      "tag": "新棋手",
-      "author": "悠悠的万象小课堂",
-      "title": "万象棋棋手庄小鱼的无脑上分黑科技它来了！",
-      "desc": "-",
-      "featured": false
-    },
-    {
-      "id": "BV1c6HD6vEba",
-      "url": "https://www.bilibili.com/video/BV1c6HD6vEba",
-      "level": "入门",
-      "tag": "新棋手",
-      "author": "诺言王者万象棋",
-      "title": "从夯到拉锐评万象棋20个棋手 #王者万象棋#王者万象棋正式上线#万象棋阵容大赛#万象棋趣味时刻#王者万象棋新手攻略",
       "desc": "",
       "featured": false
     }
