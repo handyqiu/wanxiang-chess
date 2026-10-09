@@ -446,16 +446,6 @@
       "featured": true
     },
     {
-      "id": "BV1R9ps6QEVA",
-      "url": "https://www.bilibili.com/video/BV1R9ps6QEVA",
-      "level": "入门",
-      "tag": "阵容",
-      "author": "西君-王者万象棋",
-      "title": "乔汐最强的轮椅阵容-乔汐速6司空震，王者万象棋乔汐新皮肤潮汐回响，王者万象棋乔汐怎么玩，乔汐玩什么阵容最厉害，乔汐999司空震",
-      "desc": "",
-      "featured": true
-    },
-    {
       "id": "BV1qqHW6DEj4",
       "url": "https://www.bilibili.com/video/BV1qqHW6DEj4",
       "level": "进阶",
@@ -546,33 +536,33 @@
       "featured": false
     },
     {
-      "id": "BV1GsH16gEno",
-      "url": "https://www.bilibili.com/video/BV1GsH16gEno",
+      "id": "BV1hTp868E8R",
+      "url": "https://www.bilibili.com/video/BV1hTp868E8R",
       "level": "入门",
       "tag": "打法",
-      "author": "RX_wang",
-      "title": "新手必看！万象棋开局到成型完整教学（中）",
-      "desc": "",
+      "author": "王者万象棋星河",
+      "title": "万象棋新手必学的冷知识，助你上分快人一步！",
+      "desc": "-",
       "featured": false
     },
     {
-      "id": "BV1asH16uEtT",
-      "url": "https://www.bilibili.com/video/BV1asH16uEtT",
+      "id": "BV18xp46SEkk",
+      "url": "https://www.bilibili.com/video/BV18xp46SEkk",
       "level": "入门",
       "tag": "打法",
-      "author": "RX_wang",
-      "title": "新手必看！万象棋开局到成型完整教学（下）",
-      "desc": "",
+      "author": "暴躁的铁锤__",
+      "title": "王者万象棋-最真实的木兰1血翻盘实战教学（看简介）",
+      "desc": "这局就是上传完上个视频，马上打了一局。结果前面忘了开录制…不过影响不大。大家先看攻略再看实战。",
       "featured": false
     },
     {
-      "id": "BV1QsH16uEdh",
-      "url": "https://www.bilibili.com/video/BV1QsH16uEdh",
+      "id": "BV1mGpt67EjD",
+      "url": "https://www.bilibili.com/video/BV1mGpt67EjD",
       "level": "入门",
       "tag": "打法",
-      "author": "RX_wang",
-      "title": "新手必看！万象棋开局到成型完整教学（上）",
-      "desc": "",
+      "author": "万象棋小洛",
+      "title": "【国服教学】常小娥细节运营技巧",
+      "desc": "常小娥有哪些容易忽略的细节？哪些节点需要重点关注，并做出对策判断？看完这期，更好的掌控对局~\n攻略来",
       "featured": false
     },
     {
@@ -583,66 +573,6 @@
       "author": "浮生-王者万象棋",
       "title": "万象棋S1赛季昭君攻略总结，涵盖三种玩法",
       "desc": "-",
-      "featured": false
-    },
-    {
-      "id": "BV1QFpx6mEpK",
-      "url": "https://www.bilibili.com/video/BV1QFpx6mEpK",
-      "level": "入门",
-      "tag": "打法",
-      "author": "宕机lingt",
-      "title": "王者万象棋苟道正反手教学，轻松得吃",
-      "desc": "-",
-      "featured": false
-    },
-    {
-      "id": "BV1zHpx6YE1G",
-      "url": "https://www.bilibili.com/video/BV1zHpx6YE1G",
-      "level": "进阶",
-      "tag": "打法",
-      "author": "正人君子許新年",
-      "title": "弈星王者局运营拿下昭君高阶大河全局解说",
-      "desc": "-",
-      "featured": false
-    },
-    {
-      "id": "BV1AeHD6BEo1",
-      "url": "https://www.bilibili.com/video/BV1AeHD6BEo1",
-      "level": "冲分",
-      "tag": "打法",
-      "author": "摸鱼看番日记",
-      "title": "《核爆流孙膑》最新上分利器！aoe伤害炸翻全场【王者万象棋 】",
-      "desc": "",
-      "featured": false
-    },
-    {
-      "id": "BV1AeHD6BEXT",
-      "url": "https://www.bilibili.com/video/BV1AeHD6BEXT",
-      "level": "冲分",
-      "tag": "打法",
-      "author": "摸鱼看番日记",
-      "title": "《雷霆战机嬴政》万象棋最新上分利器！万剑齐发打出满屏输出！ 一回合打出超多战术牌直接给嬴政喂到饱！ 【王者万象棋 】",
-      "desc": "",
-      "featured": false
-    },
-    {
-      "id": "BV1UNpx65E38",
-      "url": "https://www.bilibili.com/video/BV1UNpx65E38",
-      "level": "入门",
-      "tag": "打法",
-      "author": "小七月暖",
-      "title": "王者万象棋钻石狂潮逐鹿教学",
-      "desc": "",
-      "featured": false
-    },
-    {
-      "id": "BV1oSHX6NEHs",
-      "url": "https://www.bilibili.com/video/BV1oSHX6NEHs",
-      "level": "进阶",
-      "tag": "打法",
-      "author": "交易猫-游戏资讯分享",
-      "title": "王者万象棋经济与节奏管理！",
-      "desc": "王者万象棋经济与节奏管理！上分运营细节技巧",
       "featured": false
     },
     {
@@ -666,6 +596,46 @@
       "featured": false
     },
     {
+      "id": "BV1qRpb6iEr4",
+      "url": "https://www.bilibili.com/video/BV1qRpb6iEr4",
+      "level": "入门",
+      "tag": "新棋手",
+      "author": "诺言王者万象棋",
+      "title": "乔汐传说皮肤上线!购买建议来了！ #王者万象棋#王者万象棋正式上线#万象棋阵容大赛#王者万象棋新手攻略#万象棋乔汐新皮肤",
+      "desc": "",
+      "featured": false
+    },
+    {
+      "id": "BV14ap461EQf",
+      "url": "https://www.bilibili.com/video/BV14ap461EQf",
+      "level": "进阶",
+      "tag": "新棋手",
+      "author": "异次元小甜水",
+      "title": "盘点万象棋的棋手复杂度排名",
+      "desc": "",
+      "featured": false
+    },
+    {
+      "id": "BV1CHpt63ET1",
+      "url": "https://www.bilibili.com/video/BV1CHpt63ET1",
+      "level": "冲分",
+      "tag": "新棋手",
+      "author": "珊珊吃饱了吗",
+      "title": "珊姐也是打上轮椅流艾琳了，但是我还是喜欢李信999#王者万象棋 #王者万象棋9月10日上线 #王者万象棋正式上线 #万象棋花式玩法",
+      "desc": "-",
+      "featured": false
+    },
+    {
+      "id": "BV11hps6BEmu",
+      "url": "https://www.bilibili.com/video/BV11hps6BEmu",
+      "level": "入门",
+      "tag": "新棋手",
+      "author": "玄鸦y",
+      "title": "王者万象棋|乔汐新皮肤上线，两套上分阵容上王者 #王者万象棋 #王者万象棋正式上线  #万象新星创作团 #王者万象棋新手攻略",
+      "desc": "",
+      "featured": false
+    },
+    {
       "id": "BV1a6px6nECz",
       "url": "https://www.bilibili.com/video/BV1a6px6nECz",
       "level": "冲分",
@@ -676,42 +646,42 @@
       "featured": false
     },
     {
-      "id": "BV1vdHX6wEaY",
-      "url": "https://www.bilibili.com/video/BV1vdHX6wEaY",
-      "level": "冲分",
+      "id": "BV1RZpb6vEYY",
+      "url": "https://www.bilibili.com/video/BV1RZpb6vEYY",
+      "level": "进阶",
       "tag": "新棋手",
-      "author": "脆薯饼游戏资讯",
-      "title": "王者万象棋棋手强度排行，哪些棋手冷门但容易上分",
+      "author": "小胡影视",
+      "title": "#王者万象棋 #王者万象棋正式上线 #万象棋阵容大赛",
+      "desc": "",
+      "featured": false
+    },
+    {
+      "id": "BV15Zpb6iEZp",
+      "url": "https://www.bilibili.com/video/BV15Zpb6iEZp",
+      "level": "进阶",
+      "tag": "新棋手",
+      "author": "小胡影视",
+      "title": "#王者万象棋 #王者万象棋正式上线 #万象棋阵容大赛",
+      "desc": "",
+      "featured": false
+    },
+    {
+      "id": "BV1d9p468EVj",
+      "url": "https://www.bilibili.com/video/BV1d9p468EVj",
+      "level": "进阶",
+      "tag": "新棋手",
+      "author": "dnf手游花婿",
+      "title": "王者万象棋 10.9 日最新阵容推荐，马克养猪持续霸榜#王者万象棋 #万象新星创作团 #王者万象棋正式上线",
       "desc": "-",
       "featured": false
     },
     {
-      "id": "BV1PYHD6uEiQ",
-      "url": "https://www.bilibili.com/video/BV1PYHD6uEiQ",
+      "id": "BV1xap461EBT",
+      "url": "https://www.bilibili.com/video/BV1xap461EBT",
       "level": "进阶",
       "tag": "新棋手",
-      "author": "摸鱼看番日记",
-      "title": "《猫咪炸炸炸》一个炸弹轰出全场最佳！一局打出上万输出！【王者万象棋正式上线】",
-      "desc": "",
-      "featured": false
-    },
-    {
-      "id": "BV1PYHD6uE4A",
-      "url": "https://www.bilibili.com/video/BV1PYHD6uE4A",
-      "level": "冲分",
-      "tag": "新棋手",
-      "author": "摸鱼看番日记",
-      "title": "《马超无限连》万象棋最新上分利器！连续冲刺真正的七进七出！ 来回穿梭犹如蛟龙！ 后排c位瞬间蒸发！ 【王者万象棋正式上线】",
-      "desc": "",
-      "featured": false
-    },
-    {
-      "id": "BV1PYHD6uEkt",
-      "url": "https://www.bilibili.com/video/BV1PYHD6uEkt",
-      "level": "冲分",
-      "tag": "新棋手",
-      "author": "摸鱼看番日记",
-      "title": "《机枪流狄仁杰》最新上分利器，配合阿离扫射还自带闪现！ 成型后直接无限火力 射爆敌方英雄【王者万象棋正式上线】",
+      "author": "朝曦游戏解说",
+      "title": "万象棋即将上线新模式棋手应援！钻石模式新玩法视频",
       "desc": "",
       "featured": false
     },
@@ -733,6 +703,36 @@
       "author": "言夙心",
       "title": "万象棋版本更新后盘点前三率最高的8套阵容",
       "desc": "",
+      "featured": false
+    },
+    {
+      "id": "BV1YeHQ64EbR",
+      "url": "https://www.bilibili.com/video/BV1YeHQ64EbR",
+      "level": "入门",
+      "tag": "版本更新",
+      "author": "零时雨夜",
+      "title": "【王者万象棋】削弱后怎么玩逐鹿嬴政？明先生高阶逐鹿嬴政全局实战讲解",
+      "desc": "觉得有帮助的观众朋友们点点关注谢谢喵",
+      "featured": false
+    },
+    {
+      "id": "BV13Wpb6fEWF",
+      "url": "https://www.bilibili.com/video/BV13Wpb6fEWF",
+      "level": "进阶",
+      "tag": "版本更新",
+      "author": "WZ游戏搬砖攻略",
+      "title": "《王者万象棋》搬砖日入过千，可长期常驻的赚钱手游",
+      "desc": "全网游戏搬砖资讯合集（长期更新）链接：https://pan.quark.cn/s/3e38ec33",
+      "featured": false
+    },
+    {
+      "id": "BV1YhpW6UEbo",
+      "url": "https://www.bilibili.com/video/BV1YhpW6UEbo",
+      "level": "冲分",
+      "tag": "版本更新",
+      "author": "专业套猴达人皇甫",
+      "title": "王者万象棋｜香香大河开团射，版本T0射手上分阵",
+      "desc": "-",
       "featured": false
     }
   ],
