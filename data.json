@@ -436,6 +436,16 @@
   ],
   "videos": [
     {
+      "id": "BV1fGpk6CEBe",
+      "url": "https://www.bilibili.com/video/BV1fGpk6CEBe",
+      "level": "入门",
+      "tag": "版本更新",
+      "author": "孙悟方",
+      "title": "【王者万象棋】国一白歌教学来袭！嬴政削弱后玩什么？中阶三分无限合成流登场，带你轻松掌握全新白歌！",
+      "desc": "我的万象交流群：773600219\nB站万象棋交流1群：972168938",
+      "featured": true
+    },
+    {
       "id": "BV1vNpu6gEct",
       "url": "https://www.bilibili.com/video/BV1vNpu6gEct",
       "level": "冲分",
@@ -454,6 +464,16 @@
       "title": "昭君大河龙蛇-万象棋最强上分阵容，昭君大河龙蛇怎么玩，昭君大河龙蛇保姆级教学攻略，昭君大河敖隐",
       "desc": "",
       "featured": true
+    },
+    {
+      "id": "BV1KCpk6WEKh",
+      "url": "https://www.bilibili.com/video/BV1KCpk6WEKh",
+      "level": "进阶",
+      "tag": "打法",
+      "author": "安若红",
+      "title": "王者万象棋：什么？优秀的打法？各位玩家们，还不赶紧过来看看吧！#游戏日常#超燃混剪#游戏攻略#游戏二创",
+      "desc": "-",
+      "featured": false
     },
     {
       "id": "BV1jsH464EBC",
@@ -546,16 +566,6 @@
       "featured": false
     },
     {
-      "id": "BV17HH46bEaW",
-      "url": "https://www.bilibili.com/video/BV17HH46bEaW",
-      "level": "进阶",
-      "tag": "打法",
-      "author": "秋风动漫动画",
-      "title": "苏烈核暴流打法#王者万象棋",
-      "desc": "-",
-      "featured": false
-    },
-    {
       "id": "BV11jWw6kELj",
       "url": "https://www.bilibili.com/video/BV11jWw6kELj",
       "level": "入门",
@@ -576,16 +586,6 @@
       "featured": false
     },
     {
-      "id": "BV1yEWw63EPs",
-      "url": "https://www.bilibili.com/video/BV1yEWw63EPs",
-      "level": "进阶",
-      "tag": "打法",
-      "author": "阿玛忒拉斯ovo",
-      "title": "别拿自走棋思路硬套万象棋，存钱习惯有点小坑人",
-      "desc": "",
-      "featured": false
-    },
-    {
       "id": "BV1umpq6LEcm",
       "url": "https://www.bilibili.com/video/BV1umpq6LEcm",
       "level": "入门",
@@ -593,26 +593,6 @@
       "author": "神哥金铲铲曙光启动",
       "title": "钻石狂潮第一期艾琳卡包教学",
       "desc": "",
-      "featured": false
-    },
-    {
-      "id": "BV11EWw63E5k",
-      "url": "https://www.bilibili.com/video/BV11EWw63E5k",
-      "level": "入门",
-      "tag": "打法",
-      "author": "歪掰掰",
-      "title": "【王者万象棋】胜率95%阿离百里守约挂机流，全流程保姆级对战教学解说！一枪秒杀全场？",
-      "desc": "",
-      "featured": false
-    },
-    {
-      "id": "BV1w1WA6kEA9",
-      "url": "https://www.bilibili.com/video/BV1w1WA6kEA9",
-      "level": "入门",
-      "tag": "打法",
-      "author": "竹清丿",
-      "title": "【孙悟方】万象棋最强天赋毒奶教学 锁血吃鸡 丝毫不慌",
-      "desc": "孙悟方的个人主页：https://space.bilibili.com/185321428\n孙悟方的",
       "featured": false
     },
     {
@@ -636,13 +616,33 @@
       "featured": false
     },
     {
-      "id": "BV1uSpz6QEQo",
-      "url": "https://www.bilibili.com/video/BV1uSpz6QEQo",
+      "id": "BV1AMpk67E3Y",
+      "url": "https://www.bilibili.com/video/BV1AMpk67E3Y",
+      "level": "入门",
+      "tag": "新棋手",
+      "author": "五年游戏解说",
+      "title": "钟馗穿上复活甲能多降临时等级？？？#王者万象棋 #王者万象棋正式上线 #王者万象棋新手攻略 #万象新星创作团 #万象棋新手攻略",
+      "desc": "目前一共测了四期视频，结果如下:\n1.钟馗的身边有复活英雄时，每个可以复活的英雄也只能降对面一次临时",
+      "featured": false
+    },
+    {
+      "id": "BV1nupk62Eeh",
+      "url": "https://www.bilibili.com/video/BV1nupk62Eeh",
       "level": "进阶",
       "tag": "新棋手",
-      "author": "天才小笨猫丶",
-      "title": "【王者万象棋】时间管理大师 成就+称号！限时棋手别白肝",
-      "desc": "",
+      "author": "越懒在干嘛",
+      "title": "抉择之弈懒人攻略【王者万象棋】",
+      "desc": "棋手们，注意抉择之弈结束时间喔，10月22日",
+      "featured": false
+    },
+    {
+      "id": "BV1rSpk6EEnX",
+      "url": "https://www.bilibili.com/video/BV1rSpk6EEnX",
+      "level": "入门",
+      "tag": "新棋手",
+      "author": "万象棋锤子",
+      "title": "王者万象棋兑换码，免费领取棋手！#王者万象棋 #王者万象棋正式上线 #万象棋新手攻略大赛 #万象棋创作团",
+      "desc": "-",
       "featured": false
     },
     {
@@ -656,13 +656,23 @@
       "featured": false
     },
     {
-      "id": "BV1MRWw6mEMq",
-      "url": "https://www.bilibili.com/video/BV1MRWw6mEMq",
-      "level": "冲分",
+      "id": "BV1jYpz6YEK3",
+      "url": "https://www.bilibili.com/video/BV1jYpz6YEK3",
+      "level": "进阶",
       "tag": "新棋手",
-      "author": "瑞评鸽",
-      "title": "最近7天棋手表现 谁才是最适合上分的棋手",
-      "desc": "",
+      "author": "王者万象棋-老李",
+      "title": "【王者万象棋】庄小鱼如梦似幻怎么用？先看场上阵营",
+      "desc": "42秒讲清秘技的使用前提，以及如梦似幻和梦幻引擎的区别。 棋手升到5级和6级，会各获得1张如梦似幻。",
+      "featured": false
+    },
+    {
+      "id": "BV1m8pB61EJ3",
+      "url": "https://www.bilibili.com/video/BV1m8pB61EJ3",
+      "level": "入门",
+      "tag": "新棋手",
+      "author": "王者荣耀棋亡曹贼",
+      "title": "曹操大表哥：王者万象棋河洛花木兰三大T0阵容之一 ！明先生最适合新手的棋手之一",
+      "desc": "点赞投币收藏关注转发不迷路感谢支持",
       "featured": false
     },
     {
@@ -676,13 +686,13 @@
       "featured": false
     },
     {
-      "id": "BV1Lapq6xEd3",
-      "url": "https://www.bilibili.com/video/BV1Lapq6xEd3",
-      "level": "入门",
+      "id": "BV1uSpz6QEQo",
+      "url": "https://www.bilibili.com/video/BV1uSpz6QEQo",
+      "level": "进阶",
       "tag": "新棋手",
-      "author": "小文c",
-      "title": "打嫦娥海月小秘诀#王者万象棋 #王者万象棋正式上线 #万象棋阵容大赛 #万象棋趣味时刻 #万象棋新手攻略大赛",
-      "desc": "打嫦娥海月小秘诀#王者万象棋 #王者万象棋正式上线 #万象棋阵容大赛 #万象棋趣味时刻",
+      "author": "天才小笨猫丶",
+      "title": "【王者万象棋】时间管理大师 成就+称号！限时棋手别白肝",
+      "desc": "",
       "featured": false
     },
     {
@@ -693,16 +703,6 @@
       "author": "Ace丨王牌",
       "title": "万象棋最阴组合，拿到必吃鸡",
       "desc": "#王者万象棋#王者万象棋正式上线#万象棋花式玩法",
-      "featured": false
-    },
-    {
-      "id": "BV1CHWw6uEmb",
-      "url": "https://www.bilibili.com/video/BV1CHWw6uEmb",
-      "level": "入门",
-      "tag": "新棋手",
-      "author": "五年游戏解说",
-      "title": "钟馗身边的人李信可以吃牺牲吗？？？#王者万象棋 #王者万象棋正式上线 #王者万象棋新手攻略 #万象新星创作团 #万象棋新手攻略",
-      "desc": "目前一共测了三期视频，结果如下:\n1.钟馗的身边有复活英雄时，每个可以复活的英雄也只能降对面一次临时",
       "featured": false
     },
     {
@@ -726,12 +726,12 @@
       "featured": false
     },
     {
-      "id": "BV1n4pz6qEbj",
-      "url": "https://www.bilibili.com/video/BV1n4pz6qEbj",
+      "id": "BV1c3pk6LEMF",
+      "url": "https://www.bilibili.com/video/BV1c3pk6LEMF",
       "level": "进阶",
       "tag": "版本更新",
-      "author": "王者万象棋攻略站",
-      "title": "万象棋后续将会进行的五大优化调整，大家觉得怎么样呢？",
+      "author": "白泽-王者万象棋",
+      "title": "王者万象棋更新后《赢律低压开团射》成为最新顶级玩法!",
       "desc": "-",
       "featured": false
     }
