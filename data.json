@@ -446,16 +446,6 @@
       "featured": true
     },
     {
-      "id": "BV1fGpk6CEBe",
-      "url": "https://www.bilibili.com/video/BV1fGpk6CEBe",
-      "level": "入门",
-      "tag": "版本更新",
-      "author": "孙悟方",
-      "title": "【王者万象棋】国一白歌教学来袭！嬴政削弱后玩什么？中阶三分无限合成流登场，带你轻松掌握全新白歌！",
-      "desc": "我的万象交流群：773600219\nB站万象棋交流1群：972168938",
-      "featured": true
-    },
-    {
       "id": "BV1vNpu6gEct",
       "url": "https://www.bilibili.com/video/BV1vNpu6gEct",
       "level": "冲分",
@@ -576,6 +566,16 @@
       "featured": false
     },
     {
+      "id": "BV1xxp16aEdV",
+      "url": "https://www.bilibili.com/video/BV1xxp16aEdV",
+      "level": "冲分",
+      "tag": "打法",
+      "author": "绽冉万象棋",
+      "title": "王者万象棋——钻石狂潮神秘对局，四家逐鹿三家毒奶，最强运营思路拿下第一，只能说同行都是是恩人",
+      "desc": "",
+      "featured": false
+    },
+    {
       "id": "BV1MSpz6QEtr",
       "url": "https://www.bilibili.com/video/BV1MSpz6QEtr",
       "level": "进阶",
@@ -596,12 +596,32 @@
       "featured": false
     },
     {
-      "id": "BV16opy6HEGv",
-      "url": "https://www.bilibili.com/video/BV16opy6HEGv",
-      "level": "入门",
+      "id": "BV19ipU6HET3",
+      "url": "https://www.bilibili.com/video/BV19ipU6HET3",
+      "level": "进阶",
       "tag": "打法",
-      "author": "㷱将军",
-      "title": "【王者万象棋】保姆级马可养镜转 999 吕布教学",
+      "author": "旧日睦子米",
+      "title": "三分登场爆杀了天胡三分倒转，教科书级别的运营，决策全对",
+      "desc": "-",
+      "featured": false
+    },
+    {
+      "id": "BV1T8pS6jE2n",
+      "url": "https://www.bilibili.com/video/BV1T8pS6jE2n",
+      "level": "进阶",
+      "tag": "打法",
+      "author": "轻尘万象棋",
+      "title": "万象棋离谱BUG玩法，貂蝉超能丢，貂蝉无限闪身步丢花球！",
+      "desc": "",
+      "featured": false
+    },
+    {
+      "id": "BV14hpS6yEPZ",
+      "url": "https://www.bilibili.com/video/BV14hpS6yEPZ",
+      "level": "进阶",
+      "tag": "打法",
+      "author": "轻尘万象棋",
+      "title": "王者万象棋离谱玩法，拳皇山鬼，一拳清屏",
       "desc": "",
       "featured": false
     },
@@ -612,6 +632,16 @@
       "tag": "打法",
       "author": "兔老师-逆水寒手游",
       "title": "【王者万象棋】千分局瑶妹细节开局助力李信平稳上分",
+      "desc": "",
+      "featured": false
+    },
+    {
+      "id": "BV16opy6HEGv",
+      "url": "https://www.bilibili.com/video/BV16opy6HEGv",
+      "level": "入门",
+      "tag": "打法",
+      "author": "㷱将军",
+      "title": "【王者万象棋】保姆级马可养镜转 999 吕布教学",
       "desc": "",
       "featured": false
     },
@@ -666,16 +696,6 @@
       "featured": false
     },
     {
-      "id": "BV1jQpm6pEFw",
-      "url": "https://www.bilibili.com/video/BV1jQpm6pEFw",
-      "level": "进阶",
-      "tag": "新棋手",
-      "author": "小卤蛋皮皮",
-      "title": "王者万象棋手香香",
-      "desc": "-",
-      "featured": false
-    },
-    {
       "id": "BV1hjp16BEYc",
       "url": "https://www.bilibili.com/video/BV1hjp16BEYc",
       "level": "进阶",
@@ -696,6 +716,16 @@
       "featured": false
     },
     {
+      "id": "BV1qTpm6pELE",
+      "url": "https://www.bilibili.com/video/BV1qTpm6pELE",
+      "level": "进阶",
+      "tag": "新棋手",
+      "author": "你到了养精蓄锐",
+      "title": "【王者万象棋】挑战转盘全随机棋手+阵容，并成功吃鸡！！！第一期——瑶妹+敖隐",
+      "desc": "",
+      "featured": false
+    },
+    {
       "id": "BV1Brp16HEqe",
       "url": "https://www.bilibili.com/video/BV1Brp16HEqe",
       "level": "进阶",
@@ -703,36 +733,6 @@
       "author": "疯狂物语",
       "title": "王者万象棋-千分局玩单核阵容是真的被这系统机制恶心得够呛，有同行不出卡还能理解但同行都没有就是死也不出卡，小明玩韩信、刘邦阵容是真的玩不了一点因为他就是不出卡。",
       "desc": "-",
-      "featured": false
-    },
-    {
-      "id": "BV1xbp168Egr",
-      "url": "https://www.bilibili.com/video/BV1xbp168Egr",
-      "level": "进阶",
-      "tag": "新棋手",
-      "author": "大年小方",
-      "title": "万象棋瑶能免疫死亡图腾是真的吗#王者万象棋 #万象新星创作团 #王者万象棋正式上线 #万象棋阵容大赛",
-      "desc": "-",
-      "featured": false
-    },
-    {
-      "id": "BV1AMpk67E3Y",
-      "url": "https://www.bilibili.com/video/BV1AMpk67E3Y",
-      "level": "入门",
-      "tag": "新棋手",
-      "author": "五年游戏解说",
-      "title": "钟馗穿上复活甲能多降临时等级？？？#王者万象棋 #王者万象棋正式上线 #王者万象棋新手攻略 #万象新星创作团 #万象棋新手攻略",
-      "desc": "目前一共测了四期视频，结果如下:\n1.钟馗的身边有复活英雄时，每个可以复活的英雄也只能降对面一次临时",
-      "featured": false
-    },
-    {
-      "id": "BV19jpB6sEfm",
-      "url": "https://www.bilibili.com/video/BV19jpB6sEfm",
-      "level": "进阶",
-      "tag": "新棋手",
-      "author": "花归尘-要玩万象棋",
-      "title": "锐评万象棋S1第五周棋手强度",
-      "desc": "",
       "featured": false
     }
   ],
