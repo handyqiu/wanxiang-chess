@@ -436,6 +436,16 @@
   ],
   "videos": [
     {
+      "id": "BV17Jnn6kE7m",
+      "url": "https://www.bilibili.com/video/BV17Jnn6kE7m",
+      "level": "进阶",
+      "tag": "打法",
+      "author": "凡人王农万",
+      "title": "万象棋最阴间的打法：钟馗东皇勾控流",
+      "desc": "",
+      "featured": false
+    },
+    {
       "id": "BV1Z8pU6xEJA",
       "url": "https://www.bilibili.com/video/BV1Z8pU6xEJA",
       "level": "进阶",
@@ -496,32 +506,32 @@
       "featured": false
     },
     {
+      "id": "BV1bVJR6DEsN",
+      "url": "https://www.bilibili.com/video/BV1bVJR6DEsN",
+      "level": "入门",
+      "tag": "打法",
+      "author": "神哥金铲铲曙光启动",
+      "title": "钻石狂潮第六期河洛李信卡包教学",
+      "desc": "",
+      "featured": false
+    },
+    {
+      "id": "BV1zSJ96TEhm",
+      "url": "https://www.bilibili.com/video/BV1zSJ96TEhm",
+      "level": "冲分",
+      "tag": "打法",
+      "author": "兔老师-逆水寒手游",
+      "title": "【王者万象棋】想要快速上分还是要选择合适的装备",
+      "desc": "",
+      "featured": false
+    },
+    {
       "id": "BV1MJnJ69E6U",
       "url": "https://www.bilibili.com/video/BV1MJnJ69E6U",
       "level": "冲分",
       "tag": "打法",
       "author": "青芒隐士",
       "title": "昭君上分焚决——最顶级的运营思路",
-      "desc": "",
-      "featured": false
-    },
-    {
-      "id": "BV1kJnV6bEmi",
-      "url": "https://www.bilibili.com/video/BV1kJnV6bEmi",
-      "level": "冲分",
-      "tag": "打法",
-      "author": "周小胖",
-      "title": "【万象棋单排日记】走出泥潭？千分局上分感悟",
-      "desc": "大家好呀，马克养猪进阶视频难产了:( 用马克在千分局天天被虐\n\n作为新手在千分卡了好几天终于好像脱离",
-      "featured": false
-    },
-    {
-      "id": "BV1jwnJ6KEym",
-      "url": "https://www.bilibili.com/video/BV1jwnJ6KEym",
-      "level": "入门",
-      "tag": "打法",
-      "author": "歪掰掰",
-      "title": "【王者万象棋】最极限庄小鱼无阵营公式化玩法，全流程保姆级对战教学解说！连败7次后夺冠？",
       "desc": "",
       "featured": false
     },
@@ -566,13 +576,43 @@
       "featured": false
     },
     {
-      "id": "BV1agJe6AE6P",
-      "url": "https://www.bilibili.com/video/BV1agJe6AE6P",
-      "level": "入门",
+      "id": "BV1jrJo6gESs",
+      "url": "https://www.bilibili.com/video/BV1jrJo6gESs",
+      "level": "进阶",
       "tag": "新棋手",
-      "author": "片哥王者荣耀世界",
-      "title": "王者万象棋棋手昭君攻略，大河龙蛇阵容完整教学",
-      "desc": "王者万象棋棋手昭君攻略，大河龙蛇阵容完整教学",
+      "author": "c_H_e_n_S",
+      "title": "王者万象棋 — 虽然开局打得很猛，但是我的亡语是召唤一个具有阵亡英雄等级之和一半的吕布",
+      "desc": "",
+      "featured": false
+    },
+    {
+      "id": "BV14jJR6UEzG",
+      "url": "https://www.bilibili.com/video/BV14jJR6UEzG",
+      "level": "进阶",
+      "tag": "新棋手",
+      "author": "摸鱼玩家TouchFish",
+      "title": "【万象棋冷知识】水晶穹顶的三大隐藏机制，你知道几个？",
+      "desc": "-",
+      "featured": false
+    },
+    {
+      "id": "BV14jJR6UEeG",
+      "url": "https://www.bilibili.com/video/BV14jJR6UEeG",
+      "level": "冲分",
+      "tag": "新棋手",
+      "author": "摸鱼玩家TouchFish",
+      "title": "登顶率断层第一还继续加强？昭君“寒潮共振”调到2.0，其他棋手还玩不玩了？",
+      "desc": "-",
+      "featured": false
+    },
+    {
+      "id": "BV1UVJR6DEzR",
+      "url": "https://www.bilibili.com/video/BV1UVJR6DEzR",
+      "level": "冲分",
+      "tag": "新棋手",
+      "author": "小米王者万象棋",
+      "title": "最强木兰棋手庄小鱼轮椅攻略",
+      "desc": "-",
       "featured": false
     },
     {
@@ -586,16 +626,6 @@
       "featured": false
     },
     {
-      "id": "BV1DgnJ6fEU1",
-      "url": "https://www.bilibili.com/video/BV1DgnJ6fEU1",
-      "level": "进阶",
-      "tag": "新棋手",
-      "author": "阿布_Buu",
-      "title": "昭君染上山鬼的精神变化，阵容码自取",
-      "desc": "视频后期：@千食彼方  \n适配棋手：昭君、明世隐、安其拉\n昭君最高上限：冰冻不改变英雄，意味着一张牌",
-      "featured": false
-    },
-    {
       "id": "BV1G9nJ6hEL9",
       "url": "https://www.bilibili.com/video/BV1G9nJ6hEL9",
       "level": "进阶",
@@ -606,13 +636,13 @@
       "featured": false
     },
     {
-      "id": "BV12Ann6WEuM",
-      "url": "https://www.bilibili.com/video/BV12Ann6WEuM",
-      "level": "冲分",
-      "tag": "新棋手",
-      "author": "王哥368",
-      "title": "玉环海盗船+小宾倒转！登顶率最高的两套t0阵容",
-      "desc": "玉环海盗船+小宾倒转！登顶率最高的两套t0阵容#王者万象棋 #王者万象棋正式上线 #王者万象棋新手攻",
+      "id": "BV1xjJR6UEq4",
+      "url": "https://www.bilibili.com/video/BV1xjJR6UEq4",
+      "level": "入门",
+      "tag": "版本更新",
+      "author": "自律游戏菌",
+      "title": "更新后登顶率直接拉满的两套T0阵容推荐！#王者万象棋 #王者万象棋正式上线 #王者万象棋新手攻略",
+      "desc": "",
       "featured": false
     },
     {
@@ -656,6 +686,26 @@
       "featured": false
     },
     {
+      "id": "BV1BZJd6zEEZ",
+      "url": "https://www.bilibili.com/video/BV1BZJd6zEEZ",
+      "level": "冲分",
+      "tag": "版本更新",
+      "author": "林宇万象棋",
+      "title": "冷门上分，姜导镜天帝，王者局4200分轻松12连胜",
+      "desc": "姜导镜天帝来了！镜在王者万象棋里到底有多猛？这期直接带你实战体验，看看镜天帝如何在王者局里轻松游走、",
+      "featured": false
+    },
+    {
+      "id": "BV1ifJ96cEpn",
+      "url": "https://www.bilibili.com/video/BV1ifJ96cEpn",
+      "level": "进阶",
+      "tag": "版本更新",
+      "author": "IMBA墨鸦",
+      "title": "【王者万象棋】昭君市标怎么拿？",
+      "desc": "每周一更新称号排名，想拿市标直接找战力系统，昭君比嫦小娥和白歌更容易拿，用昭君上分，比较容易就能拿到",
+      "featured": false
+    },
+    {
       "id": "BV1nuJd6VEyF",
       "url": "https://www.bilibili.com/video/BV1nuJd6VEyF",
       "level": "冲分",
@@ -663,16 +713,6 @@
       "author": "万象懂哥",
       "title": "谁上分最快？懂哥出品上分指标「懂哥分」｜万象棋原理 第五讲 懂哥上分公式全推导",
       "desc": "前三率、登顶率、平均排名经常打架，到底什么样的棋手才能快速上分？懂哥出品的上分指标「懂哥分」：平均每",
-      "featured": false
-    },
-    {
-      "id": "BV1Ryn76ZEg8",
-      "url": "https://www.bilibili.com/video/BV1Ryn76ZEg8",
-      "level": "冲分",
-      "tag": "版本更新",
-      "author": "白泽-王者万象棋",
-      "title": "王者万象棋更新后《安琪拉三套T0阵容》推荐！",
-      "desc": "-",
       "featured": false
     },
     {
@@ -693,46 +733,6 @@
       "author": "王者荣耀棋亡曹贼",
       "title": "曹操大表哥：王者万象棋版本最强5阶卡伞海月的顶级天赋！四海来援+一叶双生！阿离孙膑遗志流！",
       "desc": "点赞投币收藏关注转发不迷路感谢支持",
-      "featured": false
-    },
-    {
-      "id": "BV1rHJz6FELc",
-      "url": "https://www.bilibili.com/video/BV1rHJz6FELc",
-      "level": "进阶",
-      "tag": "版本更新",
-      "author": "直播回放-弹幕版本",
-      "title": "【弹幕版本】阿超-王者万象棋2026.10.17——22:10直播回放",
-      "desc": "【弹幕版本】喜欢的话麻烦留个关注就可以啦谢谢~",
-      "featured": false
-    },
-    {
-      "id": "BV1HcJ66YEEp",
-      "url": "https://www.bilibili.com/video/BV1HcJ66YEEp",
-      "level": "进阶",
-      "tag": "版本更新",
-      "author": "直播回放-弹幕版本",
-      "title": "【弹幕版本】一茗（王者万象棋）2026.10.17——21:10直播回放",
-      "desc": "【弹幕版本】喜欢的话麻烦留个关注就可以啦谢谢~",
-      "featured": false
-    },
-    {
-      "id": "BV1SXJe6YER2",
-      "url": "https://www.bilibili.com/video/BV1SXJe6YER2",
-      "level": "冲分",
-      "tag": "版本更新",
-      "author": "王者荣耀棋亡曹贼",
-      "title": "曹操大表哥：王者万象棋715级花木兰版本最强阵容之一   幸运硬币+钱生战力河洛花木兰无敌了",
-      "desc": "点赞投币收藏关注转发不迷路感谢支持",
-      "featured": false
-    },
-    {
-      "id": "BV1mFJv6ZEaM",
-      "url": "https://www.bilibili.com/video/BV1mFJv6ZEaM",
-      "level": "冲分",
-      "tag": "版本更新",
-      "author": "小良王者万象棋",
-      "title": "从夯到拉，2000字锐评，新版本所有棋手上分效率！王者万象棋！",
-      "desc": "-",
       "featured": false
     }
   ],
