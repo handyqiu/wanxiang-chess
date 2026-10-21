@@ -436,16 +436,6 @@
   ],
   "videos": [
     {
-      "id": "BV1e4nr6tEUT",
-      "url": "https://www.bilibili.com/video/BV1e4nr6tEUT",
-      "level": "进阶",
-      "tag": "版本更新",
-      "author": "西君-王者万象棋",
-      "title": "昭君大河龙蛇惨遭削弱！众多英雄得到加强，王者万象棋10月22日更新公告解读",
-      "desc": "",
-      "featured": true
-    },
-    {
       "id": "BV17Jnn6kE7m",
       "url": "https://www.bilibili.com/video/BV17Jnn6kE7m",
       "level": "进阶",
@@ -516,6 +506,26 @@
       "featured": false
     },
     {
+      "id": "BV1gdnk6tEwT",
+      "url": "https://www.bilibili.com/video/BV1gdnk6tEwT",
+      "level": "进阶",
+      "tag": "打法",
+      "author": "神秘男-游戏资讯",
+      "title": "王者万象棋三分倒转内战思路",
+      "desc": "",
+      "featured": false
+    },
+    {
+      "id": "BV11NnC6nEgL",
+      "url": "https://www.bilibili.com/video/BV11NnC6nEgL",
+      "level": "进阶",
+      "tag": "打法",
+      "author": "神秘男-游戏资讯",
+      "title": "王者万象棋白歌三分倒转全局思路讲解",
+      "desc": "",
+      "featured": false
+    },
+    {
       "id": "BV1Npn66GEsX",
       "url": "https://www.bilibili.com/video/BV1Npn66GEsX",
       "level": "入门",
@@ -563,16 +573,6 @@
       "author": "Mild_Glow",
       "title": "【王者万象棋】运营教科书！庄小鱼靠19血笑到最后！",
       "desc": "运营教科书！庄小鱼靠19血笑到最后！",
-      "featured": false
-    },
-    {
-      "id": "BV1iLnq6JEqo",
-      "url": "https://www.bilibili.com/video/BV1iLnq6JEqo",
-      "level": "冲分",
-      "tag": "打法",
-      "author": "IMBA墨鸦",
-      "title": "【王者万象棋】昭君已登顶区第一",
-      "desc": "好玩，用昭君短暂打上市区第一了#王者万象棋上分指南 #王者万象棋昭君攻略 #王者万象棋#万象新",
       "featured": false
     },
     {
@@ -656,16 +656,6 @@
       "featured": false
     },
     {
-      "id": "BV1YPnB62E3y",
-      "url": "https://www.bilibili.com/video/BV1YPnB62E3y",
-      "level": "进阶",
-      "tag": "新棋手",
-      "author": "眷恋王者万象棋",
-      "title": "本周万象棋上新传说棋盘外加棋手皮肤",
-      "desc": "",
-      "featured": false
-    },
-    {
       "id": "BV163nr6BEtQ",
       "url": "https://www.bilibili.com/video/BV163nr6BEtQ",
       "level": "进阶",
@@ -702,6 +692,16 @@
       "tag": "版本更新",
       "author": "自律游戏菌",
       "title": "万象棋更新后最适合新手上分的两套T0阵容来了#王者万象棋 #王者万象棋正式上线 #王者万象棋新手攻略",
+      "desc": "",
+      "featured": false
+    },
+    {
+      "id": "BV1Sdnk64Eis",
+      "url": "https://www.bilibili.com/video/BV1Sdnk64Eis",
+      "level": "进阶",
+      "tag": "版本更新",
+      "author": "神秘男-游戏资讯",
+      "title": "王者万象棋版本更新内容",
       "desc": "",
       "featured": false
     },
