@@ -496,6 +496,26 @@
       "featured": false
     },
     {
+      "id": "BV13Qnh6hEDo",
+      "url": "https://www.bilibili.com/video/BV13Qnh6hEDo",
+      "level": "进阶",
+      "tag": "打法",
+      "author": "莱布尼茨0101001",
+      "title": "【王者荣耀】万象棋缘玩法",
+      "desc": "-",
+      "featured": false
+    },
+    {
+      "id": "BV1Nrnt6rErm",
+      "url": "https://www.bilibili.com/video/BV1Nrnt6rErm",
+      "level": "入门",
+      "tag": "打法",
+      "author": "小超梦王者万象棋教学",
+      "title": "万象棋昭君大河稳稳上分教学",
+      "desc": "",
+      "featured": false
+    },
+    {
       "id": "BV1xxnh6EExE",
       "url": "https://www.bilibili.com/video/BV1xxnh6EExE",
       "level": "入门",
@@ -523,6 +543,16 @@
       "author": "程_米汤",
       "title": "万象棋_抉择之弈_999海月_公式打法",
       "desc": "万象棋新模式抉择之弈还不会玩？ 这套公式打法直接造出 999 海月！ ✅不挑棋手 ✅不硬凑阵容 照着",
+      "featured": false
+    },
+    {
+      "id": "BV1f7na6kEVY",
+      "url": "https://www.bilibili.com/video/BV1f7na6kEVY",
+      "level": "入门",
+      "tag": "新棋手",
+      "author": "傻傻的淳色",
+      "title": "明先生开团韩信王者局实战跳本教学",
+      "desc": "#王者万象棋 #王者万象棋正式上线 #万象棋阵容大赛 #万象棋趣味时刻 #万象棋新手攻略大赛",
       "featured": false
     },
     {
@@ -566,22 +596,62 @@
       "featured": false
     },
     {
-      "id": "BV1Ton46rEuo",
-      "url": "https://www.bilibili.com/video/BV1Ton46rEuo",
-      "level": "冲分",
+      "id": "BV1rEn16JET3",
+      "url": "https://www.bilibili.com/video/BV1rEn16JET3",
+      "level": "进阶",
       "tag": "新棋手",
-      "author": "程_米汤",
-      "title": "大河龙蛇被砍废_昭君 75 改版强势上分_王者万象棋",
-      "desc": "还在玩昭君全五 75 前期疯狂猝死？😵‍💫\n8 回合之前战力拉胯，五星牌等级太平均，打不过同行、大河",
+      "author": "一点点大杯去冰三分糖",
+      "title": "【王者万象棋】安琪拉原创4阵营阵容，辅助流马可守约共战，双枪四射生死就在一瞬间",
+      "desc": "棋手：安琪拉\n阵营：日落海、河洛、大河流域、三分之地\n主C：马可波罗、百里守约\n段位：王者千分局\n\n",
       "featured": false
     },
     {
-      "id": "BV1w2nt6ME7p",
-      "url": "https://www.bilibili.com/video/BV1w2nt6ME7p",
+      "id": "BV1Jjna65EsN",
+      "url": "https://www.bilibili.com/video/BV1Jjna65EsN",
       "level": "进阶",
       "tag": "新棋手",
-      "author": "天一游戏君",
-      "title": "为什么都要针对我的牺牲流李信！#王者万象棋 #王者万象棋正式上线#万象棋花式玩法#万象棋阵容大赛#万象棋趣味时刻",
+      "author": "傻傻的淳色",
+      "title": "对于嫦小娥来说棋手的从夯到拉锐评",
+      "desc": "",
+      "featured": false
+    },
+    {
+      "id": "BV1Fjna65ENt",
+      "url": "https://www.bilibili.com/video/BV1Fjna65ENt",
+      "level": "进阶",
+      "tag": "新棋手",
+      "author": "傻傻的淳色",
+      "title": "从夯到拉锐评对于嫦小娥来说全阵容套路",
+      "desc": "从夯到拉锐评对于嫦小娥来说全阵容套路#王者万象棋正式上线 #王者万象棋 #万象棋阵容大赛 #万象棋趣",
+      "featured": false
+    },
+    {
+      "id": "BV1Z7na6kEow",
+      "url": "https://www.bilibili.com/video/BV1Z7na6kEow",
+      "level": "进阶",
+      "tag": "新棋手",
+      "author": "傻傻的淳色",
+      "title": "从夯到拉锐评对于常小娥来说5费卡联动的强 从夯到拉锐评对于常小娥来说5费卡联动的强度 #王者万象棋 #王者万象棋正式上线 #万象棋阵容大赛 #万象棋趣味时刻 #",
+      "desc": "",
+      "featured": false
+    },
+    {
+      "id": "BV1cGn86uEU7",
+      "url": "https://www.bilibili.com/video/BV1cGn86uEU7",
+      "level": "入门",
+      "tag": "新棋手",
+      "author": "万象棋大钻头",
+      "title": "【王者万象棋】超级英雄模式入门攻略！选棋手、买牌顺序、装备选择一次讲清超级英雄模式怎么玩：经济型棋手优先、强力英雄后买、前期别乱升人口、后期找机会培养觉醒英雄",
+      "desc": "-",
+      "featured": false
+    },
+    {
+      "id": "BV1Pyn867Ekq",
+      "url": "https://www.bilibili.com/video/BV1Pyn867Ekq",
+      "level": "入门",
+      "tag": "新棋手",
+      "author": "卢小嘉王者万象棋",
+      "title": "《无限火力大乔》阵容攻略#王者万象棋 #王者万象棋正式上线 #王者万象棋新手攻略",
       "desc": "-",
       "featured": false
     },
@@ -636,26 +706,6 @@
       "featured": false
     },
     {
-      "id": "BV1HQn86kErB",
-      "url": "https://www.bilibili.com/video/BV1HQn86kErB",
-      "level": "冲分",
-      "tag": "版本更新",
-      "author": "游戏世界阿伟",
-      "title": "钻石狂潮逐鹿增强，版本唯一T0！",
-      "desc": "-",
-      "featured": false
-    },
-    {
-      "id": "BV18Vnb6UEVz",
-      "url": "https://www.bilibili.com/video/BV18Vnb6UEVz",
-      "level": "进阶",
-      "tag": "版本更新",
-      "author": "爱吃瓜的大师",
-      "title": "万象棋S2一手爆料，环境要翻天？",
-      "desc": "",
-      "featured": false
-    },
-    {
       "id": "BV1FSnx6tEVo",
       "url": "https://www.bilibili.com/video/BV1FSnx6tEVo",
       "level": "冲分",
@@ -666,23 +716,13 @@
       "featured": false
     },
     {
-      "id": "BV1kvnH6nED7",
-      "url": "https://www.bilibili.com/video/BV1kvnH6nED7",
-      "level": "入门",
+      "id": "BV1oxna6TE5t",
+      "url": "https://www.bilibili.com/video/BV1oxna6TE5t",
+      "level": "冲分",
       "tag": "版本更新",
-      "author": "RW侠简单",
-      "title": "Ban河洛也能玩玉环？7200分顶尖对局实战教学",
-      "desc": "很多刚接触杨玉环的兄弟看到一排曲名就头大，其实玉环是万象棋里最适合“公式化运营”の上分棋手之一！今天",
-      "featured": false
-    },
-    {
-      "id": "BV1UWnW6iEe9",
-      "url": "https://www.bilibili.com/video/BV1UWnW6iEe9",
-      "level": "入门",
-      "tag": "版本更新",
-      "author": "自律游戏菌",
-      "title": "万象棋更新后，小妲己蒙恬这波直接封神！#王者万象棋 #王者万象棋正式上线 #王者万象棋新手攻略",
-      "desc": "",
+      "author": "零度王者万象棋",
+      "title": "钻石狂潮逐鹿增强，版本唯一T0！",
+      "desc": "-",
       "featured": false
     },
     {
@@ -693,46 +733,6 @@
       "author": "Aa寂-王者万象棋",
       "title": "钻石狂潮卡包最新强度排行 跟着版本走！钻石不愁花！",
       "desc": "",
-      "featured": false
-    },
-    {
-      "id": "BV1JBnh6gE4j",
-      "url": "https://www.bilibili.com/video/BV1JBnh6gE4j",
-      "level": "入门",
-      "tag": "版本更新",
-      "author": "RW侠简单",
-      "title": "【王者万象棋】蒙恬召唤流10.22新版本7333分实战，保姆级运营细节全拆解",
-      "desc": "看到很多小伙伴想要召唤蒙恬的攻略，本期带来10.22新版本【小妲己养蒙恬】高分段实战复盘，这期对局细",
-      "featured": false
-    },
-    {
-      "id": "BV19wn46EEVX",
-      "url": "https://www.bilibili.com/video/BV19wn46EEVX",
-      "level": "进阶",
-      "tag": "版本更新",
-      "author": "冷空气ly",
-      "title": "【王者万象棋】最新版本答案 昭君·日落海",
-      "desc": "-",
-      "featured": false
-    },
-    {
-      "id": "BV162nx6bEZk",
-      "url": "https://www.bilibili.com/video/BV162nx6bEZk",
-      "level": "冲分",
-      "tag": "版本更新",
-      "author": "小良王者万象棋",
-      "title": "从夯到拉，2000字锐评，新版本所有棋手上分效率！第二期，王者万象棋玩家必看。",
-      "desc": "-",
-      "featured": false
-    },
-    {
-      "id": "BV1gknp6vE3o",
-      "url": "https://www.bilibili.com/video/BV1gknp6vE3o",
-      "level": "进阶",
-      "tag": "版本更新",
-      "author": "直播回放-弹幕版本",
-      "title": "【弹幕版本】一茗（王者万象棋）2026.10.22——21:10直播回放",
-      "desc": "【弹幕版本】喜欢的话麻烦留个关注就可以啦谢谢~",
       "featured": false
     }
   ],
