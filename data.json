@@ -496,16 +496,6 @@
       "featured": false
     },
     {
-      "id": "BV1tFHP6LE8z",
-      "url": "https://www.bilibili.com/video/BV1tFHP6LE8z",
-      "level": "入门",
-      "tag": "打法",
-      "author": "歪掰掰",
-      "title": "【王者万象棋】闹闹三分小转运营思路1.0，全流程保姆级对战教学解说！闹闹大乔不是区 大乔改本大加强？",
-      "desc": "",
-      "featured": false
-    },
-    {
       "id": "BV1kSHw6AEYD",
       "url": "https://www.bilibili.com/video/BV1kSHw6AEYD",
       "level": "入门",
@@ -566,6 +556,16 @@
       "featured": false
     },
     {
+      "id": "BV1FHHM62Ef6",
+      "url": "https://www.bilibili.com/video/BV1FHHM62Ef6",
+      "level": "进阶",
+      "tag": "新棋手",
+      "author": "默许凌晨一点",
+      "title": "【万象棋】各棋手刻板印象这一块",
+      "desc": "",
+      "featured": false
+    },
+    {
       "id": "BV1PTHP66E2U",
       "url": "https://www.bilibili.com/video/BV1PTHP66E2U",
       "level": "冲分",
@@ -592,16 +592,6 @@
       "tag": "新棋手",
       "author": "天一游戏君",
       "title": "以后河洛的大旗就靠花姐和信哥了！#王者万象棋 #王者万象棋正式上线#万象棋花式玩法#万象棋阵容大赛#万象棋趣味时刻",
-      "desc": "-",
-      "featured": false
-    },
-    {
-      "id": "BV13qHK6ZEX5",
-      "url": "https://www.bilibili.com/video/BV13qHK6ZEX5",
-      "level": "进阶",
-      "tag": "新棋手",
-      "author": "浮玉王者万象棋",
-      "title": "冷门强力阵容挂机流昭君日落海 克制同棋手大河昭君",
       "desc": "-",
       "featured": false
     },
@@ -686,13 +676,33 @@
       "featured": false
     },
     {
-      "id": "BV1NMHK6mEXh",
-      "url": "https://www.bilibili.com/video/BV1NMHK6mEXh",
+      "id": "BV1bWHT6xEdi",
+      "url": "https://www.bilibili.com/video/BV1bWHT6xEdi",
       "level": "进阶",
       "tag": "版本更新",
-      "author": "月光大魔王丶",
-      "title": "【万象棋】小助手更新贴片模式！",
-      "desc": "已支持悬浮贴片模式+大量优化！\n三连后私信我发下载链接哦\n数据来源：https://www.data",
+      "author": "Lotus十四",
+      "title": "【白嫖收藏集】教你B站王者万象棋白嫖周边，收藏集活动",
+      "desc": "活动链接：https://www.bilibili.com/blackboard/era/92WFt",
+      "featured": false
+    },
+    {
+      "id": "BV15RHT6NEbm",
+      "url": "https://www.bilibili.com/video/BV15RHT6NEbm",
+      "level": "进阶",
+      "tag": "版本更新",
+      "author": "脆薯饼游戏资讯",
+      "title": "王者万象棋小妲己蒙恬召唤流，新版本蒙恬加强",
+      "desc": "-",
+      "featured": false
+    },
+    {
+      "id": "BV1vQHT6TEuW",
+      "url": "https://www.bilibili.com/video/BV1vQHT6TEuW",
+      "level": "冲分",
+      "tag": "版本更新",
+      "author": "大魔万象棋",
+      "title": "全新瑶妹李信2.0版本，万象棋更新后999李信",
+      "desc": "-",
       "featured": false
     },
     {
@@ -716,23 +726,13 @@
       "featured": false
     },
     {
-      "id": "BV1opHP6bEeB",
-      "url": "https://www.bilibili.com/video/BV1opHP6bEeB",
+      "id": "BV1ZWHK6iEZv",
+      "url": "https://www.bilibili.com/video/BV1ZWHK6iEZv",
       "level": "冲分",
       "tag": "版本更新",
-      "author": "安城___",
-      "title": "王者万象棋版本最新黑科技T0阵容泳池派对",
-      "desc": "王者万象棋版本最新黑科技T0阵容泳池派对",
-      "featured": false
-    },
-    {
-      "id": "BV1X8HK6aEXB",
-      "url": "https://www.bilibili.com/video/BV1X8HK6aEXB",
-      "level": "进阶",
-      "tag": "版本更新",
-      "author": "不發脾气只发財",
-      "title": "王者万象棋（公益版）魔改内置后台道具全解锁后台持续更新免费当大佬的机会就在眼前一键三连",
-      "desc": "-",
+      "author": "玄鸦y",
+      "title": "版本更新大乔加强，最强上分阵容！棋手明先生/镜/庄小鱼",
+      "desc": "",
       "featured": false
     }
   ],
