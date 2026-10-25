@@ -506,16 +506,6 @@
       "featured": false
     },
     {
-      "id": "BV1kcH36oEaw",
-      "url": "https://www.bilibili.com/video/BV1kcH36oEaw",
-      "level": "冲分",
-      "tag": "打法",
-      "author": "Scintilla22",
-      "title": "如果你想在王者万象棋上分的话",
-      "desc": "@国一香香色彩  如果没有学习你的香香，我甚至都没有玩到真正的万象棋。",
-      "featured": false
-    },
-    {
       "id": "BV1kTHV6hE66",
       "url": "https://www.bilibili.com/video/BV1kTHV6hE66",
       "level": "入门",
@@ -573,6 +563,16 @@
       "author": "傻傻的淳色",
       "title": "明先生开团韩信王者局实战跳本教学",
       "desc": "#王者万象棋 #王者万象棋正式上线 #万象棋阵容大赛 #万象棋趣味时刻 #万象棋新手攻略大赛",
+      "featured": false
+    },
+    {
+      "id": "BV1r1nU6bETX",
+      "url": "https://www.bilibili.com/video/BV1r1nU6bETX",
+      "level": "进阶",
+      "tag": "新棋手",
+      "author": "北城小路12138",
+      "title": "王者周年庆碰上韩信偷塔十周年#王者万象棋棋盘变秀场#王者万象棋正式上线#王者万象棋日常#王者万象棋手养成记",
+      "desc": "",
       "featured": false
     },
     {
@@ -706,6 +706,16 @@
       "featured": false
     },
     {
+      "id": "BV1FUnU64Em4",
+      "url": "https://www.bilibili.com/video/BV1FUnU64Em4",
+      "level": "进阶",
+      "tag": "版本更新",
+      "author": "直播回放-弹幕版本",
+      "title": "【弹幕版本】阿超-王者万象棋2026.10.25——21:10直播回放",
+      "desc": "【弹幕版本】喜欢的话麻烦留个关注就可以啦谢谢~",
+      "featured": false
+    },
+    {
       "id": "BV1M5nS6zEJq",
       "url": "https://www.bilibili.com/video/BV1M5nS6zEJq",
       "level": "进阶",
@@ -722,16 +732,6 @@
       "tag": "版本更新",
       "author": "直播回放-弹幕版本",
       "title": "【弹幕版本】阿超-王者万象棋2026.10.25——15:10直播回放",
-      "desc": "【弹幕版本】喜欢的话麻烦留个关注就可以啦谢谢~",
-      "featured": false
-    },
-    {
-      "id": "BV1ZiHG6QEpc",
-      "url": "https://www.bilibili.com/video/BV1ZiHG6QEpc",
-      "level": "进阶",
-      "tag": "版本更新",
-      "author": "直播回放-弹幕版本",
-      "title": "【弹幕版本】一茗（王者万象棋）2026.10.25——13:10直播回放",
       "desc": "【弹幕版本】喜欢的话麻烦留个关注就可以啦谢谢~",
       "featured": false
     }
