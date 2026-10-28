@@ -436,6 +436,16 @@
   ],
   "videos": [
     {
+      "id": "BV1LZxV6wEiv",
+      "url": "https://www.bilibili.com/video/BV1LZxV6wEiv",
+      "level": "入门",
+      "tag": "打法",
+      "author": "歪掰掰",
+      "title": "【王者万象棋】闹闹速5本日落海公式化打法稳定吃分，全流程保姆级对战解说！顶级天赋能量改造化身永动机左脚踩右脚直接起飞全员999，你用对了吗？",
+      "desc": "",
+      "featured": false
+    },
+    {
       "id": "BV1xonm6wELt",
       "url": "https://www.bilibili.com/video/BV1xonm6wELt",
       "level": "冲分",
@@ -486,13 +496,13 @@
       "featured": false
     },
     {
-      "id": "BV1Xmpn6gEHs",
-      "url": "https://www.bilibili.com/video/BV1Xmpn6gEHs",
-      "level": "进阶",
+      "id": "BV1iix56NEZX",
+      "url": "https://www.bilibili.com/video/BV1iix56NEZX",
+      "level": "入门",
       "tag": "打法",
-      "author": "尼古貓貓",
-      "title": "王者万象棋孙尚香打法",
-      "desc": "-",
+      "author": "瓜牛哥玩游戏",
+      "title": "王者万象棋：不死阿离伞芈月，轻松上王者完全教学！",
+      "desc": "",
       "featured": false
     },
     {
@@ -512,16 +522,6 @@
       "tag": "打法",
       "author": "神哥金铲铲曙光启动",
       "title": "钻石狂潮第十期草根狄仁杰卡包教学",
-      "desc": "",
-      "featured": false
-    },
-    {
-      "id": "BV1osxM6EE4T",
-      "url": "https://www.bilibili.com/video/BV1osxM6EE4T",
-      "level": "入门",
-      "tag": "打法",
-      "author": "歪掰掰",
-      "title": "【王者万象棋】明先生速4日落海自爆流，全流程保姆级对战教学解说！升格 VS 700级马克大肥猪？",
       "desc": "",
       "featured": false
     },
@@ -556,23 +556,23 @@
       "featured": false
     },
     {
-      "id": "BV1mAxg63EYt",
-      "url": "https://www.bilibili.com/video/BV1mAxg63EYt",
+      "id": "BV1Gcx56FE8x",
+      "url": "https://www.bilibili.com/video/BV1Gcx56FE8x",
       "level": "入门",
       "tag": "新棋手",
-      "author": "假面骑士二爷",
-      "title": "谁能击败顶配赵云？#王者万象棋 #王者万象棋S1创作激励 #王者万象棋正式上线 #王者万象棋新手攻略",
-      "desc": "-",
+      "author": "金水王者万象棋光头",
+      "title": "万象棋S1比赛惊喜棋手班叔系列教学第三集！",
+      "desc": "",
       "featured": false
     },
     {
-      "id": "BV11Kxg6uEnE",
-      "url": "https://www.bilibili.com/video/BV11Kxg6uEnE",
-      "level": "进阶",
-      "tag": "新棋手",
-      "author": "KueZacks",
-      "title": "【万象棋无敌瑶妹实战】月光宝盒韩信？三个c位让海月抓狂！",
-      "desc": "梦泪，本名肖闽辉，出生于1997年。2015年底还是汽修专业学生的梦泪第一次时候，也许他不会知道这个",
+      "id": "BV1Rzx56AEXa",
+      "url": "https://www.bilibili.com/video/BV1Rzx56AEXa",
+      "level": "入门",
+      "tag": "版本更新",
+      "author": "Aa寂-王者万象棋",
+      "title": "钻石狂潮更新后最轮椅的阵容，逐鹿扁鹊保姆教学，看完就会！保底前三！",
+      "desc": "",
       "featured": false
     },
     {
@@ -626,6 +626,36 @@
       "featured": false
     },
     {
+      "id": "BV1Sux56XEu9",
+      "url": "https://www.bilibili.com/video/BV1Sux56XEu9",
+      "level": "进阶",
+      "tag": "版本更新",
+      "author": "RW侠简单",
+      "title": "【王者万象棋】内卷之王，7600分版本答案「镜三分倒转」，一张牌直接觉醒！",
+      "desc": "还在为天梯三分内卷搜不到牌而苦恼吗？今天给大家带来天梯7600分实测的「内卷之王」——镜三分倒转完整",
+      "featured": false
+    },
+    {
+      "id": "BV1qix56NEPK",
+      "url": "https://www.bilibili.com/video/BV1qix56NEPK",
+      "level": "进阶",
+      "tag": "版本更新",
+      "author": "程_米汤",
+      "title": "乔兮大改_武则天增强_万万有看到7解读_王者万象棋",
+      "desc": "体验服迎来重磅改动！乔兮机制大刀阔斧重做，有望诞生 T0 新战术，武则天正式服移除技能伤害衰减，大河",
+      "featured": false
+    },
+    {
+      "id": "BV1vLxL6BEyR",
+      "url": "https://www.bilibili.com/video/BV1vLxL6BEyR",
+      "level": "冲分",
+      "tag": "版本更新",
+      "author": "三角洲快报",
+      "title": "更新后【阿离伞核爆芈月】无限吸血还有核爆伤害，关键完全不怕控制，开局几秒钟就能秒杀敌方C位，妥妥的最新黑科技上分利器！#王者万象棋 #王者万象棋正式上线",
+      "desc": "-",
+      "featured": false
+    },
+    {
       "id": "BV1cexT6WE3Y",
       "url": "https://www.bilibili.com/video/BV1cexT6WE3Y",
       "level": "冲分",
@@ -646,16 +676,6 @@
       "featured": false
     },
     {
-      "id": "BV1UfxT6KErJ",
-      "url": "https://www.bilibili.com/video/BV1UfxT6KErJ",
-      "level": "进阶",
-      "tag": "版本更新",
-      "author": "虎牙代售",
-      "title": "【王者万象棋】乔汐史诗级削弱！蒙犽惨遭除籍？体验服更新速览！",
-      "desc": "乔汐本来就很尴尬了，这波大砍实在没想到，希望不要上正式服",
-      "featured": false
-    },
-    {
       "id": "BV1Bxxg6xEKZ",
       "url": "https://www.bilibili.com/video/BV1Bxxg6xEKZ",
       "level": "进阶",
@@ -663,6 +683,16 @@
       "author": "宇宙最帅手抓饼",
       "title": "万象棋10月最夯阵容出炉！",
       "desc": "版本更新后，王者万象棋胜率最高的T0阵容来啦！",
+      "featured": false
+    },
+    {
+      "id": "BV16Wx56VEyp",
+      "url": "https://www.bilibili.com/video/BV16Wx56VEyp",
+      "level": "进阶",
+      "tag": "版本更新",
+      "author": "大哥很生气了",
+      "title": "王者万象棋策划回应，主要本周四上线嫦小娥皮肤优化版本",
+      "desc": "-",
       "featured": false
     },
     {
@@ -703,36 +733,6 @@
       "author": "直播回放-弹幕版本",
       "title": "【弹幕版本】阿超-王者万象棋2026.10.27——15:10直播回放",
       "desc": "【弹幕版本】喜欢的话麻烦留个关注就可以啦谢谢~",
-      "featured": false
-    },
-    {
-      "id": "BV1dsxM6EEfm",
-      "url": "https://www.bilibili.com/video/BV1dsxM6EEfm",
-      "level": "进阶",
-      "tag": "版本更新",
-      "author": "奥利的呆毛",
-      "title": "李白无限大招！千金换酒吃满版本红利【万象棋河洛闹闹】",
-      "desc": "粉丝交流群 1127059907\n【王者万象棋】【奥利的呆毛】【千金换酒无限大招】535385665",
-      "featured": false
-    },
-    {
-      "id": "BV1jHxM6HEfc",
-      "url": "https://www.bilibili.com/video/BV1jHxM6HEfc",
-      "level": "进阶",
-      "tag": "版本更新",
-      "author": "奕笙Lang",
-      "title": "这下不算不务正业了！棉花看明日方舟7.5版本卫戍协议：苦练几个月王者万象棋就是为了今天呀，再见了万象棋，希望你喜欢自己这两个月来的戏份",
-      "desc": "",
-      "featured": false
-    },
-    {
-      "id": "BV1etxM6jET9",
-      "url": "https://www.bilibili.com/video/BV1etxM6jET9",
-      "level": "进阶",
-      "tag": "版本更新",
-      "author": "奕笙Lang",
-      "title": "卫戍协议更新！万象棋棋高手请战！棉花看明日方舟7.5周年庆前瞻版本PV，已到账？到账不可能今天才看！",
-      "desc": "",
       "featured": false
     }
   ],
