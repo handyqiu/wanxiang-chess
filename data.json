@@ -496,6 +496,26 @@
       "featured": false
     },
     {
+      "id": "BV1atx76ME4a",
+      "url": "https://www.bilibili.com/video/BV1atx76ME4a",
+      "level": "进阶",
+      "tag": "打法",
+      "author": "花如是",
+      "title": "王者万象棋 姜导韩信 轮椅玩法 7分钟教会你上大分",
+      "desc": "",
+      "featured": false
+    },
+    {
+      "id": "BV1UGxj6bEem",
+      "url": "https://www.bilibili.com/video/BV1UGxj6bEem",
+      "level": "冲分",
+      "tag": "打法",
+      "author": "王哥368",
+      "title": "反差上分！横扫千军明先生嬴政！#王者万象棋#王者万象棋s1创作激励#万象新星创作团#万象棋大学",
+      "desc": "-",
+      "featured": false
+    },
+    {
       "id": "BV1iix56NEZX",
       "url": "https://www.bilibili.com/video/BV1iix56NEZX",
       "level": "入门",
@@ -503,16 +523,6 @@
       "author": "瓜牛哥玩游戏",
       "title": "王者万象棋：不死阿离伞芈月，轻松上王者完全教学！",
       "desc": "",
-      "featured": false
-    },
-    {
-      "id": "BV123xG6CEMG",
-      "url": "https://www.bilibili.com/video/BV123xG6CEMG",
-      "level": "冲分",
-      "tag": "打法",
-      "author": "呐呐纵",
-      "title": "【王者万象棋】轮椅就是好上分",
-      "desc": "-",
       "featured": false
     },
     {
@@ -546,13 +556,13 @@
       "featured": false
     },
     {
-      "id": "BV1raxE6WE33",
-      "url": "https://www.bilibili.com/video/BV1raxE6WE33",
+      "id": "BV1o9sX6VEd3",
+      "url": "https://www.bilibili.com/video/BV1o9sX6VEd3",
       "level": "进阶",
       "tag": "新棋手",
-      "author": "阿钱该吃曜了",
-      "title": "盘点万象棋最轮椅的三位棋手~",
-      "desc": "",
+      "author": "c顺心-王者万象棋",
+      "title": "新英雄武风技能提前预览",
+      "desc": "作为英雄牌你叫我女人难我挑不出理，作为棋手请叫我女王大人。",
       "featured": false
     },
     {
@@ -573,6 +583,16 @@
       "author": "金水王者万象棋光头",
       "title": "万象棋S1比赛惊喜棋手班叔系列教学第三集！",
       "desc": "",
+      "featured": false
+    },
+    {
+      "id": "BV1Vxx766EAX",
+      "url": "https://www.bilibili.com/video/BV1Vxx766EAX",
+      "level": "入门",
+      "tag": "版本更新",
+      "author": "哈里的乌托邦",
+      "title": "王者万象棋：昭君五阶全明星！无敌上分阵容，新手暴捶王者！",
+      "desc": "更新后晋升T0的超强阵容，想体验全场五阶大哥的爽感吗？快来学吧",
       "featured": false
     },
     {
@@ -626,23 +646,43 @@
       "featured": false
     },
     {
-      "id": "BV13BnR6tELy",
-      "url": "https://www.bilibili.com/video/BV13BnR6tELy",
+      "id": "BV1Wns96REiC",
+      "url": "https://www.bilibili.com/video/BV1Wns96REiC",
       "level": "入门",
       "tag": "版本更新",
-      "author": "东少带你玩游戏",
-      "title": "新晋版本答案【安琪拉大司命山鬼】完美克制999级海月 平推各种999级英雄 新手公式化玩法保姆级教学！ #王者万象棋 #王者万象棋正式上线 #万象棋阵容大赛",
+      "author": "欧根er",
+      "title": "最新瑶妹日落海教学！纯日落海体系第三期玩法，稳定前三但吃鸡率不高！相比瑶信现版本更适合日落海【王者万象棋】",
+      "desc": "4000分的局，目前是更新最新日落海第三期了，前两期基于泳池派对，现版本基于纯日落海不添加其他成员。",
+      "featured": false
+    },
+    {
+      "id": "BV1iZsX66ECz",
+      "url": "https://www.bilibili.com/video/BV1iZsX66ECz",
+      "level": "冲分",
+      "tag": "版本更新",
+      "author": "小良王者万象棋",
+      "title": "紧急通知，明日更新王者万象棋新版本，乔汐重做，阿离大改，武则天最强天赋帝临来袭！",
       "desc": "-",
       "featured": false
     },
     {
-      "id": "BV1ArxL6DE4r",
-      "url": "https://www.bilibili.com/video/BV1ArxL6DE4r",
+      "id": "BV16DsX6LELQ",
+      "url": "https://www.bilibili.com/video/BV16DsX6LELQ",
       "level": "进阶",
       "tag": "版本更新",
-      "author": "Shizi噬子",
-      "title": "收集党必看！王者万象棋常驻成就称号完整盘点！",
-      "desc": "当前版本所有常驻成就称号的完整盘点与整理\nS1赛季制作，时间为2026.10.28，请注意时效性\nB",
+      "author": "虎牙代售",
+      "title": "【王者万象棋】10.29更新！乔汐彻底成为区，武则天专属天赋上线！马超史诗级加强？",
+      "desc": "-",
+      "featured": false
+    },
+    {
+      "id": "BV1oosX63EU1",
+      "url": "https://www.bilibili.com/video/BV1oosX63EU1",
+      "level": "进阶",
+      "tag": "版本更新",
+      "author": "蓝柑蜜桃",
+      "title": "王者万象棋版本更新，乔离砍上保下，嫦小娥珍品迎来优化！新增天赋帝临，勇冠三军！",
+      "desc": "感恩点赞，感恩指正，感恩有你...爱您！主包想当潜力股，可以关注下嘛～",
       "featured": false
     },
     {
@@ -656,83 +696,43 @@
       "featured": false
     },
     {
-      "id": "BV1vLxL6BEyR",
-      "url": "https://www.bilibili.com/video/BV1vLxL6BEyR",
-      "level": "冲分",
-      "tag": "版本更新",
-      "author": "三角洲快报",
-      "title": "更新后【阿离伞核爆芈月】无限吸血还有核爆伤害，关键完全不怕控制，开局几秒钟就能秒杀敌方C位，妥妥的最新黑科技上分利器！#王者万象棋 #王者万象棋正式上线",
-      "desc": "-",
-      "featured": false
-    },
-    {
-      "id": "BV1Sux56XEu9",
-      "url": "https://www.bilibili.com/video/BV1Sux56XEu9",
-      "level": "进阶",
-      "tag": "版本更新",
-      "author": "RW侠简单",
-      "title": "【王者万象棋】内卷之王，7600分版本答案「镜三分倒转」，一张牌直接觉醒！",
-      "desc": "还在为天梯三分内卷搜不到牌而苦恼吗？今天给大家带来天梯7600分实测的「内卷之王」——镜三分倒转完整",
-      "featured": false
-    },
-    {
-      "id": "BV1dXxV6eEtL",
-      "url": "https://www.bilibili.com/video/BV1dXxV6eEtL",
-      "level": "冲分",
-      "tag": "版本更新",
-      "author": "鸽子飞舞吧",
-      "title": "万象棋版本更新后马超的最强黑科技玩法",
-      "desc": "-",
-      "featured": false
-    },
-    {
-      "id": "BV16Wx56VEyp",
-      "url": "https://www.bilibili.com/video/BV16Wx56VEyp",
-      "level": "进阶",
-      "tag": "版本更新",
-      "author": "大哥很生气了",
-      "title": "王者万象棋策划回应，主要本周四上线嫦小娥皮肤优化版本",
-      "desc": "-",
-      "featured": false
-    },
-    {
-      "id": "BV1Mxx36LEo2",
-      "url": "https://www.bilibili.com/video/BV1Mxx36LEo2",
+      "id": "BV1Z7sR61EV5",
+      "url": "https://www.bilibili.com/video/BV1Z7sR61EV5",
       "level": "进阶",
       "tag": "版本更新",
       "author": "直播回放-弹幕版本",
-      "title": "【弹幕版本】阿超-王者万象棋2026.10.27——22:10直播回放",
+      "title": "【弹幕版本】一茗（王者万象棋）2026.10.28——15:10直播回放",
       "desc": "【弹幕版本】喜欢的话麻烦留个关注就可以啦谢谢~",
       "featured": false
     },
     {
-      "id": "BV1Fzxu6ZE12",
-      "url": "https://www.bilibili.com/video/BV1Fzxu6ZE12",
+      "id": "BV1k1sX6UEcU",
+      "url": "https://www.bilibili.com/video/BV1k1sX6UEcU",
       "level": "进阶",
       "tag": "版本更新",
-      "author": "直播回放-弹幕版本",
-      "title": "【弹幕版本】QT萌岑（万象棋国一昭君）2026.10.27——19:10直播回放",
-      "desc": "【弹幕版本】喜欢的话麻烦留个关注就可以啦谢谢~",
+      "author": "小小坚_",
+      "title": "王者无限制有分同享 | 万象棋10-28新版本速览",
+      "desc": "【28 号王者万象棋更新速览】 \n✅乔汐大改：潮汐交响、潮起潮落重做，司空震乔汐体系削弱 \n✅香香炮",
       "featured": false
     },
     {
-      "id": "BV11uxg6TEd5",
-      "url": "https://www.bilibili.com/video/BV11uxg6TEd5",
+      "id": "BV1c1sX6SEVv",
+      "url": "https://www.bilibili.com/video/BV1c1sX6SEVv",
       "level": "进阶",
       "tag": "版本更新",
-      "author": "直播回放-弹幕版本",
-      "title": "【弹幕版本】一茗（王者万象棋）2026.10.27——18:10直播回放",
-      "desc": "【弹幕版本】喜欢的话麻烦留个关注就可以啦谢谢~",
+      "author": "欧根er",
+      "title": "王者万象棋10月28日版本更新公告直播讲解，乔汐/香香/阿离加强聊聊新更新如何【王者万象棋】",
+      "desc": "阿离加强真舒服，最近猫猫守约玩得多",
       "featured": false
     },
     {
-      "id": "BV1AVxg6vENm",
-      "url": "https://www.bilibili.com/video/BV1AVxg6vENm",
+      "id": "BV1CksX6DE2K",
+      "url": "https://www.bilibili.com/video/BV1CksX6DE2K",
       "level": "进阶",
       "tag": "版本更新",
-      "author": "搓玻璃的饭团",
-      "title": "万象棋乔汐重做！版本地震！",
-      "desc": "乔汐重做!体验服版本更新！快来和\n主包一起看看本次有哪些改动吧！",
+      "author": "奥利的呆毛",
+      "title": "蒙犽无限飞弹！版本两次增强直接起飞【万象棋逐鹿闹闹】",
+      "desc": "粉丝交流群 1127059907\n【王者万象棋】【奥利的呆毛】【逐鹿蒙犽无限飞弹】501608668",
       "featured": false
     }
   ],
