@@ -516,16 +516,6 @@
       "featured": false
     },
     {
-      "id": "BV1RDxu6JE7y",
-      "url": "https://www.bilibili.com/video/BV1RDxu6JE7y",
-      "level": "入门",
-      "tag": "打法",
-      "author": "神哥金铲铲曙光启动",
-      "title": "钻石狂潮第十期草根狄仁杰卡包教学",
-      "desc": "",
-      "featured": false
-    },
-    {
       "id": "BV1kSHw6AEYD",
       "url": "https://www.bilibili.com/video/BV1kSHw6AEYD",
       "level": "入门",
@@ -553,6 +543,26 @@
       "author": "爵小溪",
       "title": "【王者万象棋】姜导王者万象棋S1赛季恰烂分阵容",
       "desc": "王者万象棋S1赛季恰烂分阵容：姜导镜，技能根本停不下来",
+      "featured": false
+    },
+    {
+      "id": "BV1raxE6WE33",
+      "url": "https://www.bilibili.com/video/BV1raxE6WE33",
+      "level": "进阶",
+      "tag": "新棋手",
+      "author": "阿钱该吃曜了",
+      "title": "盘点万象棋最轮椅的三位棋手~",
+      "desc": "",
+      "featured": false
+    },
+    {
+      "id": "BV1N6xL6HEdT",
+      "url": "https://www.bilibili.com/video/BV1N6xL6HEdT",
+      "level": "冲分",
+      "tag": "新棋手",
+      "author": "冷空气ly",
+      "title": "【王者万象棋】10月28日阵容及棋手排行",
+      "desc": "",
       "featured": false
     },
     {
@@ -626,23 +636,23 @@
       "featured": false
     },
     {
-      "id": "BV1Sux56XEu9",
-      "url": "https://www.bilibili.com/video/BV1Sux56XEu9",
+      "id": "BV1ArxL6DE4r",
+      "url": "https://www.bilibili.com/video/BV1ArxL6DE4r",
       "level": "进阶",
       "tag": "版本更新",
-      "author": "RW侠简单",
-      "title": "【王者万象棋】内卷之王，7600分版本答案「镜三分倒转」，一张牌直接觉醒！",
-      "desc": "还在为天梯三分内卷搜不到牌而苦恼吗？今天给大家带来天梯7600分实测的「内卷之王」——镜三分倒转完整",
+      "author": "Shizi噬子",
+      "title": "收集党必看！王者万象棋常驻成就称号完整盘点！",
+      "desc": "当前版本所有常驻成就称号的完整盘点与整理\nS1赛季制作，时间为2026.10.28，请注意时效性\nB",
       "featured": false
     },
     {
-      "id": "BV1qix56NEPK",
-      "url": "https://www.bilibili.com/video/BV1qix56NEPK",
+      "id": "BV16DxL6yEe2",
+      "url": "https://www.bilibili.com/video/BV16DxL6yEe2",
       "level": "进阶",
       "tag": "版本更新",
-      "author": "程_米汤",
-      "title": "乔兮大改_武则天增强_万万有看到7解读_王者万象棋",
-      "desc": "体验服迎来重磅改动！乔兮机制大刀阔斧重做，有望诞生 T0 新战术，武则天正式服移除技能伤害衰减，大河",
+      "author": "小雨瞄一瞄",
+      "title": "从昭君被砍说说万象棋的调整",
+      "desc": "",
       "featured": false
     },
     {
@@ -656,33 +666,23 @@
       "featured": false
     },
     {
-      "id": "BV1cexT6WE3Y",
-      "url": "https://www.bilibili.com/video/BV1cexT6WE3Y",
-      "level": "冲分",
-      "tag": "版本更新",
-      "author": "小雨瞄一瞄",
-      "title": "万象棋版本调整后，怎么稳定上分",
-      "desc": "",
-      "featured": false
-    },
-    {
-      "id": "BV1GCnf66Ecu",
-      "url": "https://www.bilibili.com/video/BV1GCnf66Ecu",
-      "level": "冲分",
-      "tag": "版本更新",
-      "author": "万象棋研究僧",
-      "title": "这周谁最能上分？三榜阵容强度一次排完（10月最后一周）",
-      "desc": "这周万象棋三张榜单更新了，一共 51 套阵容。\n\n先说三个榜单都认的。河洛花木兰，钻石强度第三、王者",
-      "featured": false
-    },
-    {
-      "id": "BV1Bxxg6xEKZ",
-      "url": "https://www.bilibili.com/video/BV1Bxxg6xEKZ",
+      "id": "BV1Sux56XEu9",
+      "url": "https://www.bilibili.com/video/BV1Sux56XEu9",
       "level": "进阶",
       "tag": "版本更新",
-      "author": "宇宙最帅手抓饼",
-      "title": "万象棋10月最夯阵容出炉！",
-      "desc": "版本更新后，王者万象棋胜率最高的T0阵容来啦！",
+      "author": "RW侠简单",
+      "title": "【王者万象棋】内卷之王，7600分版本答案「镜三分倒转」，一张牌直接觉醒！",
+      "desc": "还在为天梯三分内卷搜不到牌而苦恼吗？今天给大家带来天梯7600分实测的「内卷之王」——镜三分倒转完整",
+      "featured": false
+    },
+    {
+      "id": "BV1dXxV6eEtL",
+      "url": "https://www.bilibili.com/video/BV1dXxV6eEtL",
+      "level": "冲分",
+      "tag": "版本更新",
+      "author": "鸽子飞舞吧",
+      "title": "万象棋版本更新后马超的最强黑科技玩法",
+      "desc": "-",
       "featured": false
     },
     {
@@ -726,13 +726,13 @@
       "featured": false
     },
     {
-      "id": "BV1MfxT6TEdd",
-      "url": "https://www.bilibili.com/video/BV1MfxT6TEdd",
+      "id": "BV1AVxg6vENm",
+      "url": "https://www.bilibili.com/video/BV1AVxg6vENm",
       "level": "进阶",
       "tag": "版本更新",
-      "author": "直播回放-弹幕版本",
-      "title": "【弹幕版本】阿超-王者万象棋2026.10.27——15:10直播回放",
-      "desc": "【弹幕版本】喜欢的话麻烦留个关注就可以啦谢谢~",
+      "author": "搓玻璃的饭团",
+      "title": "万象棋乔汐重做！版本地震！",
+      "desc": "乔汐重做!体验服版本更新！快来和\n主包一起看看本次有哪些改动吧！",
       "featured": false
     }
   ],
