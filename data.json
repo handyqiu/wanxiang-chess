@@ -436,16 +436,6 @@
   ],
   "videos": [
     {
-      "id": "BV19kxq6bEmd",
-      "url": "https://www.bilibili.com/video/BV19kxq6bEmd",
-      "level": "进阶",
-      "tag": "通用",
-      "author": "西君-王者万象棋",
-      "title": "万象棋最逆天的天赋套路，拿到就是吃鸡，多彩古币+零钱兑换天赋组合",
-      "desc": "",
-      "featured": true
-    },
-    {
       "id": "BV1fNxF6FEHS",
       "url": "https://www.bilibili.com/video/BV1fNxF6FEHS",
       "level": "入门",
@@ -496,6 +486,16 @@
       "featured": false
     },
     {
+      "id": "BV1g7xr6AEgx",
+      "url": "https://www.bilibili.com/video/BV1g7xr6AEgx",
+      "level": "入门",
+      "tag": "打法",
+      "author": "歪掰掰",
+      "title": "【王者万象棋】明先生公式化大山鬼原理详细解说，新手也能轻松养出999级大山鬼！召唤兽瞬间万伤？",
+      "desc": "",
+      "featured": false
+    },
+    {
       "id": "BV1Zqxr6EE99",
       "url": "https://www.bilibili.com/video/BV1Zqxr6EE99",
       "level": "入门",
@@ -513,26 +513,6 @@
       "author": "㷱将军",
       "title": "【王者万象棋】万字精讲国服顶级马可三分貂蝉保姆级教学",
       "desc": "后面还有两期建议关注追更",
-      "featured": false
-    },
-    {
-      "id": "BV1wxxq63EJL",
-      "url": "https://www.bilibili.com/video/BV1wxxq63EJL",
-      "level": "冲分",
-      "tag": "打法",
-      "author": "策马归林王者万象棋",
-      "title": "闹闹上分日记。#王者万象棋闹闹攻略 #王者万象棋上分指南 #王者万象棋#万象新星创作团",
-      "desc": "-",
-      "featured": false
-    },
-    {
-      "id": "BV1iVxi68ELr",
-      "url": "https://www.bilibili.com/video/BV1iVxi68ELr",
-      "level": "入门",
-      "tag": "打法",
-      "author": "LGD小黑",
-      "title": "钻石狂潮-河洛大显身手教学-上限拉满的配置学会就是赚钱",
-      "desc": "",
       "featured": false
     },
     {
@@ -576,43 +556,13 @@
       "featured": false
     },
     {
-      "id": "BV1jQxe6dEBq",
-      "url": "https://www.bilibili.com/video/BV1jQxe6dEBq",
+      "id": "BV1ckx16aE2R",
+      "url": "https://www.bilibili.com/video/BV1ckx16aE2R",
       "level": "进阶",
       "tag": "新棋手",
-      "author": "更少宝",
-      "title": "王者万象棋萌新上王者比嫦小娥还无脑烂分从底层逻辑上必吃分的棋手庄小鱼",
-      "desc": "",
-      "featured": false
-    },
-    {
-      "id": "BV1AWxq6kEcj",
-      "url": "https://www.bilibili.com/video/BV1AWxq6kEcj",
-      "level": "进阶",
-      "tag": "新棋手",
-      "author": "普通的蓝色大肥鱼",
-      "title": "万象棋10.30：三套阵容加一个棋手",
-      "desc": "近7天万象棋天梯38万8956场数据，挑三套主流阵容加一个棋手聊透：李白武则天程咬金吃鸡率21%但不",
-      "featured": false
-    },
-    {
-      "id": "BV1oUxe6ZEqz",
-      "url": "https://www.bilibili.com/video/BV1oUxe6ZEqz",
-      "level": "冲分",
-      "tag": "新棋手",
-      "author": "小王万象棋Aigc",
-      "title": "“烂分”王！最容易上手，还能上分的棋手—闹闹（三套阵容推荐）",
-      "desc": "-",
-      "featured": false
-    },
-    {
-      "id": "BV1LRxi6aExY",
-      "url": "https://www.bilibili.com/video/BV1LRxi6aExY",
-      "level": "进阶",
-      "tag": "新棋手",
-      "author": "秋叶1218",
-      "title": "王者万象棋卡牌介绍-孙膑",
-      "desc": "",
+      "author": "我爱白歌PROMAX",
+      "title": "万象棋最”牛“的棋手要上线了",
+      "desc": "牛完你的牛你的，牛完你的牛你的",
       "featured": false
     },
     {
@@ -656,6 +606,16 @@
       "featured": false
     },
     {
+      "id": "BV1xgxy6vEBR",
+      "url": "https://www.bilibili.com/video/BV1xgxy6vEBR",
+      "level": "进阶",
+      "tag": "版本更新",
+      "author": "程_米汤",
+      "title": "王牌对决_顶级庄小鱼_花木兰体系极致运营_王者万象棋",
+      "desc": "🔥庄小鱼封神花木兰对局来了！\n416 级高额等级 + 10 次复活 + 毁灭灵冠神装，直面已经大成的",
+      "featured": false
+    },
+    {
       "id": "BV1yS421979w",
       "url": "https://www.bilibili.com/video/BV1yS421979w",
       "level": "入门",
@@ -663,16 +623,6 @@
       "author": "玄鸦y",
       "title": "版本更新庄小鱼强势上分2套阵容,无阵营+无限复活花木兰 #王者万象棋 #王者万象棋s1创作激励#万象新星创作团#王者万象棋新手攻略",
       "desc": "",
-      "featured": false
-    },
-    {
-      "id": "BV1H4xq66EAT",
-      "url": "https://www.bilibili.com/video/BV1H4xq66EAT",
-      "level": "冲分",
-      "tag": "版本更新",
-      "author": "林宇万象棋",
-      "title": "不死流芈月，国服阵容攻略，冷门上分攻略，国服姜导带你玩",
-      "desc": "版本强势逐鹿单核不死流芈月，利用芈月技能机制，反复触发效果牌快速养主 C，高续航容错拉满，不怕爆发阵",
       "featured": false
     },
     {
@@ -696,13 +646,23 @@
       "featured": false
     },
     {
-      "id": "BV1J8xq6BEDo",
-      "url": "https://www.bilibili.com/video/BV1J8xq6BEDo",
+      "id": "BV1Kmxk6aEiS",
+      "url": "https://www.bilibili.com/video/BV1Kmxk6aEiS",
       "level": "进阶",
       "tag": "版本更新",
-      "author": "大师的召唤",
-      "title": "1030王者万象棋最稳吃鸡阵容跟适配棋手这是29日更新后首日数据阿狸胜率飙升，芈月加强后可以做主c了你有什么好阵容 评论区见",
-      "desc": "-",
+      "author": "直播回放-弹幕版本",
+      "title": "【弹幕版本】QT萌岑（万象棋国一昭君）2026.10.31——15:10直播回放",
+      "desc": "【弹幕版本】喜欢的话麻烦留个关注就可以啦谢谢~",
+      "featured": false
+    },
+    {
+      "id": "BV1upxC6qEFu",
+      "url": "https://www.bilibili.com/video/BV1upxC6qEFu",
+      "level": "进阶",
+      "tag": "版本更新",
+      "author": "直播回放-弹幕版本",
+      "title": "【弹幕版本】一茗（王者万象棋）2026.10.31——14:10直播回放",
+      "desc": "【弹幕版本】喜欢的话麻烦留个关注就可以啦谢谢~",
       "featured": false
     },
     {
@@ -733,6 +693,46 @@
       "author": "公路猫",
       "title": "王者万象棋新版本T0阵容：阿离单核芈月，吸血就是永动机",
       "desc": "10月29日更新后直接起飞的单核阵容：阿离单核芈月。\n全队资源喂芈月一个人，二阶卡成型快，等级启动早",
+      "featured": false
+    },
+    {
+      "id": "BV1s5xY6AEwW",
+      "url": "https://www.bilibili.com/video/BV1s5xY6AEwW",
+      "level": "冲分",
+      "tag": "版本更新",
+      "author": "小良王者万象棋",
+      "title": "从夯到拉，2000字锐评，新版本所有棋手上分效率，第三期！王者万象棋！",
+      "desc": "-",
+      "featured": false
+    },
+    {
+      "id": "BV184xw6XE3C",
+      "url": "https://www.bilibili.com/video/BV184xw6XE3C",
+      "level": "进阶",
+      "tag": "版本更新",
+      "author": "直播回放-弹幕版本",
+      "title": "【弹幕版本】QT萌岑（万象棋国一昭君）2026.10.29——19:10直播回放",
+      "desc": "【弹幕版本】喜欢的话麻烦留个关注就可以啦谢谢~",
+      "featured": false
+    },
+    {
+      "id": "BV1prxw6VEWN",
+      "url": "https://www.bilibili.com/video/BV1prxw6VEWN",
+      "level": "进阶",
+      "tag": "版本更新",
+      "author": "直播回放-弹幕版本",
+      "title": "【弹幕版本】一茗（王者万象棋）2026.10.29——19:10直播回放",
+      "desc": "【弹幕版本】喜欢的话麻烦留个关注就可以啦谢谢~",
+      "featured": false
+    },
+    {
+      "id": "BV1FHxc6MEQw",
+      "url": "https://www.bilibili.com/video/BV1FHxc6MEQw",
+      "level": "进阶",
+      "tag": "版本更新",
+      "author": "一只狼加上",
+      "title": "版本更新后，万象棋顶级邪修玩法，泳池派对 #王者万象棋#王者万象棋正式上线#万象棋阵容大赛#万象新星创作团",
+      "desc": "-",
       "featured": false
     }
   ],
