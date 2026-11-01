@@ -496,16 +496,6 @@
       "featured": false
     },
     {
-      "id": "BV1g7xr6AEgx",
-      "url": "https://www.bilibili.com/video/BV1g7xr6AEgx",
-      "level": "入门",
-      "tag": "打法",
-      "author": "歪掰掰",
-      "title": "【王者万象棋】明先生公式化大山鬼原理详细解说，新手也能轻松养出999级大山鬼！召唤兽瞬间万伤？",
-      "desc": "",
-      "featured": false
-    },
-    {
       "id": "BV1kSHw6AEYD",
       "url": "https://www.bilibili.com/video/BV1kSHw6AEYD",
       "level": "入门",
@@ -556,23 +546,33 @@
       "featured": false
     },
     {
-      "id": "BV1Upxn6MEhj",
-      "url": "https://www.bilibili.com/video/BV1Upxn6MEhj",
-      "level": "进阶",
+      "id": "BV1J7xH6hEUd",
+      "url": "https://www.bilibili.com/video/BV1J7xH6hEUd",
+      "level": "冲分",
       "tag": "新棋手",
-      "author": "痛苦先知金老师",
-      "title": "闹闹选阵营：最稳的不是官方推荐那个",
-      "desc": "闹闹开局会弹两个阵营让你选一个，选完不能改。选错了，整把都在补人。这条讲的就是那一次怎么选。\n\n我拉",
+      "author": "欧根er",
+      "title": "1血翻盘镜无阵营顶尖棋手对局，999老虎VS999露娜，启动超快！瑶妹日落海差点吃上分【王者万象棋】",
+      "desc": "我觉得这把真挺精彩的，1血翻盘",
       "featured": false
     },
     {
-      "id": "BV16Jxy6tE4M",
-      "url": "https://www.bilibili.com/video/BV16Jxy6tE4M",
-      "level": "入门",
+      "id": "BV12GxW6kEaA",
+      "url": "https://www.bilibili.com/video/BV12GxW6kEaA",
+      "level": "进阶",
       "tag": "新棋手",
-      "author": "假面骑士二爷",
-      "title": "露娜有点强，谁才能战胜她？#王者万象棋 #王者万象棋S1创作激励 #王者万象棋正式上线 #王者万象棋新手攻略",
+      "author": "万象棋大钻头",
+      "title": "10亿钻石奖池，到底谁在获利？万象棋棋手竞猜，奖池已经累计10亿钻石！有人中奖，有人参与，有人承担手续费。这套竞猜机制是福利玩法，还是游戏经济系统的一环？",
       "desc": "-",
+      "featured": false
+    },
+    {
+      "id": "BV1N8xp6GEvJ",
+      "url": "https://www.bilibili.com/video/BV1N8xp6GEvJ",
+      "level": "进阶",
+      "tag": "新棋手",
+      "author": "拂云照心",
+      "title": "【王者万象棋】周六的晚上，叫上柳儿打两局超级英雄",
+      "desc": "那个全员百分百的活动，活动说明居然藏在左上角的问号图标里，而不是写在页面上，活动大标题的下面。这就让",
       "featured": false
     },
     {
@@ -583,6 +583,36 @@
       "author": "我爱白歌PROMAX",
       "title": "万象棋最”牛“的棋手要上线了",
       "desc": "牛完你的牛你的，牛完你的牛你的",
+      "featured": false
+    },
+    {
+      "id": "BV18rxy6VEhJ",
+      "url": "https://www.bilibili.com/video/BV18rxy6VEhJ",
+      "level": "进阶",
+      "tag": "新棋手",
+      "author": "秋叶1218",
+      "title": "王者万象棋卡牌介绍-蒙恬",
+      "desc": "",
+      "featured": false
+    },
+    {
+      "id": "BV1STxx69EPi",
+      "url": "https://www.bilibili.com/video/BV1STxx69EPi",
+      "level": "进阶",
+      "tag": "版本更新",
+      "author": "道白U",
+      "title": "（王者万象棋）阿离伞木兰，更新后阿离最高上限阵容",
+      "desc": "-",
+      "featured": false
+    },
+    {
+      "id": "BV1Jcx168EW6",
+      "url": "https://www.bilibili.com/video/BV1Jcx168EW6",
+      "level": "入门",
+      "tag": "版本更新",
+      "author": "鹿东王者万象棋",
+      "title": "王者万象棋：昭君75看完就会，版本T0最强轮椅阵容【万象棋新手教学】【万象棋阵容教学】",
+      "desc": "鹿东频道，励志做王者万象棋最专业的教学频道，一期视频学会一套阵容，欢迎关注，做初创股东，阿东会眼熟你",
       "featured": false
     },
     {
@@ -616,6 +646,36 @@
       "featured": false
     },
     {
+      "id": "BV11GxW6kETm",
+      "url": "https://www.bilibili.com/video/BV11GxW6kETm",
+      "level": "冲分",
+      "tag": "版本更新",
+      "author": "万象棋超人",
+      "title": "【王者万象棋】版本更新后，乔汐能玩吗？白歌稳不稳？11月1日上分推荐",
+      "desc": "",
+      "featured": false
+    },
+    {
+      "id": "BV1KkxJ6iESS",
+      "url": "https://www.bilibili.com/video/BV1KkxJ6iESS",
+      "level": "冲分",
+      "tag": "版本更新",
+      "author": "万象棋小猪手",
+      "title": "王者万象棋:阿离不死流芈月，超标玩法!更新后直线上分!",
+      "desc": "王者万象棋:阿离不死流芈月，超标玩法!更新后直线上分!",
+      "featured": false
+    },
+    {
+      "id": "BV1czxC6dEhZ",
+      "url": "https://www.bilibili.com/video/BV1czxC6dEhZ",
+      "level": "进阶",
+      "tag": "版本更新",
+      "author": "九山夫0555",
+      "title": "王者万象棋阵容数据周报ep008——补丁后阿离小幅加强，乔汐仍需开发，班叔套路非常稳健",
+      "desc": "1.优化了一周回看；\n2.新增了补丁涉及英雄的阵容推荐；\n3.数据对比时，对于决赛变阵的决战阵容，影",
+      "featured": false
+    },
+    {
       "id": "BV1MTxv61EFm",
       "url": "https://www.bilibili.com/video/BV1MTxv61EFm",
       "level": "进阶",
@@ -623,6 +683,16 @@
       "author": "万象棋小猪手",
       "title": "王者万象棋:镜-日落海倒转，瞬间全员觉醒!超强战力!更新后",
       "desc": "王者万象棋:镜-日落海倒转，瞬间全员觉醒!超强战力!更新后",
+      "featured": false
+    },
+    {
+      "id": "BV17gx16WEMw",
+      "url": "https://www.bilibili.com/video/BV17gx16WEMw",
+      "level": "进阶",
+      "tag": "版本更新",
+      "author": "大师的召唤",
+      "title": "王者万象棋s1季中海选赛大数据吃鸡棋手统计\t比赛的时候适逢昭君改版，昭君的数据仅供参考\t总结：刷牌选手上限更高跟，昭君之前版本强势 。",
+      "desc": "-",
       "featured": false
     },
     {
@@ -663,76 +733,6 @@
       "author": "直播回放-弹幕版本",
       "title": "【弹幕版本】QT萌岑（万象棋国一昭君）2026.10.31——07:10直播回放",
       "desc": "【弹幕版本】喜欢的话麻烦留个关注就可以啦谢谢~",
-      "featured": false
-    },
-    {
-      "id": "BV1f5xB6qELd",
-      "url": "https://www.bilibili.com/video/BV1f5xB6qELd",
-      "level": "进阶",
-      "tag": "版本更新",
-      "author": "直播回放-弹幕版本",
-      "title": "【弹幕版本】一茗（王者万象棋）2026.10.30——21:10直播回放",
-      "desc": "【弹幕版本】喜欢的话麻烦留个关注就可以啦谢谢~",
-      "featured": false
-    },
-    {
-      "id": "BV1yS421979w",
-      "url": "https://www.bilibili.com/video/BV1yS421979w",
-      "level": "入门",
-      "tag": "版本更新",
-      "author": "玄鸦y",
-      "title": "版本更新庄小鱼强势上分2套阵容,无阵营+无限复活花木兰 #王者万象棋 #王者万象棋s1创作激励#万象新星创作团#王者万象棋新手攻略",
-      "desc": "",
-      "featured": false
-    },
-    {
-      "id": "BV1Poxv6GEjs",
-      "url": "https://www.bilibili.com/video/BV1Poxv6GEjs",
-      "level": "冲分",
-      "tag": "版本更新",
-      "author": "公路猫",
-      "title": "王者万象棋新版本T0阵容：阿离单核芈月，吸血就是永动机",
-      "desc": "10月29日更新后直接起飞的单核阵容：阿离单核芈月。\n全队资源喂芈月一个人，二阶卡成型快，等级启动早",
-      "featured": false
-    },
-    {
-      "id": "BV1s5xY6AEwW",
-      "url": "https://www.bilibili.com/video/BV1s5xY6AEwW",
-      "level": "冲分",
-      "tag": "版本更新",
-      "author": "小良王者万象棋",
-      "title": "从夯到拉，2000字锐评，新版本所有棋手上分效率，第三期！王者万象棋！",
-      "desc": "-",
-      "featured": false
-    },
-    {
-      "id": "BV184xw6XE3C",
-      "url": "https://www.bilibili.com/video/BV184xw6XE3C",
-      "level": "进阶",
-      "tag": "版本更新",
-      "author": "直播回放-弹幕版本",
-      "title": "【弹幕版本】QT萌岑（万象棋国一昭君）2026.10.29——19:10直播回放",
-      "desc": "【弹幕版本】喜欢的话麻烦留个关注就可以啦谢谢~",
-      "featured": false
-    },
-    {
-      "id": "BV1prxw6VEWN",
-      "url": "https://www.bilibili.com/video/BV1prxw6VEWN",
-      "level": "进阶",
-      "tag": "版本更新",
-      "author": "直播回放-弹幕版本",
-      "title": "【弹幕版本】一茗（王者万象棋）2026.10.29——19:10直播回放",
-      "desc": "【弹幕版本】喜欢的话麻烦留个关注就可以啦谢谢~",
-      "featured": false
-    },
-    {
-      "id": "BV1FHxc6MEQw",
-      "url": "https://www.bilibili.com/video/BV1FHxc6MEQw",
-      "level": "进阶",
-      "tag": "版本更新",
-      "author": "一只狼加上",
-      "title": "版本更新后，万象棋顶级邪修玩法，泳池派对 #王者万象棋#王者万象棋正式上线#万象棋阵容大赛#万象新星创作团",
-      "desc": "-",
       "featured": false
     }
   ],
