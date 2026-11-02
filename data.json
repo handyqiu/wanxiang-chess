@@ -436,6 +436,16 @@
   ],
   "videos": [
     {
+      "id": "BV18Vx86KEQ3",
+      "url": "https://www.bilibili.com/video/BV18Vx86KEQ3",
+      "level": "冲分",
+      "tag": "打法",
+      "author": "欧根er",
+      "title": "顶尖局瑶信打法参考，运营拍卖上阵角色天赋选择全程讲解，13回合百级李信，带你玩明白高分瑶妹李信【王者万象棋】",
+      "desc": "有什么不懂可以评论区提问哦~",
+      "featured": false
+    },
+    {
       "id": "BV1fNxF6FEHS",
       "url": "https://www.bilibili.com/video/BV1fNxF6FEHS",
       "level": "入门",
@@ -486,13 +496,43 @@
       "featured": false
     },
     {
-      "id": "BV1Stxs6nE1E",
-      "url": "https://www.bilibili.com/video/BV1Stxs6nE1E",
+      "id": "BV1Q84c6REMQ",
+      "url": "https://www.bilibili.com/video/BV1Q84c6REMQ",
       "level": "入门",
       "tag": "打法",
       "author": "歪掰掰",
-      "title": "【王者万象棋】高分段上分香香运营思路4.0，全流程保姆级对战教学解说！如何应对伞芈月？",
+      "title": "【王者万象棋】高分段嫦小娥万金油运营思路2.0，全流程保姆级对战教学解说！如何应对无限复活花木兰？",
       "desc": "",
+      "featured": false
+    },
+    {
+      "id": "BV1cPx461EeQ",
+      "url": "https://www.bilibili.com/video/BV1cPx461EeQ",
+      "level": "冲分",
+      "tag": "打法",
+      "author": "万象棋小猪手",
+      "title": "王者万象棋:智能装甲闹闹!日落海整备流，超标玩法强力上分!",
+      "desc": "王者万象棋:智能装甲闹闹!日落海整备流，超标玩法强力上分!",
+      "featured": false
+    },
+    {
+      "id": "BV15Ux86GEEJ",
+      "url": "https://www.bilibili.com/video/BV15Ux86GEEJ",
+      "level": "冲分",
+      "tag": "打法",
+      "author": "b哩b哩动画放映厅",
+      "title": "_赢律养曜流_四回合就能破百级,六回合直接200多级,前期一路连胜,后期随意养五费大哥。#王者万象棋 #王者万象棋s1创作激励 #王者万象棋上分",
+      "desc": "宝宝子们！评论区可抽奖~~~感谢耐下心看完这段视频～ 片段是不是没看够呀？完整正片放在评论区置顶链接",
+      "featured": false
+    },
+    {
+      "id": "BV1pgxb6JE7V",
+      "url": "https://www.bilibili.com/video/BV1pgxb6JE7V",
+      "level": "进阶",
+      "tag": "打法",
+      "author": "王者万象棋我不是狙神",
+      "title": "万象棋最温柔的过客：花木兰守长城边关，兰陵王隐于暗影 —— 棋盘上没有他的位置",
+      "desc": "【万象棋・棋盘偏爱录 EP.48】花木兰，长城守卫军的统领，河洛的女儿。\n兰陵王，金庭国的王子，亲眼",
       "featured": false
     },
     {
@@ -566,23 +606,13 @@
       "featured": false
     },
     {
-      "id": "BV1MSxW67EH2",
-      "url": "https://www.bilibili.com/video/BV1MSxW67EH2",
-      "level": "进阶",
+      "id": "BV1PA4c65EY3",
+      "url": "https://www.bilibili.com/video/BV1PA4c65EY3",
+      "level": "入门",
       "tag": "新棋手",
-      "author": "阿猫-王者万象棋",
-      "title": "王者万象棋黑科技阵容之镜马超无脑流",
-      "desc": "大神们整了一个无脑流镜马超，我用了一下相当不错，你们都用了么？没用的赶紧试下哦，觉得好用的评论区走一",
-      "featured": false
-    },
-    {
-      "id": "BV1ENx16oEwd",
-      "url": "https://www.bilibili.com/video/BV1ENx16oEwd",
-      "level": "进阶",
-      "tag": "新棋手",
-      "author": "一起看动漫剧场",
-      "title": "镜闪身步貂蝉_貂蝉无限技能一直丢，全场蹦迪，无限叠级，这才是万象棋最新偷分黑科技。#王者万象棋 #王者万象棋正式上线 #万象棋阵容大赛 #万象棋趣味时刻",
-      "desc": "-",
+      "author": "经济学教父丷",
+      "title": "白歌是低胜率弱势棋手？这是偏见！白歌逐鹿教学！",
+      "desc": "",
       "featured": false
     },
     {
@@ -613,36 +643,6 @@
       "author": "㷱将军",
       "title": "【王者万象棋】国一马可推荐的最新偷分阵容马可养芈月，学会包上7000分",
       "desc": "芈月新晋的涿鹿强卡，后面版本必备砍，建议现在会的人不多，练好抓紧冲分",
-      "featured": false
-    },
-    {
-      "id": "BV1LRxi6aEya",
-      "url": "https://www.bilibili.com/video/BV1LRxi6aEya",
-      "level": "入门",
-      "tag": "版本更新",
-      "author": "自律游戏菌",
-      "title": "姜导核爆芈月，更新后加强的上分冷门阵容，新手也能学会！#王者万象棋 #王者万象棋正式上线 #王者万象棋S1创作激励",
-      "desc": "",
-      "featured": false
-    },
-    {
-      "id": "BV1cNxs6TEhy",
-      "url": "https://www.bilibili.com/video/BV1cNxs6TEhy",
-      "level": "进阶",
-      "tag": "版本更新",
-      "author": "万象棋小助手",
-      "title": "昭君觉醒流蒙恬版本答案！无脑吃鸡！#王者万象棋 #王者万象棋s1创作激励 #万象新星创作团",
-      "desc": "-",
-      "featured": false
-    },
-    {
-      "id": "BV11GxW6kETm",
-      "url": "https://www.bilibili.com/video/BV11GxW6kETm",
-      "level": "冲分",
-      "tag": "版本更新",
-      "author": "万象棋超人",
-      "title": "【王者万象棋】版本更新后，乔汐能玩吗？白歌稳不稳？11月1日上分推荐",
-      "desc": "",
       "featured": false
     },
     {
@@ -686,6 +686,16 @@
       "featured": false
     },
     {
+      "id": "BV1cNxs6TEhy",
+      "url": "https://www.bilibili.com/video/BV1cNxs6TEhy",
+      "level": "进阶",
+      "tag": "版本更新",
+      "author": "万象棋小助手",
+      "title": "昭君觉醒流蒙恬版本答案！无脑吃鸡！#王者万象棋 #王者万象棋s1创作激励 #万象新星创作团",
+      "desc": "-",
+      "featured": false
+    },
+    {
       "id": "BV1Texs67Ena",
       "url": "https://www.bilibili.com/video/BV1Texs67Ena",
       "level": "进阶",
@@ -696,6 +706,26 @@
       "featured": false
     },
     {
+      "id": "BV1qNx16oEkN",
+      "url": "https://www.bilibili.com/video/BV1qNx16oEkN",
+      "level": "冲分",
+      "tag": "版本更新",
+      "author": "一起看动漫剧场",
+      "title": "镜日落海倒转_版本最新最轮椅的玩法，轻松养出俩张999满级5阶大哥，暴打小朋友#王者万象棋 #王者万象棋正式上线 #万象棋阵容大赛 #万象棋趣味时刻",
+      "desc": "-",
+      "featured": false
+    },
+    {
+      "id": "BV11GxW6kETm",
+      "url": "https://www.bilibili.com/video/BV11GxW6kETm",
+      "level": "冲分",
+      "tag": "版本更新",
+      "author": "万象棋超人",
+      "title": "【王者万象棋】版本更新后，乔汐能玩吗？白歌稳不稳？11月1日上分推荐",
+      "desc": "",
+      "featured": false
+    },
+    {
       "id": "BV17gx16WEMw",
       "url": "https://www.bilibili.com/video/BV17gx16WEMw",
       "level": "进阶",
@@ -703,36 +733,6 @@
       "author": "大师的召唤",
       "title": "王者万象棋s1季中海选赛大数据吃鸡棋手统计\t比赛的时候适逢昭君改版，昭君的数据仅供参考\t总结：刷牌选手上限更高跟，昭君之前版本强势 。",
       "desc": "-",
-      "featured": false
-    },
-    {
-      "id": "BV1Kmxk6aEiS",
-      "url": "https://www.bilibili.com/video/BV1Kmxk6aEiS",
-      "level": "进阶",
-      "tag": "版本更新",
-      "author": "直播回放-弹幕版本",
-      "title": "【弹幕版本】QT萌岑（万象棋国一昭君）2026.10.31——15:10直播回放",
-      "desc": "【弹幕版本】喜欢的话麻烦留个关注就可以啦谢谢~",
-      "featured": false
-    },
-    {
-      "id": "BV1upxC6qEFu",
-      "url": "https://www.bilibili.com/video/BV1upxC6qEFu",
-      "level": "进阶",
-      "tag": "版本更新",
-      "author": "直播回放-弹幕版本",
-      "title": "【弹幕版本】一茗（王者万象棋）2026.10.31——14:10直播回放",
-      "desc": "【弹幕版本】喜欢的话麻烦留个关注就可以啦谢谢~",
-      "featured": false
-    },
-    {
-      "id": "BV1MHxC6MESn",
-      "url": "https://www.bilibili.com/video/BV1MHxC6MESn",
-      "level": "进阶",
-      "tag": "版本更新",
-      "author": "王哥368",
-      "title": "版本黑马！阿离伞猫无限轰炸！#王者万象棋#王者万象棋s1创作激励#万象新星创作团#万象棋大学",
-      "desc": "版本黑马！阿离伞猫无限轰炸！#王者万象棋#王者万象棋s1创作激励#万象新星创作团#万象棋大学",
       "featured": false
     }
   ],
