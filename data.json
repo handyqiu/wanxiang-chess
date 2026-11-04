@@ -446,6 +446,16 @@
       "featured": true
     },
     {
+      "id": "BV1EoxS6BEgL",
+      "url": "https://www.bilibili.com/video/BV1EoxS6BEgL",
+      "level": "入门",
+      "tag": "打法",
+      "author": "歪掰掰",
+      "title": "【王者万象棋】庄小鱼T0无限复活花木兰公式化打法教学，全流程保姆级对战教学解说！驱雷花木兰无解？",
+      "desc": "",
+      "featured": false
+    },
+    {
       "id": "BV17f4G6vETc",
       "url": "https://www.bilibili.com/video/BV17f4G6vETc",
       "level": "进阶",
@@ -536,26 +546,6 @@
       "featured": false
     },
     {
-      "id": "BV1qV4g6tE9K",
-      "url": "https://www.bilibili.com/video/BV1qV4g6tE9K",
-      "level": "冲分",
-      "tag": "打法",
-      "author": "悠悠的万象小课堂",
-      "title": "无限吸血、核爆伤害，万象棋最新上分黑科技！",
-      "desc": "-",
-      "featured": false
-    },
-    {
-      "id": "BV1WW4366Eku",
-      "url": "https://www.bilibili.com/video/BV1WW4366Eku",
-      "level": "入门",
-      "tag": "打法",
-      "author": "珊珊吃饱了吗",
-      "title": "闹闹逐鹿炸盾耀教学，拿去嘎嘎上分 #王者万象棋 #王者万象棋S1创作激励 #王者万象棋闹闹攻略 #王者万象棋上分指南",
-      "desc": "-",
-      "featured": false
-    },
-    {
       "id": "BV1E74G6eEc9",
       "url": "https://www.bilibili.com/video/BV1E74G6eEc9",
       "level": "入门",
@@ -583,16 +573,6 @@
       "author": "理想是一觉睡到自然醒",
       "title": "万象棋国一弈星月惜特殊天赋打法教学录屏存档自留",
       "desc": "dy月惜\n万象棋国一弈星月惜特殊天赋打法教学录屏存档自留\n棋手弈星玩特殊天赋特殊阵容的打法参考，教程",
-      "featured": false
-    },
-    {
-      "id": "BV1EQJk6TECM",
-      "url": "https://www.bilibili.com/video/BV1EQJk6TECM",
-      "level": "入门",
-      "tag": "新棋手",
-      "author": "努力的小沈同学ovo",
-      "title": "常小娥最基础公式化教学，40秒教懂怎么玩转常小娥阵容，最轮椅最爱刷手机之棋手",
-      "desc": "-",
       "featured": false
     },
     {
@@ -626,6 +606,66 @@
       "featured": false
     },
     {
+      "id": "BV1XuxX6TErZ",
+      "url": "https://www.bilibili.com/video/BV1XuxX6TErZ",
+      "level": "进阶",
+      "tag": "新棋手",
+      "author": "大哥很生气了",
+      "title": "王者万象棋武凤11月6号正式上线，自带传说皮的女王",
+      "desc": "-",
+      "featured": false
+    },
+    {
+      "id": "BV1GExm6dE1W",
+      "url": "https://www.bilibili.com/video/BV1GExm6dE1W",
+      "level": "进阶",
+      "tag": "新棋手",
+      "author": "幻光爱下棋",
+      "title": "万象棋最超标的新英雄武凤即将上线",
+      "desc": "-",
+      "featured": false
+    },
+    {
+      "id": "BV175xS6TEid",
+      "url": "https://www.bilibili.com/video/BV175xS6TEid",
+      "level": "冲分",
+      "tag": "新棋手",
+      "author": "万象棋锤子",
+      "title": "我不允许有人还不知道乔汐这个棋手有多好上分！#王者万象棋 #王者万象棋s1创作激励 #游戏破壁计划",
+      "desc": "-",
+      "featured": false
+    },
+    {
+      "id": "BV1NrxS6UEdo",
+      "url": "https://www.bilibili.com/video/BV1NrxS6UEdo",
+      "level": "冲分",
+      "tag": "新棋手",
+      "author": "摸鱼玩家TouchFish",
+      "title": "万象棋七款平板绑定棋手，是“上分外设”还是“被厂商绑架的选秀”？",
+      "desc": "-",
+      "featured": false
+    },
+    {
+      "id": "BV1WCxS67E31",
+      "url": "https://www.bilibili.com/video/BV1WCxS67E31",
+      "level": "冲分",
+      "tag": "新棋手",
+      "author": "拂云照心",
+      "title": "【王者万象棋】李信最神挡杀神、佛挡杀佛的一集！我亲自带星泪上分！",
+      "desc": "星泪前中期卖血太多了，第12回合又对上了我。于是我就把他打出局，然后瑶妹血量一直稳定在48点，李信更",
+      "featured": false
+    },
+    {
+      "id": "BV13S436XEJA",
+      "url": "https://www.bilibili.com/video/BV13S436XEJA",
+      "level": "进阶",
+      "tag": "新棋手",
+      "author": "王者万象棋我不是狙神",
+      "title": "万象棋盘上最大的诚意是不给自己留退路",
+      "desc": "【万象棋・棋盘偏爱录 EP.50】万象棋手闹闹，命运有时候很不讲道理。\n它随手递给你两个阵营，像递给",
+      "featured": false
+    },
+    {
       "id": "BV1yc4G65Est",
       "url": "https://www.bilibili.com/video/BV1yc4G65Est",
       "level": "进阶",
@@ -633,16 +673,6 @@
       "author": "陈青doro",
       "title": "万象棋手机不发烫:攻速有阈值，5.0攻速和4.0攻速没区别。至少要5.01攻速才能快一档，目前攻速最高是3.78，下一档要5.01才会有提升。艾琳不需要戴拳套。",
       "desc": "-",
-      "featured": false
-    },
-    {
-      "id": "BV1944G64EHH",
-      "url": "https://www.bilibili.com/video/BV1944G64EHH",
-      "level": "进阶",
-      "tag": "新棋手",
-      "author": "雪影公主宝宝",
-      "title": "【王者万象棋】什么鬼？武则天吞了所有人的经验？",
-      "desc": "前期全队发育，后期一人登基！武则天＋嬴政，搭配棋手庄小鱼，本期带来“双皇鱼”玩法教学。从“大同”养等",
       "featured": false
     },
     {
@@ -686,53 +716,23 @@
       "featured": false
     },
     {
-      "id": "BV1ep4G6FEWK",
-      "url": "https://www.bilibili.com/video/BV1ep4G6FEWK",
+      "id": "BV1JGxS6BE5C",
+      "url": "https://www.bilibili.com/video/BV1JGxS6BE5C",
       "level": "进阶",
       "tag": "版本更新",
-      "author": "欧根er",
-      "title": "万象棋11月3日万万有看到直播解析，乔汐继续加强，蔡文姬改动，芈月强度官方认为合理【王者万象棋】",
-      "desc": "不过官网又删了这个不知道为啥？",
+      "author": "程_米汤",
+      "title": "乔汐加强_三分削弱_万万有看到8_深度解读",
+      "desc": "万万有看到又爆大料！乔汐多项加强，三分体系间接挨刀，潮汐回响分配逻辑改动直接影响归一流玩法。\n芈月加",
       "featured": false
     },
     {
-      "id": "BV1si4g6kESW",
-      "url": "https://www.bilibili.com/video/BV1si4g6kESW",
+      "id": "BV1D24369En2",
+      "url": "https://www.bilibili.com/video/BV1D24369En2",
       "level": "进阶",
       "tag": "版本更新",
-      "author": "阿钱该吃曜了",
-      "title": "盘点万象棋当前版本强势阵容",
-      "desc": "",
-      "featured": false
-    },
-    {
-      "id": "BV1Thxm6mE2y",
-      "url": "https://www.bilibili.com/video/BV1Thxm6mE2y",
-      "level": "进阶",
-      "tag": "版本更新",
-      "author": "阿尔托莉雅-万象棋",
-      "title": "王者万象棋11.3版本前瞻。不理性讨论，白鸽三分和芈月谁更超标？蔡文姬削弱，芈月不动。",
-      "desc": "王者万象棋11.3版本前瞻。不理性讨论，白鸽和芈月谁更超标？蔡文姬削弱，芈月不动。\n芈月感觉纯是因为",
-      "featured": false
-    },
-    {
-      "id": "BV1Se4G6QEPC",
-      "url": "https://www.bilibili.com/video/BV1Se4G6QEPC",
-      "level": "进阶",
-      "tag": "版本更新",
-      "author": "直播回放-弹幕版本",
-      "title": "【弹幕版本】QT萌岑（万象棋国一昭君）2026.11.03——19:11直播回放",
-      "desc": "【弹幕版本】喜欢的话麻烦留个关注就可以啦谢谢~",
-      "featured": false
-    },
-    {
-      "id": "BV1kU4G6GEB7",
-      "url": "https://www.bilibili.com/video/BV1kU4G6GEB7",
-      "level": "进阶",
-      "tag": "版本更新",
-      "author": "直播回放-弹幕版本",
-      "title": "【弹幕版本】一茗（王者万象棋）2026.11.03——16:11直播回放",
-      "desc": "【弹幕版本】喜欢的话麻烦留个关注就可以啦谢谢~",
+      "author": "万象棋小猪手",
+      "title": "万象棋11月4日体验服更新大改，赢律，安琪拉，香香集体加强",
+      "desc": "万象棋11月4日体验服更新大改，赢律，安琪拉，香香集体加强",
       "featured": false
     }
   ],
