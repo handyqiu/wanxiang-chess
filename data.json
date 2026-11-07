@@ -536,6 +536,16 @@
       "featured": false
     },
     {
+      "id": "BV1UK4E6KEo3",
+      "url": "https://www.bilibili.com/video/BV1UK4E6KEo3",
+      "level": "进阶",
+      "tag": "打法",
+      "author": "万象棋老霹雳",
+      "title": "万象棋超级周末新玩法：双倍储能通关攻略",
+      "desc": "",
+      "featured": false
+    },
+    {
       "id": "BV12S4z64ESC",
       "url": "https://www.bilibili.com/video/BV12S4z64ESC",
       "level": "入门",
@@ -586,33 +596,33 @@
       "featured": false
     },
     {
-      "id": "BV1Tt476wEDw",
-      "url": "https://www.bilibili.com/video/BV1Tt476wEDw",
-      "level": "入门",
+      "id": "BV1sd4n6zEGX",
+      "url": "https://www.bilibili.com/video/BV1sd4n6zEGX",
+      "level": "进阶",
       "tag": "新棋手",
-      "author": "砂硠",
-      "title": "每天一把三分倒转#王者万象棋 #王者万象棋正式上线 #万象棋阵容大赛 #万象棋趣味时刻 #万象棋新手攻略大赛",
+      "author": "林某真会玩",
+      "title": "超标棋手武凤！",
       "desc": "-",
       "featured": false
     },
     {
-      "id": "BV1SF4E6uES6",
-      "url": "https://www.bilibili.com/video/BV1SF4E6uES6",
+      "id": "BV15a4E6EEky",
+      "url": "https://www.bilibili.com/video/BV15a4E6EEky",
       "level": "进阶",
       "tag": "新棋手",
-      "author": "比巴卜--王者万象棋",
-      "title": "【王者万象棋】大书对第一次技能有用的吗？",
-      "desc": "",
+      "author": "龍痕飘雪",
+      "title": "当你随机到武凤只能偷到镜的秘技时...",
+      "desc": "王者2000分对局 最后一秒随机棋手出武凤 十分钟纯享版三分倒转",
       "featured": false
     },
     {
-      "id": "BV1RU4B6MEjB",
-      "url": "https://www.bilibili.com/video/BV1RU4B6MEjB",
+      "id": "BV1eY4E62EbJ",
+      "url": "https://www.bilibili.com/video/BV1eY4E62EbJ",
       "level": "进阶",
       "tag": "新棋手",
-      "author": "何慕-王者万象棋",
-      "title": "何慕小课堂 【神秘复活女花木兰】【上篇】机制与阵容",
-      "desc": "欢迎加入何慕万象棋粉丝群 915445412\nwiki：wzwxq.com\n备用：wanxiangq",
+      "author": "哈里的乌托邦",
+      "title": "王者万象棋：阿离飞雷神狄仁杰-极限攻速！爽快体验！",
+      "desc": "狄仁杰是最适合阿离古币体系的英雄之一，下限高，上限比较吃装备，构筑逻辑简单，几乎无操作需求",
       "featured": false
     },
     {
@@ -626,13 +636,23 @@
       "featured": false
     },
     {
-      "id": "BV1584q6aEcV",
-      "url": "https://www.bilibili.com/video/BV1584q6aEcV",
+      "id": "BV1Tt476wEDw",
+      "url": "https://www.bilibili.com/video/BV1Tt476wEDw",
+      "level": "入门",
+      "tag": "新棋手",
+      "author": "砂硠",
+      "title": "每天一把三分倒转#王者万象棋 #王者万象棋正式上线 #万象棋阵容大赛 #万象棋趣味时刻 #万象棋新手攻略大赛",
+      "desc": "-",
+      "featured": false
+    },
+    {
+      "id": "BV1RU4B6MEjB",
+      "url": "https://www.bilibili.com/video/BV1RU4B6MEjB",
       "level": "进阶",
       "tag": "新棋手",
-      "author": "FeeIing",
-      "title": "王者万象棋新棋手武凤 上手攻略！",
-      "desc": "",
+      "author": "何慕-王者万象棋",
+      "title": "何慕小课堂 【神秘复活女花木兰】【上篇】机制与阵容",
+      "desc": "欢迎加入何慕万象棋粉丝群 915445412\nwiki：wzwxq.com\n备用：wanxiangq",
       "featured": false
     },
     {
@@ -656,26 +676,6 @@
       "featured": false
     },
     {
-      "id": "BV1BN466LETG",
-      "url": "https://www.bilibili.com/video/BV1BN466LETG",
-      "level": "进阶",
-      "tag": "新棋手",
-      "author": "云雨梦龙",
-      "title": "万象棋随机抽取挑战： 随机棋手，随机阵容，随机英雄，取得胜利",
-      "desc": "-",
-      "featured": false
-    },
-    {
-      "id": "BV1NT4q67ErH",
-      "url": "https://www.bilibili.com/video/BV1NT4q67ErH",
-      "level": "冲分",
-      "tag": "新棋手",
-      "author": "冷空气ly",
-      "title": "【王者万象棋】11月6日阵容及棋手排行",
-      "desc": "",
-      "featured": false
-    },
-    {
       "id": "BV1F54q6kEZd",
       "url": "https://www.bilibili.com/video/BV1F54q6kEZd",
       "level": "入门",
@@ -683,16 +683,6 @@
       "author": "寒江吖",
       "title": "武凤降临！新棋手王者局测试，全局教学解说！【王者万象棋】",
       "desc": "",
-      "featured": false
-    },
-    {
-      "id": "BV1AS4q6UENV",
-      "url": "https://www.bilibili.com/video/BV1AS4q6UENV",
-      "level": "进阶",
-      "tag": "新棋手",
-      "author": "鲸鱼娘Editor",
-      "title": "当王者万象棋一局出现6个武凤，会发生什么？可以实现【为我所用】了，然后选择欲更强了？",
-      "desc": "王者万象棋新旗手:武凤  正式上线正式服，期待和大家一起上分！",
       "featured": false
     },
     {
@@ -716,6 +706,26 @@
       "featured": false
     },
     {
+      "id": "BV1gA4E6MEsh",
+      "url": "https://www.bilibili.com/video/BV1gA4E6MEsh",
+      "level": "入门",
+      "tag": "版本更新",
+      "author": "RW侠简单",
+      "title": "【王者万象棋】11.5嬴律史诗加强，最强上分阵容赢律嬴政教学攻略",
+      "desc": "11.5更新后嬴律史诗加强，我在顶尖局实测了几把嬴律（除第一把和同行撞牌拿第四，后两把全部吃鸡）。目",
+      "featured": false
+    },
+    {
+      "id": "BV1zq4V6zEk1",
+      "url": "https://www.bilibili.com/video/BV1zq4V6zEk1",
+      "level": "进阶",
+      "tag": "版本更新",
+      "author": "万象棋大钻头",
+      "title": "乔汐大帝，万象棋第一位大帝诞生！                              万象棋乔汐史诗级加强，游戏平衡破坏，策划连夜削弱 来点古早特效",
+      "desc": "-",
+      "featured": false
+    },
+    {
       "id": "BV1Ge4z6qECL",
       "url": "https://www.bilibili.com/video/BV1Ge4z6qECL",
       "level": "入门",
@@ -723,16 +733,6 @@
       "author": "王者万象棋星河",
       "title": "乔汐牺牲流李信教学，削弱后的乔汐依旧是T0轮椅上分棋手！",
       "desc": "-",
-      "featured": false
-    },
-    {
-      "id": "BV1nf4t6DEcf",
-      "url": "https://www.bilibili.com/video/BV1nf4t6DEcf",
-      "level": "入门",
-      "tag": "版本更新",
-      "author": "自律游戏菌",
-      "title": "白歌三分登场流，更新后的上分阵容，新手也能学会!#王者万象棋 #王者万象棋正式上线# 王者万象棋 S1创作激励",
-      "desc": "",
       "featured": false
     }
   ],
