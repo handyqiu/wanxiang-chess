@@ -536,16 +536,6 @@
       "featured": false
     },
     {
-      "id": "BV1paWJ6xE9Z",
-      "url": "https://www.bilibili.com/video/BV1paWJ6xE9Z",
-      "level": "进阶",
-      "tag": "打法",
-      "author": "陈豪王者万象棋",
-      "title": "新模式双倍储能焚决！",
-      "desc": "万象棋最新模式！最细教学！",
-      "featured": false
-    },
-    {
       "id": "BV1Qc4E6BEcG",
       "url": "https://www.bilibili.com/video/BV1Qc4E6BEcG",
       "level": "进阶",
@@ -626,13 +616,43 @@
       "featured": false
     },
     {
-      "id": "BV1PgWE6QEJA",
-      "url": "https://www.bilibili.com/video/BV1PgWE6QEJA",
+      "id": "BV1K9Wn6cEcp",
+      "url": "https://www.bilibili.com/video/BV1K9Wn6cEcp",
       "level": "进阶",
       "tag": "新棋手",
-      "author": "一只蛇暗信_",
-      "title": "锐评王者万象棋逐鹿阵营英雄(上)",
+      "author": "李白日做梦王者万象棋",
+      "title": "万象棋称号攻略第六期 盘点棋手最低上国榜战力 看看谁才是超级卷王#王者万象棋",
       "desc": "-",
+      "featured": false
+    },
+    {
+      "id": "BV1e7WH6CEcs",
+      "url": "https://www.bilibili.com/video/BV1e7WH6CEcs",
+      "level": "入门",
+      "tag": "新棋手",
+      "author": "曜曜-王者万象棋",
+      "title": "新手必学！上限最高的全能棋手[武凤]保姆级阵容解析！",
+      "desc": "【曜曜的武凤三分】66487654861971492\n【曜曜的武凤花木兰】5635455570037",
+      "featured": false
+    },
+    {
+      "id": "BV16oWE6JESu",
+      "url": "https://www.bilibili.com/video/BV16oWE6JESu",
+      "level": "进阶",
+      "tag": "新棋手",
+      "author": "阿尔托莉雅-万象棋",
+      "title": "新英雄武凤真有那么强吗？三天实测 + 对局思路（王者万象棋）",
+      "desc": "武凤出了三天，结论是：只适合当 BP。\n不太适合作为主玩英雄去上分，太吃运气了。",
+      "featured": false
+    },
+    {
+      "id": "BV17kWJ6UEdD",
+      "url": "https://www.bilibili.com/video/BV17kWJ6UEdD",
+      "level": "进阶",
+      "tag": "新棋手",
+      "author": "朋友最优配置酱",
+      "title": "武凤：全能棋手但是巴巴博弈",
+      "desc": "武凤怎么玩？一个视频教会你（别再拿孙小膑庄小鱼骗俺了）",
       "featured": false
     },
     {
@@ -666,26 +686,6 @@
       "featured": false
     },
     {
-      "id": "BV18U4n65Ei3",
-      "url": "https://www.bilibili.com/video/BV18U4n65Ei3",
-      "level": "进阶",
-      "tag": "新棋手",
-      "author": "闲行旷野",
-      "title": "万象棋新人易学|姜导养孙膑",
-      "desc": "非常适合姜导新手入门，是最容易吃透姜导棋手秘技的一套阵容",
-      "featured": false
-    },
-    {
-      "id": "BV1Kr4W62E2B",
-      "url": "https://www.bilibili.com/video/BV1Kr4W62E2B",
-      "level": "冲分",
-      "tag": "新棋手",
-      "author": "痛苦先知金老师",
-      "title": "八套主流阵容：三套能上分，五套看运气",
-      "desc": "只按阵营分，不绑棋手。T0 三个头部：三分倒转、河洛古币木兰、大河图腾；T1 五套特色各有短板，八套",
-      "featured": false
-    },
-    {
       "id": "BV1RMW76PEuK",
       "url": "https://www.bilibili.com/video/BV1RMW76PEuK",
       "level": "入门",
@@ -696,16 +696,6 @@
       "featured": false
     },
     {
-      "id": "BV1Nn4p6GEok",
-      "url": "https://www.bilibili.com/video/BV1Nn4p6GEok",
-      "level": "进阶",
-      "tag": "新棋手",
-      "author": "万象棋大钻头",
-      "title": "棋手竞猜：100注科学分配方案《万象棋赚钻攻略》第006期。验算38760种开奖结果，对比全押和分组竞猜，分享51+24+21+4的回本思路",
-      "desc": "-",
-      "featured": false
-    },
-    {
       "id": "BV1WY4B6EEHX",
       "url": "https://www.bilibili.com/video/BV1WY4B6EEHX",
       "level": "入门",
@@ -713,6 +703,16 @@
       "author": "歪掰掰",
       "title": "【王者万象棋】庄小鱼反制乔汐教学公式化打法+解说，最新更新乔汐削弱了吗？为什么一局还有5个乔天帝？999级嬴政一键清屏！",
       "desc": "",
+      "featured": false
+    },
+    {
+      "id": "BV1r74E6oE75",
+      "url": "https://www.bilibili.com/video/BV1r74E6oE75",
+      "level": "入门",
+      "tag": "版本更新",
+      "author": "鹿东王者万象棋",
+      "title": "王者万象棋：白鸽三分登场流  乔汐削弱后新答案！【万象棋新手教学】【万象棋阵容教学】",
+      "desc": "鹿东频道，励志做王者万象棋最专业的教学频道，一期视频学会一套阵容，欢迎关注，做初创股东，阿东会眼熟你",
       "featured": false
     },
     {
