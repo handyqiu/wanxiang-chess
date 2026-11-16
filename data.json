@@ -526,16 +526,6 @@
       "featured": false
     },
     {
-      "id": "BV18Vx86KEQ3",
-      "url": "https://www.bilibili.com/video/BV18Vx86KEQ3",
-      "level": "冲分",
-      "tag": "打法",
-      "author": "欧根er",
-      "title": "顶尖局瑶信打法参考，运营拍卖上阵角色天赋选择全程讲解，13回合百级李信，带你玩明白高分瑶妹李信【王者万象棋】",
-      "desc": "有什么不懂可以评论区提问哦~",
-      "featured": false
-    },
-    {
       "id": "BV1VMsG6XEAu",
       "url": "https://www.bilibili.com/video/BV1VMsG6XEAu",
       "level": "冲分",
@@ -543,6 +533,16 @@
       "author": "骑墙君",
       "title": "王者万象棋瑶妹上分攻略",
       "desc": "",
+      "featured": false
+    },
+    {
+      "id": "BV1Ptsc6gEP3",
+      "url": "https://www.bilibili.com/video/BV1Ptsc6gEP3",
+      "level": "进阶",
+      "tag": "打法",
+      "author": "清风-努力中",
+      "title": "阿离伞转李信2.0，王者万象棋最新离谱BUG玩法。",
+      "desc": "-",
       "featured": false
     },
     {
@@ -556,13 +556,13 @@
       "featured": false
     },
     {
-      "id": "BV1dWsp6HE6G",
-      "url": "https://www.bilibili.com/video/BV1dWsp6HE6G",
-      "level": "冲分",
+      "id": "BV1LKsA6AEjy",
+      "url": "https://www.bilibili.com/video/BV1LKsA6AEjy",
+      "level": "进阶",
       "tag": "打法",
-      "author": "王者万象棋沐汐a",
-      "title": "马可双复现加化铁拉出999牢大和800级周瑜，极致的运营",
-      "desc": "",
+      "author": "太极剑老师",
+      "title": "「王者万象棋」首次上王牌就夺冠？还得是白歌三分登场",
+      "desc": "好久好久没发视频了，终于找到一个好的素材发。我最近2个月都在玩王者万象棋。11月14日晚上8点场我看",
       "featured": false
     },
     {
@@ -572,6 +572,16 @@
       "tag": "打法",
       "author": "跳跳虎147",
       "title": "万象棋双排最强上分套路——赢律加一切",
+      "desc": "-",
+      "featured": false
+    },
+    {
+      "id": "BV1E5sF6cEMM",
+      "url": "https://www.bilibili.com/video/BV1E5sF6cEMM",
+      "level": "入门",
+      "tag": "打法",
+      "author": "云中神缨是啥狼",
+      "title": "阿离还不阴？ 万象棋阿离保姆级教学",
       "desc": "-",
       "featured": false
     },
@@ -596,6 +606,16 @@
       "featured": false
     },
     {
+      "id": "BV12fWf6gE6u",
+      "url": "https://www.bilibili.com/video/BV12fWf6gE6u",
+      "level": "入门",
+      "tag": "新棋手",
+      "author": "歪掰掰",
+      "title": "【王者万象棋】阿离T0轮椅棋手公式化打法，全流程保姆级对战教学解说！伞熊+帝临 至尊局？",
+      "desc": "",
+      "featured": false
+    },
+    {
       "id": "BV1NNWj67EK9",
       "url": "https://www.bilibili.com/video/BV1NNWj67EK9",
       "level": "入门",
@@ -616,6 +636,16 @@
       "featured": false
     },
     {
+      "id": "BV1UvsF61EXX",
+      "url": "https://www.bilibili.com/video/BV1UvsF61EXX",
+      "level": "进阶",
+      "tag": "新棋手",
+      "author": "路晨-王者万象棋",
+      "title": "新式懒人雷霆战机，玩起来真省心！",
+      "desc": "新式雷霆战机首飞，这套棋手选瑶妹，不跟风抢白歌。俩肉小鹿前中后期替你扛伤害，倒了等级还全分给嬴政，前",
+      "featured": false
+    },
+    {
       "id": "BV1jvsJ67EuE",
       "url": "https://www.bilibili.com/video/BV1jvsJ67EuE",
       "level": "进阶",
@@ -623,36 +653,6 @@
       "author": "崽汁万象棋",
       "title": "为什么说武凤是万象棋上线最高的棋手！",
       "desc": "",
-      "featured": false
-    },
-    {
-      "id": "BV1HNsn6oEyN",
-      "url": "https://www.bilibili.com/video/BV1HNsn6oEyN",
-      "level": "进阶",
-      "tag": "新棋手",
-      "author": "猫猫小迷",
-      "title": "四个视频教你学会棋手赢律（3/4）",
-      "desc": "-",
-      "featured": false
-    },
-    {
-      "id": "BV1hmWi6JEb1",
-      "url": "https://www.bilibili.com/video/BV1hmWi6JEb1",
-      "level": "进阶",
-      "tag": "新棋手",
-      "author": "一口黑米粥",
-      "title": "【王者万象棋】炒了灵宝换上大肥鱼，棋手们却彻底沦为挂件",
-      "desc": "王者万象棋：香香、阿离还有玉环和瑶嫌弃灵宝瞎指挥，换上算力天花板鲸鱼娘，结果全员被“全自动”剥夺快感",
-      "featured": false
-    },
-    {
-      "id": "BV1GWsn6yEBi",
-      "url": "https://www.bilibili.com/video/BV1GWsn6yEBi",
-      "level": "进阶",
-      "tag": "新棋手",
-      "author": "丁当-万象棋",
-      "title": "还是躲在图腾里最自在，没开玩笑，鬼谷子新天赋成功带飞小龙人熬隐 #王者万象棋正式上线 #万象新星创作团 #王者万象棋S1创作激励",
-      "desc": "-",
       "featured": false
     },
     {
@@ -706,6 +706,16 @@
       "featured": false
     },
     {
+      "id": "BV1dxsw68Egf",
+      "url": "https://www.bilibili.com/video/BV1dxsw68Egf",
+      "level": "进阶",
+      "tag": "版本更新",
+      "author": "万象白猫",
+      "title": "王者万象棋S2体验服前瞻阵容推荐，姜导养哪吒，廉颇plus版极致炸盾",
+      "desc": "S2前瞻的一个阵容推荐，大家可以提前看看，因为是体验服，所以还会有较大的数据改动，我会在正式上线正式",
+      "featured": false
+    },
+    {
       "id": "BV1w5ss6TEgJ",
       "url": "https://www.bilibili.com/video/BV1w5ss6TEgJ",
       "level": "入门",
@@ -716,22 +726,12 @@
       "featured": false
     },
     {
-      "id": "BV1cPsE6SEV5",
-      "url": "https://www.bilibili.com/video/BV1cPsE6SEV5",
-      "level": "进阶",
-      "tag": "版本更新",
-      "author": "程_米汤",
-      "title": "S2妲己强度超标_实测轻松一打七_王者万象棋",
-      "desc": "谁能想到 S2 真正的巅峰不是盘古女娲，居然是只有一星的小妲己🤯 一星卡片强度直接打破平衡，1 打多",
-      "featured": false
-    },
-    {
-      "id": "BV1eosj6vE3F",
-      "url": "https://www.bilibili.com/video/BV1eosj6vE3F",
+      "id": "BV14iWZ6TEvs",
+      "url": "https://www.bilibili.com/video/BV14iWZ6TEvs",
       "level": "进阶",
       "tag": "版本更新",
       "author": "格温的录像机",
-      "title": "[录播] taoz（王者万象棋） 2026-11-15 06点场 版本的顺行者",
+      "title": "[录播] taoz（王者万象棋） 2026-11-16 06点场 版本的顺行者",
       "desc": "直播回放\n版本的顺行者",
       "featured": false
     }
