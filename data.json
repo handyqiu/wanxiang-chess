@@ -436,6 +436,16 @@
   ],
   "videos": [
     {
+      "id": "BV1WiygzeECZ",
+      "url": "https://www.bilibili.com/video/BV1WiygzeECZ",
+      "level": "进阶",
+      "tag": "通用",
+      "author": "孙悟方",
+      "title": "S2天赋，我们万象棋也有自己的巨型！【限制型点播03】",
+      "desc": "直播间：https://live.bilibili.com/21699623\n每天18点-次日3点直",
+      "featured": true
+    },
+    {
       "id": "BV18JW96aEQB",
       "url": "https://www.bilibili.com/video/BV18JW96aEQB",
       "level": "进阶",
@@ -496,6 +506,46 @@
       "featured": false
     },
     {
+      "id": "BV1W2y5zVEQq",
+      "url": "https://www.bilibili.com/video/BV1W2y5zVEQq",
+      "level": "进阶",
+      "tag": "打法",
+      "author": "照夜王者万象棋",
+      "title": "明先生泳池召唤流",
+      "desc": "明先生泳池召唤流#王者万象棋#万象新星创作团#王者万象棋s1创作激励#王者万象棋明先生攻略#王者万象",
+      "featured": false
+    },
+    {
+      "id": "BV1dny5zcE4X",
+      "url": "https://www.bilibili.com/video/BV1dny5zcE4X",
+      "level": "冲分",
+      "tag": "打法",
+      "author": "早睡_王者万象棋",
+      "title": "万象棋最新上分赢律三分",
+      "desc": "",
+      "featured": false
+    },
+    {
+      "id": "BV19PyizHE5e",
+      "url": "https://www.bilibili.com/video/BV19PyizHE5e",
+      "level": "进阶",
+      "tag": "打法",
+      "author": "大胡子解说",
+      "title": "万象速决 新玩法十分钟一局太爽了【王者万象棋】",
+      "desc": "万象速决 新玩法十分钟一局太爽了【王者万象棋】",
+      "featured": false
+    },
+    {
+      "id": "BV1FTyYzXE83",
+      "url": "https://www.bilibili.com/video/BV1FTyYzXE83",
+      "level": "入门",
+      "tag": "打法",
+      "author": "秋风动漫动画",
+      "title": "三分倒转教学。 #万象棋s1",
+      "desc": "-",
+      "featured": false
+    },
+    {
       "id": "BV12fWf6gE6u",
       "url": "https://www.bilibili.com/video/BV12fWf6gE6u",
       "level": "入门",
@@ -512,6 +562,56 @@
       "tag": "新棋手",
       "author": "歪掰掰",
       "title": "【王者万象棋】95%胜率T0棋手安琪拉自爆流公式化打法，全流程保姆级对战教学解说！全员大哥！",
+      "desc": "",
+      "featured": false
+    },
+    {
+      "id": "BV1iXyhzVEaD",
+      "url": "https://www.bilibili.com/video/BV1iXyhzVEaD",
+      "level": "进阶",
+      "tag": "新棋手",
+      "author": "万象棋老霹雳",
+      "title": "万象棋最快新模式：万象速决玩法阵容推荐",
+      "desc": "#万象棋万象速决玩法上线 #王者万象棋荣耀王牌计划 #王者万象棋",
+      "featured": false
+    },
+    {
+      "id": "BV1UoyszjERD",
+      "url": "https://www.bilibili.com/video/BV1UoyszjERD",
+      "level": "进阶",
+      "tag": "新棋手",
+      "author": "一只蛇暗信_",
+      "title": "锐评万象棋河洛阵容英雄(下)",
+      "desc": "-",
+      "featured": false
+    },
+    {
+      "id": "BV15Msq6fEW2",
+      "url": "https://www.bilibili.com/video/BV15Msq6fEW2",
+      "level": "入门",
+      "tag": "新棋手",
+      "author": "鹿东王者万象棋",
+      "title": "王者万象棋：最强棋手赢律教学，5套阵容互转！【万象棋新手教学】【万象棋阵容教学】",
+      "desc": "鹿东频道，励志做王者万象棋最专业的教学频道，一期视频学会一套阵容，欢迎关注，做初创股东，阿东会眼熟你",
+      "featured": false
+    },
+    {
+      "id": "BV1fWsb61EzH",
+      "url": "https://www.bilibili.com/video/BV1fWsb61EzH",
+      "level": "冲分",
+      "tag": "新棋手",
+      "author": "骑墙君",
+      "title": "王者万象棋-棋手闹闹上分攻略",
+      "desc": "",
+      "featured": false
+    },
+    {
+      "id": "BV1oqyVz8ELm",
+      "url": "https://www.bilibili.com/video/BV1oqyVz8ELm",
+      "level": "进阶",
+      "tag": "新棋手",
+      "author": "秋叶1218",
+      "title": "王者万象棋卡牌介绍-米莱狄",
       "desc": "",
       "featured": false
     },
@@ -556,73 +656,33 @@
       "featured": false
     },
     {
-      "id": "BV1PjyuzbEk6",
-      "url": "https://www.bilibili.com/video/BV1PjyuzbEk6",
+      "id": "BV1JUyGzPERA",
+      "url": "https://www.bilibili.com/video/BV1JUyGzPERA",
       "level": "进阶",
       "tag": "版本更新",
-      "author": "格温的录像机",
-      "title": "[录播] taoz（王者万象棋） 2026-11-22 07点场 版本的顺行者",
-      "desc": "直播回放\n版本的顺行者",
+      "author": "浊白-王者万象棋",
+      "title": "S2赛季最新改动他来了！王者万象棋",
+      "desc": "",
       "featured": false
     },
     {
-      "id": "BV1RiyezQEXq",
-      "url": "https://www.bilibili.com/video/BV1RiyezQEXq",
-      "level": "进阶",
-      "tag": "版本更新",
-      "author": "万象棋小猪手",
-      "title": "王者万象棋：S2新版本百里守约大加强！无限狙击子弹真的来了！",
-      "desc": "王者万象棋：S2新版本百里守约大加强！无限狙击子弹真的来了！",
-      "featured": false
-    },
-    {
-      "id": "BV1Q4yvz2E9X",
-      "url": "https://www.bilibili.com/video/BV1Q4yvz2E9X",
-      "level": "进阶",
-      "tag": "版本更新",
-      "author": "格温的录像机",
-      "title": "[录播] taoz（王者万象棋） 2026-11-21 21点场 版本的顺行者",
-      "desc": "直播回放\n版本的顺行者",
-      "featured": false
-    },
-    {
-      "id": "BV1NUytzJEXH",
-      "url": "https://www.bilibili.com/video/BV1NUytzJEXH",
-      "level": "进阶",
-      "tag": "版本更新",
-      "author": "格温的录像机",
-      "title": "[录播] taoz（王者万象棋） 2026-11-21 07点场 版本的顺行者",
-      "desc": "直播回放\n版本的顺行者",
-      "featured": false
-    },
-    {
-      "id": "BV1nZsi6iEDr",
-      "url": "https://www.bilibili.com/video/BV1nZsi6iEDr",
+      "id": "BV1gJsq6HEo7",
+      "url": "https://www.bilibili.com/video/BV1gJsq6HEo7",
       "level": "入门",
       "tag": "版本更新",
-      "author": "某不知名棋手",
-      "title": "万象棋新版本999盘古创世神教学",
-      "desc": "万象棋新版本999盘古创世神教学提前预习",
+      "author": "程_米汤",
+      "title": "S2昭君觉醒射_寒冰觉醒_阵容教学_取代大河龙蛇和75_王者万象棋",
+      "desc": "75废了，大河龙蛇还天天歪成蛇蛇龙龙——S2 昭君反而站上了 T0。\n\n不卖血、不赌牌，全队自己长到",
       "featured": false
     },
     {
-      "id": "BV1HZsi6iEgy",
-      "url": "https://www.bilibili.com/video/BV1HZsi6iEgy",
-      "level": "进阶",
+      "id": "BV1b8s86hEHK",
+      "url": "https://www.bilibili.com/video/BV1b8s86hEHK",
+      "level": "入门",
       "tag": "版本更新",
-      "author": "某不知名棋手",
-      "title": "万象棋新版本逐鹿体系改动提前预习",
-      "desc": "万象棋新版本逐鹿体系改动提前预习",
-      "featured": false
-    },
-    {
-      "id": "BV1tysi6LE5s",
-      "url": "https://www.bilibili.com/video/BV1tysi6LE5s",
-      "level": "进阶",
-      "tag": "版本更新",
-      "author": "格温的录像机",
-      "title": "[录播] taoz（王者万象棋） 2026-11-20 07点场 版本的顺行者",
-      "desc": "直播回放\n版本的顺行者",
+      "author": "万象棋热干面",
+      "title": "一把赚4.5w逆天狄仁杰，每天一个万象棋阵容教学，速度来学！！！",
+      "desc": "喜欢这套狄仁杰玩法的兄弟，麻烦点个免费赞！这个4.5w输出的逆天狄仁杰素材打起来真的不容易，从拍卖选",
       "featured": false
     },
     {
@@ -636,93 +696,43 @@
       "featured": false
     },
     {
-      "id": "BV1S6ss6EEiD",
-      "url": "https://www.bilibili.com/video/BV1S6ss6EEiD",
-      "level": "进阶",
-      "tag": "版本更新",
-      "author": "格温的录像机",
-      "title": "[录播] taoz（王者万象棋） 2026-11-19 07点场 版本的顺行者",
-      "desc": "直播回放\n版本的顺行者",
-      "featured": false
-    },
-    {
-      "id": "BV1f1sU6AE3o",
-      "url": "https://www.bilibili.com/video/BV1f1sU6AE3o",
-      "level": "进阶",
-      "tag": "版本更新",
-      "author": "不玩游戏的老贼",
-      "title": "【王者万象棋】11月19日版本更新公告，嬴律削弱，帝临削弱，首个无双棋盘上线",
-      "desc": "",
-      "featured": false
-    },
-    {
-      "id": "BV1n7sm6YE4j",
-      "url": "https://www.bilibili.com/video/BV1n7sm6YE4j",
-      "level": "入门",
-      "tag": "版本更新",
-      "author": "歪掰掰",
-      "title": "【王者万象棋】最强版本答案胜率95%阿离无限转移狄仁杰，全流程保姆级对战教学解说！轮椅偷分阵容遛狗专用？",
-      "desc": "",
-      "featured": false
-    },
-    {
-      "id": "BV1P1s16iE8p",
-      "url": "https://www.bilibili.com/video/BV1P1s16iE8p",
-      "level": "入门",
-      "tag": "版本更新",
-      "author": "大胡子解说",
-      "title": "版本T0 嬴律并购红利嬴政 细节教学 砍了依然强！【王者万象棋】",
-      "desc": "版本T0 嬴律并购红利嬴政 细节教学 砍了依然强！【王者万象棋】",
-      "featured": false
-    },
-    {
-      "id": "BV1DGsy6uEoL",
-      "url": "https://www.bilibili.com/video/BV1DGsy6uEoL",
-      "level": "进阶",
-      "tag": "版本更新",
-      "author": "格温的录像机",
-      "title": "[录播] taoz（王者万象棋） 2026-11-18 06点场 版本的顺行者",
-      "desc": "直播回放\n版本的顺行者",
-      "featured": false
-    },
-    {
-      "id": "BV1tZsy6BEop",
-      "url": "https://www.bilibili.com/video/BV1tZsy6BEop",
-      "level": "进阶",
-      "tag": "版本更新",
-      "author": "直播回放-弹幕版本",
-      "title": "【弹幕版本】一茗（王者万象棋）2026.11.17——22:11直播回放",
-      "desc": "【弹幕版本】喜欢的话麻烦留个关注就可以啦谢谢~",
-      "featured": false
-    },
-    {
-      "id": "BV1DMsk6PER5",
-      "url": "https://www.bilibili.com/video/BV1DMsk6PER5",
-      "level": "进阶",
-      "tag": "版本更新",
-      "author": "直播回放-弹幕版本",
-      "title": "【弹幕版本】小谷芷（王者万象棋）2026.11.17——22:11直播回放",
-      "desc": "【弹幕版本】喜欢的话麻烦留个关注就可以啦谢谢~",
-      "featured": false
-    },
-    {
-      "id": "BV1b9WL6RExf",
-      "url": "https://www.bilibili.com/video/BV1b9WL6RExf",
-      "level": "进阶",
-      "tag": "阵容",
-      "author": "樱落汐影",
-      "title": "阿离的百级干将无遗志｜逆风翻盘转阵容打法 #王者万象棋",
-      "desc": "",
-      "featured": false
-    },
-    {
-      "id": "BV1X34B6YE4Z",
-      "url": "https://www.bilibili.com/video/BV1X34B6YE4Z",
+      "id": "BV1Mny7zZEhH",
+      "url": "https://www.bilibili.com/video/BV1Mny7zZEhH",
       "level": "冲分",
-      "tag": "阵容",
-      "author": "加听前里",
-      "title": "最强阵容来了！简单易上手！王者万象棋最夯的打法！不需lp",
-      "desc": "",
+      "tag": "版本更新",
+      "author": "阿尔托莉雅-万象棋",
+      "title": "版本T0嬴政逐鹿，被削依旧T0，3k分依旧把把12。（王者万象棋）",
+      "desc": "至于嬴政不来怎么办，别问。问就是骂发牌员就好。",
+      "featured": false
+    },
+    {
+      "id": "BV1CMy5zuEVe",
+      "url": "https://www.bilibili.com/video/BV1CMy5zuEVe",
+      "level": "进阶",
+      "tag": "版本更新",
+      "author": "浮生-王者万象棋",
+      "title": "王者万象棋S2版本之子——七五昭君王",
+      "desc": "-",
+      "featured": false
+    },
+    {
+      "id": "BV1iFyVzdEFL",
+      "url": "https://www.bilibili.com/video/BV1iFyVzdEFL",
+      "level": "入门",
+      "tag": "版本更新",
+      "author": "RW侠简单",
+      "title": "【王者万象棋】版本强势棋手阿离保姆级全攻略！技能强化速览+装备一图流，国服前百干将转大哥实战细节全拆解！",
+      "desc": "刷牌棋手玩累了？这期带大家用国服前百训练赛高端局实战，手把手拆解当前版本强度与娱乐性拉满的【棋手阿离",
+      "featured": false
+    },
+    {
+      "id": "BV1ZqyVz8ENT",
+      "url": "https://www.bilibili.com/video/BV1ZqyVz8ENT",
+      "level": "入门",
+      "tag": "版本更新",
+      "author": "小良王者万象棋",
+      "title": "从夯到拉，2000字锐评，新版本所有棋手上分效率，第六期！王者万象棋新手攻略！",
+      "desc": "-",
       "featured": false
     }
   ],
