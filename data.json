@@ -436,16 +436,6 @@
   ],
   "videos": [
     {
-      "id": "BV1WiygzeECZ",
-      "url": "https://www.bilibili.com/video/BV1WiygzeECZ",
-      "level": "进阶",
-      "tag": "通用",
-      "author": "孙悟方",
-      "title": "S2天赋，我们万象棋也有自己的巨型！【限制型点播03】",
-      "desc": "直播间：https://live.bilibili.com/21699623\n每天18点-次日3点直",
-      "featured": true
-    },
-    {
       "id": "BV18JW96aEQB",
       "url": "https://www.bilibili.com/video/BV18JW96aEQB",
       "level": "进阶",
@@ -506,13 +496,63 @@
       "featured": false
     },
     {
-      "id": "BV1W2y5zVEQq",
-      "url": "https://www.bilibili.com/video/BV1W2y5zVEQq",
+      "id": "BV1SPyXzxEu6",
+      "url": "https://www.bilibili.com/video/BV1SPyXzxEu6",
       "level": "进阶",
       "tag": "打法",
-      "author": "照夜王者万象棋",
-      "title": "明先生泳池召唤流",
-      "desc": "明先生泳池召唤流#王者万象棋#万象新星创作团#王者万象棋s1创作激励#王者万象棋明先生攻略#王者万象",
+      "author": "摸鱼玩家TouchFish",
+      "title": "【万象棋】为什么官方觉得送个iPad，就能掩盖核心玩法缺乏新鲜感的问题？",
+      "desc": "-",
+      "featured": false
+    },
+    {
+      "id": "BV1neySzuEjr",
+      "url": "https://www.bilibili.com/video/BV1neySzuEjr",
+      "level": "入门",
+      "tag": "打法",
+      "author": "阿尔托莉雅-万象棋",
+      "title": "3k分赢律逐鹿五连胜教学，EP1。风险对冲 ＋ 并购红利。最舒服的开局（王者万象棋）",
+      "desc": "卡住同行就是你的上限。",
+      "featured": false
+    },
+    {
+      "id": "BV13HyHzCEpx",
+      "url": "https://www.bilibili.com/video/BV13HyHzCEpx",
+      "level": "冲分",
+      "tag": "打法",
+      "author": "王哥368",
+      "title": "人山人海！明先生召唤压制流#王者万象棋明先生攻略  #王者万象棋上分指南 #王者万象棋 #万象新星创作团 #王者万象棋s1创作激励",
+      "desc": "-",
+      "featured": false
+    },
+    {
+      "id": "BV1juyHzQErP",
+      "url": "https://www.bilibili.com/video/BV1juyHzQErP",
+      "level": "入门",
+      "tag": "打法",
+      "author": "大胡子解说",
+      "title": "伞李信教学 成型快 爆发高 【王者万象棋】",
+      "desc": "伞李信教学 成型快 爆发高 【王者万象棋】",
+      "featured": false
+    },
+    {
+      "id": "BV1cyyHzZEz8",
+      "url": "https://www.bilibili.com/video/BV1cyyHzZEz8",
+      "level": "冲分",
+      "tag": "打法",
+      "author": "万象棋秘离",
+      "title": "万象棋赛末上分难？4个技巧直接夺冠！",
+      "desc": "-",
+      "featured": false
+    },
+    {
+      "id": "BV1n2yHz4Esk",
+      "url": "https://www.bilibili.com/video/BV1n2yHz4Esk",
+      "level": "冲分",
+      "tag": "打法",
+      "author": "時の旅行",
+      "title": "【孙悟方/万象棋】嫦娥养妲已这就是顶级单挂的强度，轻松无脑上分",
+      "desc": "-",
       "featured": false
     },
     {
@@ -520,28 +560,18 @@
       "url": "https://www.bilibili.com/video/BV1dny5zcE4X",
       "level": "冲分",
       "tag": "打法",
-      "author": "早睡_王者万象棋",
+      "author": "白鸽_王者万象棋",
       "title": "万象棋最新上分赢律三分",
       "desc": "",
       "featured": false
     },
     {
-      "id": "BV19PyizHE5e",
-      "url": "https://www.bilibili.com/video/BV19PyizHE5e",
-      "level": "进阶",
-      "tag": "打法",
-      "author": "大胡子解说",
-      "title": "万象速决 新玩法十分钟一局太爽了【王者万象棋】",
-      "desc": "万象速决 新玩法十分钟一局太爽了【王者万象棋】",
-      "featured": false
-    },
-    {
-      "id": "BV1FTyYzXE83",
-      "url": "https://www.bilibili.com/video/BV1FTyYzXE83",
+      "id": "BV1jwyLzAEzt",
+      "url": "https://www.bilibili.com/video/BV1jwyLzAEzt",
       "level": "入门",
       "tag": "打法",
-      "author": "秋风动漫动画",
-      "title": "三分倒转教学。 #万象棋s1",
+      "author": "游戏世界阿伟",
+      "title": "万象棋S2赛季，明先生万血哪吒炸盾全局教学！",
       "desc": "-",
       "featured": false
     },
@@ -606,13 +636,33 @@
       "featured": false
     },
     {
-      "id": "BV1oqyVz8ELm",
-      "url": "https://www.bilibili.com/video/BV1oqyVz8ELm",
+      "id": "BV1ygyXzHEaq",
+      "url": "https://www.bilibili.com/video/BV1ygyXzHEaq",
       "level": "进阶",
       "tag": "新棋手",
-      "author": "秋叶1218",
-      "title": "王者万象棋卡牌介绍-米莱狄",
+      "author": "执笔粉红颜",
+      "title": "万象速决的玩家已经吵成两派了，你觉得哪边说的对？ #王者万象棋手养成记 #王者万象棋 #王者万象棋正式上线 #王者万象棋日常 #原来你也玩万象棋",
+      "desc": "万象速决的玩家已经吵成两派了，你觉得哪边说的对？ #王者万象棋手养成记 #王者万象棋 #王者万象棋正",
+      "featured": false
+    },
+    {
+      "id": "BV1BpyDzvEky",
+      "url": "https://www.bilibili.com/video/BV1BpyDzvEky",
+      "level": "入门",
+      "tag": "新棋手",
+      "author": "王者万象棋奇妙",
+      "title": "高手不需要容错！万象棋最高山的棋手全局教学",
       "desc": "",
+      "featured": false
+    },
+    {
+      "id": "BV1vVyJz3E2w",
+      "url": "https://www.bilibili.com/video/BV1vVyJz3E2w",
+      "level": "进阶",
+      "tag": "新棋手",
+      "author": "秋风动漫动画",
+      "title": "阿离上线了，学会这套千分王者局强势阵容成型即吃分！#王者万象棋s1",
+      "desc": "-",
       "featured": false
     },
     {
@@ -683,56 +733,6 @@
       "author": "万象棋热干面",
       "title": "一把赚4.5w逆天狄仁杰，每天一个万象棋阵容教学，速度来学！！！",
       "desc": "喜欢这套狄仁杰玩法的兄弟，麻烦点个免费赞！这个4.5w输出的逆天狄仁杰素材打起来真的不容易，从拍卖选",
-      "featured": false
-    },
-    {
-      "id": "BV1EhsQ6gEhm",
-      "url": "https://www.bilibili.com/video/BV1EhsQ6gEhm",
-      "level": "进阶",
-      "tag": "版本更新",
-      "author": "天才小笨猫丶",
-      "title": "【万象棋】从头强到尾？阿离居然是版本轮椅王",
-      "desc": "王者万象棋版本轮椅吃分棋手阿离完整攻略，从前期低阶英雄打连胜、中期转型大 C 到后期补强全拆解，不怕",
-      "featured": false
-    },
-    {
-      "id": "BV1Mny7zZEhH",
-      "url": "https://www.bilibili.com/video/BV1Mny7zZEhH",
-      "level": "冲分",
-      "tag": "版本更新",
-      "author": "阿尔托莉雅-万象棋",
-      "title": "版本T0嬴政逐鹿，被削依旧T0，3k分依旧把把12。（王者万象棋）",
-      "desc": "至于嬴政不来怎么办，别问。问就是骂发牌员就好。",
-      "featured": false
-    },
-    {
-      "id": "BV1CMy5zuEVe",
-      "url": "https://www.bilibili.com/video/BV1CMy5zuEVe",
-      "level": "进阶",
-      "tag": "版本更新",
-      "author": "浮生-王者万象棋",
-      "title": "王者万象棋S2版本之子——七五昭君王",
-      "desc": "-",
-      "featured": false
-    },
-    {
-      "id": "BV1iFyVzdEFL",
-      "url": "https://www.bilibili.com/video/BV1iFyVzdEFL",
-      "level": "入门",
-      "tag": "版本更新",
-      "author": "RW侠简单",
-      "title": "【王者万象棋】版本强势棋手阿离保姆级全攻略！技能强化速览+装备一图流，国服前百干将转大哥实战细节全拆解！",
-      "desc": "刷牌棋手玩累了？这期带大家用国服前百训练赛高端局实战，手把手拆解当前版本强度与娱乐性拉满的【棋手阿离",
-      "featured": false
-    },
-    {
-      "id": "BV1ZqyVz8ENT",
-      "url": "https://www.bilibili.com/video/BV1ZqyVz8ENT",
-      "level": "入门",
-      "tag": "版本更新",
-      "author": "小良王者万象棋",
-      "title": "从夯到拉，2000字锐评，新版本所有棋手上分效率，第六期！王者万象棋新手攻略！",
-      "desc": "-",
       "featured": false
     }
   ],
