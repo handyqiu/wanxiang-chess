@@ -506,22 +506,22 @@
       "featured": false
     },
     {
-      "id": "BV1ED1jzGEAL",
-      "url": "https://www.bilibili.com/video/BV1ED1jzGEAL",
-      "level": "入门",
-      "tag": "打法",
-      "author": "王者万象棋沐汐a",
-      "title": "赢律木兰，极致的运营思路，新手学会稳稳上分！",
-      "desc": "",
-      "featured": false
-    },
-    {
       "id": "BV1ug1JzTEDf",
       "url": "https://www.bilibili.com/video/BV1ug1JzTEDf",
       "level": "冲分",
       "tag": "打法",
       "author": "药老的救赎",
       "title": "王者万象棋AI全自动下棋自动上分上王者",
+      "desc": "",
+      "featured": false
+    },
+    {
+      "id": "BV1ED1jzGEAL",
+      "url": "https://www.bilibili.com/video/BV1ED1jzGEAL",
+      "level": "入门",
+      "tag": "打法",
+      "author": "王者万象棋沐汐a",
+      "title": "赢律木兰，极致的运营思路，新手学会稳稳上分！",
       "desc": "",
       "featured": false
     },
@@ -636,6 +636,26 @@
       "featured": false
     },
     {
+      "id": "BV1QD1Hz2EX3",
+      "url": "https://www.bilibili.com/video/BV1QD1Hz2EX3",
+      "level": "进阶",
+      "tag": "新棋手",
+      "author": "瑞麟雨泽工作室",
+      "title": "万象棋天赋装备适配英雄第二弹来啦！",
+      "desc": "",
+      "featured": false
+    },
+    {
+      "id": "BV1921HzJEUo",
+      "url": "https://www.bilibili.com/video/BV1921HzJEUo",
+      "level": "进阶",
+      "tag": "新棋手",
+      "author": "瑞麟雨泽工作室",
+      "title": "万象棋天赋装备适配英雄第一弹来啦！",
+      "desc": "",
+      "featured": false
+    },
+    {
       "id": "BV1hG1HzCEYA",
       "url": "https://www.bilibili.com/video/BV1hG1HzCEYA",
       "level": "进阶",
@@ -646,23 +666,23 @@
       "featured": false
     },
     {
-      "id": "BV19z17zBEXJ",
-      "url": "https://www.bilibili.com/video/BV19z17zBEXJ",
+      "id": "BV1NH1JzfELm",
+      "url": "https://www.bilibili.com/video/BV1NH1JzfELm",
       "level": "进阶",
       "tag": "新棋手",
-      "author": "小良王者万象棋",
-      "title": "锐评万象棋最幽默的几张天赋卡，最后一张更是陷阱，所有棋手选了负胜率！",
-      "desc": "-",
+      "author": "王者万象棋我不是狙神",
+      "title": "万象棋盘上最安静的孤独女娲神性双C",
+      "desc": "【万象棋・棋盘偏爱录 EP.70】\n先说背景：女娲是王者大陆的创世者，乘方舟而来，用天书造出人类、点",
       "featured": false
     },
     {
-      "id": "BV12X17zfEsR",
-      "url": "https://www.bilibili.com/video/BV12X17zfEsR",
+      "id": "BV1hfy6zcEcT",
+      "url": "https://www.bilibili.com/video/BV1hfy6zcEcT",
       "level": "进阶",
       "tag": "新棋手",
-      "author": "何慕-王者万象棋",
-      "title": "【王者万象棋】S1棋手明先生，最稳定吃分选手",
-      "desc": "欢迎加入何慕万象棋粉丝群 915445412\nwiki：wzwxq.com\n备用：wanxiangq",
+      "author": "大队长爱看片",
+      "title": "不同棋手搭配不同阵容，别随便乱配讲给你听",
+      "desc": "",
       "featured": false
     },
     {
@@ -713,26 +733,6 @@
       "author": "程_米汤",
       "title": "武凤新打法_前三率T0_三分不倒转_王者万象棋",
       "desc": "武凤版本冲分必看！自研**三分不倒转**阵容，前三率 T0 强度！\n不靠曹操，卡 4 本疯狂叠等级，",
-      "featured": false
-    },
-    {
-      "id": "BV1WY4B6EEHX",
-      "url": "https://www.bilibili.com/video/BV1WY4B6EEHX",
-      "level": "入门",
-      "tag": "版本更新",
-      "author": "歪掰掰",
-      "title": "【王者万象棋】庄小鱼反制乔汐教学公式化打法+解说，最新更新乔汐削弱了吗？为什么一局还有5个乔天帝？999级嬴政一键清屏！",
-      "desc": "",
-      "featured": false
-    },
-    {
-      "id": "BV1JUyGzPERA",
-      "url": "https://www.bilibili.com/video/BV1JUyGzPERA",
-      "level": "进阶",
-      "tag": "版本更新",
-      "author": "浊白-王者万象棋",
-      "title": "S2赛季最新改动他来了！王者万象棋",
-      "desc": "",
       "featured": false
     }
   ],
